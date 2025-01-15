@@ -6,6 +6,7 @@ import logo from "../assets/images/falcon2.png.webp";
 import ModalForm from "./ModalForm";
 import img247 from "../assets/images/247.svg";
 import { MdMail } from "react-icons/md";
+import Tidio from "./Tidio";
 
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -581,6 +582,7 @@ export default function Header() {
           <MdMail className="w-5 h-5" />
         </a>
       </div>
+      <Tidio />
     </header>
   );
 }
