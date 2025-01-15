@@ -74,7 +74,7 @@ const BlogsList = () => {
                     className="w-full h-48 object-cover"
                   />
                   <div className=" absolute inset-0 z-10"></div>
-                  <div className="p-4 bg-white mx-1.5 -mt-2 z-20 relative">
+                  <div className="p-4 bg-white mx-1.5 -mt-4 z-20 relative">
                     <h3 className="text-lg font-bold mb-2 text-gray-800 truncate">
                       <a href={`/${article.slug}`} className="hover:underline">
                         {article.title}
