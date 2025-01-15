@@ -23,7 +23,7 @@ const ModalForm = ({ isOpen, closeModal }) => {
 
     try {
       const response = await fetch(
-        "https://test.rnshopbd.com/wp-json/msp/v1/service",
+        "https://blog.falconxsecurity.com//wp-json/msp/v1/service",
         {
           method: "POST",
           headers: {

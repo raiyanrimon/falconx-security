@@ -20,7 +20,7 @@ const ContactModal = ({ isOpen, onClose }) => {
 
     try {
       const response = await fetch(
-        "https://test.rnshopbd.com/wp-json/msp/v1/contact",
+        "https://blog.falconxsecurity.com//wp-json/msp/v1/contact",
         {
           method: "POST",
           headers: {
