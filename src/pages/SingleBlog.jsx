@@ -1,7 +1,8 @@
 import { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
-import { User, Calendar } from "lucide-react";
+
 import { Helmet } from "react-helmet";
+import { FaCalendarDay, FaUser } from "react-icons/fa6";
 
 const SingleBlog = () => {
   const { slug } = useParams();
@@ -52,11 +53,11 @@ const SingleBlog = () => {
         <div className="p-4">
           <div className="flex items-center justify-between text-sm text-gray-600">
             <div className="flex items-center space-x-1">
-              <User className="w-4 h-4 mr-1" />
+              <FaUser className="w-4 h-4 mr-1" />
               <span className="mr-4">{post.author}</span>
             </div>
             <div className="flex items-center space-x-1">
-              <Calendar className="w-4 h-4 mr-1" />
+              <FaCalendarDay className="w-4 h-4 mr-1" />
               <span>{post.date}</span>
             </div>
           </div>

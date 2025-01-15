@@ -1,9 +1,10 @@
 import Banner from "../components/shared/Banner";
-import { User, Calendar } from "lucide-react";
+
 import bg from "../assets/images/Blog-banner.jpg";
 import { useState, useEffect } from "react";
 import { Link } from "react-router-dom"; // Import Link for routing
 import SEO from "../components/shared/Seo";
+import { FaCalendar, FaUser } from "react-icons/fa6";
 
 const Blog = () => {
   const [articles, setArticles] = useState([]);
@@ -88,9 +89,9 @@ const Blog = () => {
                       <Link to={`/${article.slug}`}>{article.title}</Link>
                     </h3>
                     <div className="flex items-center text-sm text-gray-600 mb-4">
-                      <User className="w-4 h-4 mr-1" />
+                      <FaUser className="w-4 h-4 mr-1" />
                       <span className="mr-4">{article.author}</span>
-                      <Calendar className="w-4 h-4 mr-1" />
+                      <FaCalendar className="w-4 h-4 mr-1" />
                       <span>{article.date}</span>
                     </div>
                     {/* Short Description */}

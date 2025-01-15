@@ -1,5 +1,6 @@
-import React, { useState } from "react";
-import { MapPin, Phone, Mail, Clock } from "lucide-react";
+import { useState } from "react";
+import { CgMail } from "react-icons/cg";
+import { FaClock, FaMapPin, FaPhone } from "react-icons/fa6";
 
 const ContactSection = ({
   address = "11150 W Olympic Blvd, Suite 1050 Los Angeles, CA 90064",
@@ -42,22 +43,22 @@ const ContactSection = ({
         {/* Contact Details */}
         <div className="space-y-6">
           <div className="flex items-start gap-4">
-            <MapPin className="w-6 h-6 text-[#003366] mt-1" />
+            <FaMapPin className="w-6 h-6 text-[#003366] mt-1" />
             <span className="text-gray-600">{address}</span>
           </div>
 
           <div className="flex items-center gap-4">
-            <Phone className="w-6 h-6 text-[#003366]" />
+            <FaPhone className="w-6 h-6 text-[#003366]" />
             <span className="text-gray-600">Call Now : {phone}</span>
           </div>
 
           <div className="flex items-center gap-4">
-            <Mail className="w-6 h-6 text-[#003366]" />
+            <CgMail className="w-6 h-6 text-[#003366]" />
             <span className="text-gray-600">{email}</span>
           </div>
 
           <div className="flex items-center gap-4">
-            <Clock className="w-6 h-6 text-[#003366]" />
+            <FaClock className="w-6 h-6 text-[#003366]" />
             <span className="text-gray-600">Available 24/7</span>
           </div>
         </div>

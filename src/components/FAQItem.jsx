@@ -1,5 +1,6 @@
-import React, { useState } from "react";
-import { ChevronDown } from "lucide-react";
+import { useState } from "react";
+
+import { FaChevronDown } from "react-icons/fa6";
 
 const FAQItems = ({ question, answer, isOpen, onClick }) => {
   return (
@@ -9,7 +10,7 @@ const FAQItems = ({ question, answer, isOpen, onClick }) => {
         className="w-full p-4 text-left bg-[#003366] text-white transition-colors duration-200 flex space-x-2 items-center"
       >
         {" "}
-        <ChevronDown
+        <FaChevronDown
           className={`transform transition-transform duration-200 font-bold ${
             isOpen ? "rotate-180" : ""
           }`}

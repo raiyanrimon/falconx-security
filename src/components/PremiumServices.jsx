@@ -1,4 +1,3 @@
-import { ArrowUp, Phone, Mail } from "lucide-react";
 import bg from "../assets/images/Group-7140-1.webp";
 
 const PremiumServices = () => {

@@ -89,7 +89,7 @@ export default function SecurityFeatures() {
           {features.map((feature) => {
             return (
               <div key={feature.title} className="text-center">
-                <div className="bg-white rounded-full hover:border-black border-[4px] w-20 h-20 mx-auto mb-6 flex items-center justify-center shadow-lg">
+                <div className="bg-white rounded-full hover:border-black border-transparent border-[4px] w-20 h-20 mx-auto mb-6 flex items-center justify-center shadow-lg">
                   <img src={feature.image} alt="" />
                 </div>
                 <h3 className="text-2xl font-bold mb-4">{feature.title}</h3>
