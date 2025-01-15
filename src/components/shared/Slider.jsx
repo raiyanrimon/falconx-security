@@ -89,8 +89,8 @@ const Slider = ({ title, text }) => {
           navigation
           autoplay={{ delay: 3000, disableOnInteraction: false }}
           breakpoints={{
-            640: { slidesPerView: 1 },
-            768: { slidesPerView: 2 },
+            640: { slidesPerView: 2 },
+            768: { slidesPerView: 3 },
             1024: { slidesPerView: 3 },
           }}
           className="mySwiper"

@@ -101,7 +101,7 @@ const AreasWeServe = () => {
           <Swiper
             modules={[Autoplay, Navigation]}
             spaceBetween={30}
-            slidesPerView={2}
+            slidesPerView={1}
             navigation
             autoplay={{ delay: 3000, disableOnInteraction: false }}
             breakpoints={{

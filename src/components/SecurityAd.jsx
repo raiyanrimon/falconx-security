@@ -5,7 +5,7 @@ const SecurityAd = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <div className="bg-[#C7C7C7]">
+    <div className="bg-[#C7C7C7] ">
       <div className="max-w-6xl mx-auto md:flex justify-between items-center md:py-12 p-5">
         <div className="text-left ">
           <p className="text-xl md:text-3xl font-noto text-[#003366] ">

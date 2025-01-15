@@ -53,8 +53,8 @@ const BlogsList = () => {
         <div className="relative">
           <Swiper
             modules={[Autoplay, Navigation]}
-            spaceBetween={30}
-            slidesPerView={2}
+            spaceBetween={10}
+            slidesPerView={1}
             navigation
             autoplay={{ delay: 3000, disableOnInteraction: false }}
             breakpoints={{
@@ -67,13 +67,14 @@ const BlogsList = () => {
           >
             {articles.map((article) => (
               <SwiperSlide key={article.id}>
-                <div className="w-full max-w-xs bg-white rounded-lg overflow-hidden shadow-lg transform transition-transform hover:scale-105">
+                <div className="w-full max-w-xs rounded-lg transform transition-transform hover:scale-105 relative">
                   <img
                     src={article.image}
                     alt={article.title}
                     className="w-full h-48 object-cover"
                   />
-                  <div className="p-4">
+                  <div className=" absolute inset-0 z-10"></div>
+                  <div className="p-4 bg-white mx-1.5 -mt-2 z-20 relative">
                     <h3 className="text-lg font-bold mb-2 text-gray-800 truncate">
                       <a href={`/${article.slug}`} className="hover:underline">
                         {article.title}
@@ -86,12 +87,6 @@ const BlogsList = () => {
                     <p className="text-sm text-gray-600 mb-4">
                       {article.excerpt}
                     </p>
-                    <div className="text-sm text-gray-600">
-                      <span className="bg-blue-100 text-blue-600 py-1 px-2 rounded-full">
-                        {article.category}
-                      </span>
-                      <span className="ml-2">{article.comments} Comments</span>
-                    </div>
                   </div>
                 </div>
               </SwiperSlide>
