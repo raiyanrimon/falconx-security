@@ -74,11 +74,13 @@ import SouthernCalifornia from "../pages/service-areas/SouthernCalifornia";
 import Stockton from "../pages/service-areas/Stockton";
 import Temecula from "../pages/service-areas/Temecula";
 import Training from "../pages/Training";
+import ErrorPage from "../components/ErrorPage";
 
 export const router = createBrowserRouter([
   {
     path: "/",
     element: <App />,
+    errorElement: <ErrorPage />,
     children: [
       {
         path: "/",

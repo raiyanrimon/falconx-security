@@ -23,7 +23,10 @@ const SingleBlog = () => {
           date: new Date(postData.date).toLocaleDateString(),
           content: postData.content.rendered,
           image: postData.fimg_url || "/api/placeholder/800/400",
-          metaDescription: postData.excerpt.rendered,
+          metaDescription:
+            postData.excerpt.rendered
+              .replace(/(<([^>]+)>)/gi, "")
+              .slice(0, 100) + "...",
         });
       } catch (error) {
         console.error("Error fetching post:", error);
@@ -32,10 +35,6 @@ const SingleBlog = () => {
 
     fetchPost();
   }, [slug]);
-
-  if (!post) {
-    return <div>Loading...</div>;
-  }
 
   return (
     <div>

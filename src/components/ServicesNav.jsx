@@ -105,7 +105,7 @@ const ServicesNav = () => {
     },
     {
       name: "TRANSPORTATION, LOGISTICS SECURITY",
-      link: "/transportation-logistics-security",
+      link: "/transporation-logistics-security",
     },
     {
       name: "PHARMACEUTICAL MANUFACTURING FACILITIES SECURITY",
