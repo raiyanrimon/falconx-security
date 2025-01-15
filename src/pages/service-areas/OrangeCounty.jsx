@@ -98,7 +98,10 @@ const OrangeCounty = () => {
 
   return (
     <div>
-      <SEO title="ORANGE COUNTY - Best Security Guard Service California" />
+      <SEO
+        title="ORANGE COUNTY - Best Security Guard Service California"
+        description="FalconX Security Services offers skilled and trained security guards in Orange County, providing customized protection for businesses, communities, and individuals. Our expert team delivers unmatched security using the latest techniques to ensure safety across various sectors."
+      />
       <Banner
         title="SECURITY GUARD COMPANY IN ORANGE COUNTY"
         backgroundImage={bgImage}

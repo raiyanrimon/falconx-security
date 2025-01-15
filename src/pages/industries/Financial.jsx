@@ -48,7 +48,10 @@ const Financial = () => {
   ];
   return (
     <div>
-      <SEO title="FINANCIAL BANK SECURITY SERVICES - FALCONX SECURITY" />
+      <SEO
+        title="FINANCIAL BANK SECURITY SERVICES - FALCONX SECURITY"
+        description="Ensure the safety of your financial institution with FalconX Security Services. Our highly trained bank security guards provide comprehensive security, including physical checks, access control management, surveillance monitoring, emergency response, and fraud prevention. Trust us to protect your bank, customers, and employees with professionalism and efficiency."
+      />
       <Banner
         title="LEADING SECURITY FOR BANKS AND FINANCIAL INSTITUTIONS"
         backgroundImage={bgImage}

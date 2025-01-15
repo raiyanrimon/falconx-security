@@ -48,7 +48,10 @@ const College = () => {
   ];
   return (
     <div>
-      <SEO title="COLLEGE UNIVERSITIES AND SCHOOLS SECURITY SERVICES - FALCONX SECURITY" />
+      <SEO
+        title="COLLEGE UNIVERSITIES AND SCHOOLS SECURITY SERVICES - FALCONX SECURITY"
+        description="Ensure the safety of your educational institution with FalconX Security Services. Our tailored security solutions, including campus assessments, on-site security personnel, access control, and emergency response, prioritize the safety of students, staff, and visitors in California."
+      />
       <Banner
         title="SECURITY GUARD SERVICES FOR UNIVERSITY CAMPUS AND SCHOOLS"
         backgroundImage={bgImage}

@@ -98,7 +98,10 @@ const SouthernCalifornia = () => {
 
   return (
     <div>
-      <SEO title="SOUTHERN CALIFORNIA - Best Security Guard Service California" />
+      <SEO
+        title="SOUTHERN CALIFORNIA - Best Security Guard Service California"
+        description="FalconX Security Services offers trusted and reliable security solutions across Southern California, with a team of highly trained professionals providing 24/7 protection for residential, commercial, and public spaces. Backed by military veteran leadership, we ensure safety, minimize risks, and foster peace of mind."
+      />
       <Banner
         title="SECURITY SERVICES IN SOUTHERN CALIFORNIA"
         backgroundImage={bgImage}

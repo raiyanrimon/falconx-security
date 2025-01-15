@@ -49,7 +49,10 @@ const Pharmaceutical = () => {
   ];
   return (
     <div>
-      <SEO title="PHARMACEUTICAL MANUFACTURING SECURITY - Best Security Guard Service California" />
+      <SEO
+        title="PHARMACEUTICAL MANUFACTURING SECURITY - Best Security Guard Service California"
+        description="Secure your research facility with FalconX Security Services. Our expert security guards use advanced technology to protect sensitive data, assets, and personnel, ensuring a safe and productive environment for research in California."
+      />
       <Banner
         title="PHARMACEUTICAL MANUFACTURING PROTECTION"
         backgroundImage={bgImage}

@@ -162,7 +162,10 @@ const LosAngeles = () => {
 
   return (
     <div>
-      <SEO title="LOS ANGELES - Best Security Guard Service California" />
+      <SEO
+        title="LOS ANGELES - Best Security Guard Service California"
+        description="FalconX Security Services offers reliable, highly trained security guards in Los Angeles, providing top-notch protection against property crime and other threats. Trust us to safeguard your assets and ensure peace of mind with our expert security solutions."
+      />
       <Banner
         title="SECURITY GUARD SERVICES IN LOS ANGELES"
         backgroundImage={bgImage}

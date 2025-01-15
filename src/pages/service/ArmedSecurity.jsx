@@ -49,7 +49,10 @@ const ArmedSecurity = () => {
   ];
   return (
     <div>
-      <SEO title="ARMED SECURITY GUARDS - Best Security Guard Service California" />
+      <SEO
+        title="ARMED SECURITY GUARDS - Best Security Guard Service California"
+        description="FalconX Security Services offers trusted armed security guard services in Los Angeles. With a team of highly trained professionals, we provide top-tier protection to ensure your safety and peace of mind."
+      />
 
       <Banner title="ARMED SECURITY GUARDS" backgroundImage={bgImage} />
       <div style={{ backgroundImage: `url(${bg})` }} className="bg-cover">

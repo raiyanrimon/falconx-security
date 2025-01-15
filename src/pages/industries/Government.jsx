@@ -48,7 +48,10 @@ const Government = () => {
   ];
   return (
     <div>
-      <SEO title="GOVERNMENT FACILITY SECURITY SERVICES - FALCONX SECURITY" />
+      <SEO
+        title="GOVERNMENT FACILITY SECURITY SERVICES - FALCONX SECURITY"
+        description="FalconX Security Services offers trusted and effective security solutions for government facilities in California. Our professional security guards provide round-the-clock surveillance, immediate response to breaches, and tailored security plans to ensure the safety of sensitive areas and valuable assets. Rely on us to safeguard your government building with comprehensive, efficient protection."
+      />
       <Banner
         title="BEST GOVERNMENT BUILDING SECURITY GUARD SERVICES"
         backgroundImage={bgImage}

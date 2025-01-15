@@ -48,7 +48,10 @@ const Gated = () => {
   ];
   return (
     <div>
-      <SEO title="GATED COMMUNITY AND HOA SECURITY - Best Security Guard Service California" />
+      <SEO
+        title="GATED COMMUNITY AND HOA SECURITY - Best Security Guard Service California"
+        description="Protect your gated community and HOA with FalconX Security Services. Our professional guards offer regular patrols, onsite checkpoints, parking lot surveillance, and common area inspections to ensure safety and deter criminal activity in California communities."
+      />
       <Banner
         title="SECURITY FOR GATED COMMUNITIES AND HOA"
         backgroundImage={bgImage}

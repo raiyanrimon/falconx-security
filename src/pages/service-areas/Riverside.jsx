@@ -98,7 +98,10 @@ const Riverside = () => {
 
   return (
     <div>
-      <SEO title="RIVERSIDE COUNTY - Best Security Guard Service California" />
+      <SEO
+        title="RIVERSIDE COUNTY - Best Security Guard Service California"
+        description="FalconX Security Services is an accredited security guard company in Riverside, CA, providing reliable, highly trained security solutions for residents and businesses. Our guards are experts in addressing local security concerns, ensuring safety across Riverside County with adaptable and professional services."
+      />
       <Banner
         title="TRUSTED SECURITY GUARD SERVICES IN RIVERSIDE, CA"
         backgroundImage={bgImage}

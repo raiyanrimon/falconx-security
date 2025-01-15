@@ -50,7 +50,10 @@ const Patrol = () => {
   ];
   return (
     <div>
-      <SEO title="PATROL DIVISION - Best Security Guard Service California" />
+      <SEO
+        title="PATROL DIVISION - Best Security Guard Service California"
+        description="FalconX Security Services offers high-quality, affordable vehicle patrol security in Los Angeles. Our trained guards conduct regular rounds, using advanced technology to swiftly respond to threats and ensure safety."
+      />
       <Banner
         title="VEHICLE PATROL SECURITY GUARDS"
         backgroundImage={bgImage}

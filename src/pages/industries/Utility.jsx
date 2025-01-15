@@ -49,7 +49,10 @@ const Utility = () => {
 
   return (
     <div>
-      <SEO title="UTILITY AGENCY SECURITY SERVICES - Best Security Guard Service California" />
+      <SEO
+        title="UTILITY AGENCY SECURITY SERVICES - Best Security Guard Service California"
+        description="Protect your utility facilities with FalconX Security Services. We provide highly trained security guards equipped with advanced surveillance systems to safeguard infrastructure from threats like vandalism, theft, and terrorism. With our presence, you can ensure continuous service and protection for utilities across California, including PG&E, SCE, SDG&E, LADWP, and SMUD."
+      />
       <Banner
         title="UTILITY AGENCIES, POWER PLANTS SECURITY GUARD SERVICES"
         backgroundImage={bgImage}

@@ -8,7 +8,10 @@ import SEO from "../components/shared/Seo";
 const Industries = () => {
   return (
     <div>
-      <SEO title="INDUSTRIES - Best Security Guard Service California" />
+      <SEO
+        title="INDUSTRIES - Best Security Guard Service California"
+        description="FalconX Security Services offers tailored security solutions for diverse industries in California. Our skilled security guards deliver customized, affordable protection, ensuring the safety of people, assets, and properties with a commitment to excellence and industry-specific expertise."
+      />
       <Banner backgroundImage={banner} title="INDUSTRIES" bgclass="bg-left" />
       <div className="max-w-7xl mx-auto  py-10">
         {/* Main Title */}

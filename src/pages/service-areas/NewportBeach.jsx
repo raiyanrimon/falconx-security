@@ -98,7 +98,10 @@ const NewportBeach = () => {
 
   return (
     <div>
-      <SEO title="NEWPORT BEACH - Best Security Guard Service California" />
+      <SEO
+        title="NEWPORT BEACH - Best Security Guard Service California"
+        description="FalconX Security Services provides reliable security guard services in Newport Beach, ensuring the safety of businesses, residents, and properties. We offer comprehensive protection for offices, retail stores, hotels, medical facilities, and more."
+      />
       <Banner
         title="NEWPORT BEACH SECURITY GUARD COMPANY"
         backgroundImage={bgImage}

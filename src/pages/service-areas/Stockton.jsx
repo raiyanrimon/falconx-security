@@ -99,7 +99,10 @@ const Stockton = () => {
 
   return (
     <div>
-      <SEO title="STOCKTON - Best Security Guard Service California" />
+      <SEO
+        title="STOCKTON - Best Security Guard Service California"
+        description="FalconX Security Services offers top-tier protection for Stockton's iconic tourist destinations, including the Haggin Museum, Stockton Marina, and Victory Park. Our highly trained security personnel ensure a safe environment for both residents and visitors, safeguarding the city's cultural treasures from threats like theft, vandalism, and burglary."
+      />
       <Banner
         title="SECURITY GUARD COMPANY IN STOCKTON"
         backgroundImage={bgImage}

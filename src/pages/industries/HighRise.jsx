@@ -48,7 +48,10 @@ const HighRise = () => {
   ];
   return (
     <div>
-      <SEO title="HIGH RISE BUILDING SECURITY SERVICES - FALCONX SECURITY" />
+      <SEO
+        title="HIGH RISE BUILDING SECURITY SERVICES - FALCONX SECURITY"
+        description="FalconX Security Services offers tailored security solutions for high-rise buildings in California, addressing the unique challenges these structures face. Our 24/7 on-site security personnel provide a vigilant presence, using access control measures, emergency preparedness protocols, and proactive risk management to ensure the safety of residents, visitors, and tenants. We specialize in high-rise security, including surveillance, fire life safety systems, and effective building evacuations, creating a secure environment and enhancing peace of mind for everyone within the building."
+      />
       <Banner
         title="SECURITY GUARDS FOR HIGH RISE BUILDINGS"
         backgroundImage={bgImage}

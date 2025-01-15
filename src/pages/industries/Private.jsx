@@ -48,7 +48,10 @@ const Private = () => {
   ];
   return (
     <div>
-      <SEO title="PRIVATE HOME SECURITY SERVICES - Best Security Guard Service California" />
+      <SEO
+        title="PRIVATE HOME SECURITY SERVICES - Best Security Guard Service California"
+        description="Secure your home with FalconX Security Services in California. Our professional guards provide comprehensive protection against burglaries, theft, and vandalism, ensuring peace of mind for homeowners. With personalized security plans, CCTV, panic buttons, and more, we prioritize your safety 24/7."
+      />
       <Banner
         title="HOME SECURITY GUARD SERVICES"
         backgroundImage={bgImage}

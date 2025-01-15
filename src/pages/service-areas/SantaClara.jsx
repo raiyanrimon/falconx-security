@@ -98,7 +98,10 @@ const SantaClara = () => {
 
   return (
     <div>
-      <SEO title="SANTA CLARA - Best Security Guard Service California" />
+      <SEO
+        title="SANTA CLARA - Best Security Guard Service California"
+        description="FalconX Security Services provides top-tier security solutions in Santa Clara County, safeguarding businesses, residents, and institutions. With a focus on personalized security, our trained and experienced security guards ensure a safe environment for all, from Silicon Valley to Willow Glen and beyond."
+      />
       <Banner
         title="SECURITY GUARD COMPANY IN SANTA CLARA"
         backgroundImage={bgImage}

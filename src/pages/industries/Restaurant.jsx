@@ -48,7 +48,10 @@ const Restaurant = () => {
   ];
   return (
     <div>
-      <SEO title="RESTAURANT SECURITY - Best Security Guard Service California" />
+      <SEO
+        title="RESTAURANT SECURITY - Best Security Guard Service California"
+        description="Ensure the safety and reputation of your restaurant with FalconX Security Services. Our professional security guards and advanced technologies provide discreet, effective protection for your patrons and staff, helping prevent disturbances and safeguard your assets."
+      />
       <Banner
         title="SECURITY FOR RESTAURANTS AND BARS"
         backgroundImage={bgImage}

@@ -51,7 +51,10 @@ const FootBike = () => {
 
   return (
     <div>
-      <SEO title="FOOT, BIKE AND GOLF PATROL - Best Security Guard Service California" />
+      <SEO
+        title="FOOT, BIKE AND GOLF PATROL - Best Security Guard Service California"
+        description="FalconX Security Services offers foot, bike, golf cart, and patrol services in Los Angeles to protect your property. Our trained guards ensure safety by identifying suspicious activity and preventing security breaches."
+      />
       <Banner
         title="FOOT, BIKE AND GOLF CART PATROL"
         backgroundImage={bgImage}

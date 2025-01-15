@@ -48,7 +48,10 @@ const Vacant = () => {
   ];
   return (
     <div>
-      <SEO title="VACANT PROPERTY SECURITY SERVICES - Best Security Guard Service California" />
+      <SEO
+        title="VACANT PROPERTY SECURITY SERVICES - Best Security Guard Service California"
+        description="Protect your vacant property with FalconX Security Services. We offer tailored security solutions to prevent theft, vandalism, squatting, and arson. Our expert security guards ensure your property remains safe and secure, providing peace of mind with customized protection plans."
+      />
       <Banner
         title="PROTECTING VACANT PROPERTIES WITH SECURITY SERVICES"
         backgroundImage={bgImage}

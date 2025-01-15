@@ -49,7 +49,10 @@ const Standing = () => {
   ];
   return (
     <div>
-      <SEO title="STANDING GUARD - Best Security Guard Service California" />
+      <SEO
+        title="STANDING GUARD - Best Security Guard Service California"
+        description="Discover the best standing guards in California with FalconX Security Services. We offer tailored security solutions to protect your people, assets, and property, ensuring a proactive presence to prevent criminal activities."
+      />
       <Banner
         title="STANDING SECURITY GUARD SERVICES"
         backgroundImage={bgImage}

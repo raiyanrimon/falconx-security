@@ -48,7 +48,10 @@ const Shopping = () => {
   ];
   return (
     <div>
-      <SEO title="SHOPPING CENTER SECURITY SERVICES - FALCONX SECURITY" />
+      <SEO
+        title="SHOPPING CENTER SECURITY SERVICES - FALCONX SECURITY"
+        description="Ensure the safety of your shopping center with FalconX Security Services. Our expert security guards provide comprehensive solutions, including access control, crowd management, and emergency response."
+      />
       <Banner
         title="SHOPPING MALL SECURITY GUARD SERVICES"
         backgroundImage={bgImage}

@@ -48,7 +48,10 @@ const Event = () => {
   ];
   return (
     <div>
-      <SEO title="EVENT SECURITY SERVICES - FALCONX SECURITY" />
+      <SEO
+        title="EVENT SECURITY SERVICES - FALCONX SECURITY"
+        description="Ensure the safety and success of your event with FalconX Security Services. Our expert event security guards provide thorough assessments, access control, CCTV monitoring, and immediate response to safeguard attendees and assets during corporate events, concerts, and more."
+      />
       <Banner
         title="PRIVATE EVENT SECURITY GUARDS SERVICES"
         backgroundImage={bgImage}

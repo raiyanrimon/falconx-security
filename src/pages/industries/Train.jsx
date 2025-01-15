@@ -48,7 +48,10 @@ const Train = () => {
   ];
   return (
     <div>
-      <SEO title="TRAIN STATIONS AND BUS TERMINAL SECURITY - Best Security Guard Service California" />
+      <SEO
+        title="TRAIN STATIONS AND BUS TERMINAL SECURITY - Best Security Guard Service California"
+        description="Ensure the safety of California's train stations and bus terminals with FalconX Security Services. Our expert security solutions protect commuters, staff, and property from theft, vandalism, and other threats. Offering 24/7 security at major transportation hubs across the state."
+      />
       <Banner
         title="PUBLIC TRANSPORTATION FACILITIES SECURITY SERVICES"
         backgroundImage={bgImage}

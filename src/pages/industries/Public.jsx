@@ -49,7 +49,10 @@ const Public = () => {
 
   return (
     <div>
-      <SEO title="PUBLIC SPACES SECURITY - Best Security Guard Service California" />
+      <SEO
+        title="PUBLIC SPACES SECURITY - Best Security Guard Service California"
+        description="Ensure the safety of public spaces with FalconX Security Services. Our trained security personnel offer round-the-clock protection for parks, beaches, malls, and other public areas in California, providing peace of mind for property owners and visitors alike."
+      />
       <Banner
         title="PUBLIC PLACE SECURITY GUARD SERVICES"
         backgroundImage={bgImage}

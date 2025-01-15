@@ -48,7 +48,10 @@ const DataCenter = () => {
 
   return (
     <div>
-      <SEO title="DATA CENTERS AND TECH COMPANIES SECURITY - FALCONX SECURITY" />
+      <SEO
+        title="DATA CENTERS AND TECH COMPANIES SECURITY - FALCONX SECURITY"
+        description="FalconX Security Services provides tailored security solutions for data centers and tech companies in California. With expert personnel, advanced surveillance technologies, and 24/7 monitoring, we ensure the safety of sensitive information, intellectual property, and critical infrastructure, safeguarding against potential security breaches and threats."
+      />
       <Banner
         title="TECH FIRMS AND DATA CENTER SECURITY SOLUTIONS"
         backgroundImage={bgImage}

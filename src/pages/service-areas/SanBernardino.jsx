@@ -98,7 +98,10 @@ const SanBernardino = () => {
 
   return (
     <div>
-      <SEO title="SAN BERNARDINO - Best Security Guard Service California" />
+      <SEO
+        title="SAN BERNARDINO - Best Security Guard Service California"
+        description="FalconX Security Services offers skilled and experienced armed and unarmed security guard solutions in San Bernardino County. Our highly trained guards provide exceptional protection for businesses, assets, and employees. Serving the region with reliable and professional services, we ensure your safety and peace of mind."
+      />
       <Banner
         title="SECURITY GUARD SERVICES IN SAN BERNARDINO"
         backgroundImage={bgImage}

@@ -48,7 +48,10 @@ const Farms = () => {
   ];
   return (
     <div>
-      <SEO title="FARMS AND AGRICULTURAL PROPERTIES SECURITY - Best Security Guard Service California" />
+      <SEO
+        title="FARMS AND AGRICULTURAL PROPERTIES SECURITY - Best Security Guard Service California"
+        description="Protect your farm and agricultural property with FalconX Security Services. Our trained security guards offer 24/7 surveillance, advanced technology, and customized solutions to prevent theft, vandalism, and natural disaster risks in California’s agricultural sector."
+      />
       <Banner
         title="SECURITY SERVICES FOR FARMS AND AGRICULTURAL PROPERTIES"
         backgroundImage={bgImage}

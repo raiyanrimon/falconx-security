@@ -98,7 +98,10 @@ const PalmSprings = () => {
 
   return (
     <div>
-      <SEO title="PALM SPRINGS - Best Security Guard Service California" />
+      <SEO
+        title="PALM SPRINGS - Best Security Guard Service California"
+        description="FalconX Security Services offers top-notch security solutions in Palm Springs, ensuring safety for residents and tourists. Our 24/7 security services include armed and unarmed guards, vehicle patrols, foot, bike, and golf cart patrols, as well as fire watch security."
+      />
       <Banner
         title="PRIVATE SECURITY GUARD COMPANY IN PALM SPRINGS"
         backgroundImage={bgImage}

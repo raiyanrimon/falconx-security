@@ -126,12 +126,11 @@ const AreasWeServe = () => {
                     className="w-full h-48 object-cover"
                   />
                   <div className="p-4 text-center">
-                    <h3 className="text-xl font-bold mb-2">{area.name}</h3>
                     <Link
                       to={`${area.path}`}
-                      className="text-gray-600 hover:text-blue-600"
+                      className="text-xl font-bold mb-2"
                     >
-                      Read More
+                      {area.name}
                     </Link>
                   </div>
                 </div>

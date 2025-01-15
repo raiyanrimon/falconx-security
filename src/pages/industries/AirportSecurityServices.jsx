@@ -50,7 +50,10 @@ const AirportSecurityServices = () => {
   ];
   return (
     <div>
-      <SEO title="AIRPORT SECURITY SERVICES - FALCONX SECURITY" />
+      <SEO
+        title="AIRPORT SECURITY SERVICES - FALCONX SECURITY"
+        description="FalconX Security Services offers top-tier airport security solutions in California, ensuring the safety of passengers, assets, and crews through services like pre-board and baggage screening, surveillance, and emergency response planning. Our highly trained guards maintain safety and operational efficiency in collaboration with airport authorities."
+      />
       <Banner
         title="PREMIER AIRPORT SECURITY SERVICES"
         backgroundImage={bgImage}

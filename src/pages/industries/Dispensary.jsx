@@ -48,7 +48,10 @@ const Dispensary = () => {
   ];
   return (
     <div>
-      <SEO title="DISPENSARY SECURITY SERVICES - FALCONX SECURITY" />
+      <SEO
+        title="DISPENSARY SECURITY SERVICES - FALCONX SECURITY"
+        description="Protect your dispensary with FalconX Security Services. Our experienced, licensed professionals offer customized security plans tailored to your unique needs. Available 24/7, we ensure the safety of your business, employees, and customers, providing proactive, affordable solutions to mitigate risks and safeguard your dispensary."
+      />
       <Banner
         title="SECURITY SOLUTIONS FOR CLINICS AND MEDICAL CENTERS"
         backgroundImage={bgImage}

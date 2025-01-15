@@ -48,7 +48,10 @@ const Solar = () => {
   ];
   return (
     <div>
-      <SEO title="SOLAR FARM SECURITY - Best Security Guard Service California" />
+      <SEO
+        title="SOLAR FARM SECURITY - Best Security Guard Service California"
+        description="Protect your solar farm with FalconX Security Services. We provide comprehensive 24/7 security solutions, including CCTV surveillance, perimeter fencing, and trained security guards to prevent theft, vandalism, and ensure operational continuity in California’s renewable energy sector."
+      />
       <Banner
         title="PREMIER SOLAR FARM SECURITY SERVICES"
         backgroundImage={bgImage}

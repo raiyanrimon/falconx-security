@@ -9,7 +9,10 @@ import SEO from "../components/shared/Seo";
 const Service = () => {
   return (
     <div>
-      <SEO title="Services - Best Security Guard Service California" />
+      <SEO
+        title="Services - Best Security Guard Service California"
+        description="FalconX Security Services provides professional security guard services across California, offering customized solutions such as foot patrols, live video monitoring, and fire watch services. Our licensed and experienced guards ensure the safety of individuals, businesses, and assets with a focus on minimizing risks and delivering top-tier protection."
+      />
       <Banner title="SERVICES" backgroundImage={service} bgclass="bg-left" />
       <div className="max-w-6xl mx-auto my-16 ">
         <h2 className="text-[#003366] md:text-4xl font-noto text-center font-semibold ">

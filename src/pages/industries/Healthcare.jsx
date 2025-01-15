@@ -48,7 +48,10 @@ const HealthCare = () => {
   ];
   return (
     <div>
-      <SEO title="HEALTHCARE AND HOSPITAL SECURITY SERVICES - FALCONX SECURITY" />
+      <SEO
+        title="HEALTHCARE AND HOSPITAL SECURITY SERVICES - FALCONX SECURITY"
+        description="FalconX Security Services specializes in providing top-notch security solutions for hospitals and healthcare settings in California. Our trained security personnel offer customized security plans, including regular patrols, access control, crowd management, and emergency response coordination to ensure the safety and smooth operations of healthcare facilities. With our expertise, we ensure a secure environment for both staff and patients, addressing unique healthcare security challenges with professionalism and diligence."
+      />
       <Banner
         title="SECURITY SOLUTIONS FOR CLINICS AND MEDICAL CENTERS"
         backgroundImage={bgImage}

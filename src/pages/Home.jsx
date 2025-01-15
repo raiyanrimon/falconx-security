@@ -18,7 +18,10 @@ import SEO from "../components/shared/Seo";
 const Home = () => {
   return (
     <div>
-      <SEO title="Best Security Guard Service California" />
+      <SEO
+        title="Best Security Guard Service California"
+        description="Discover FalconX Security Services, the leading security guard company in Los Angeles. Our expert team of Military Veterans provides top-tier, customized security solutions for businesses, events, and individuals across California. Ensure your safety with our reliable, professional services."
+      />
       <Hero />
       <MainContent />
       <SecurityFeatures />

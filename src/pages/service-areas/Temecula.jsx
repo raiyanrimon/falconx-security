@@ -97,7 +97,10 @@ const Temecula = () => {
 
   return (
     <div>
-      <SEO title="TEMECULA - Best Security Guard Service California" />
+      <SEO
+        title="TEMECULA - Best Security Guard Service California"
+        description="FalconX Security Services offers tailored security solutions for Temecula, California, ensuring the safety of wineries, resorts, golf courses, and more. Our professional guards provide affordable services for both short-term and long-term needs, from event security to routine patrols. We help maintain peace of mind with expert protection for both residents and businesses."
+      />
       <Banner
         title="SECURITY GUARD SERVICES IN TEMECULA"
         backgroundImage={bgImage}

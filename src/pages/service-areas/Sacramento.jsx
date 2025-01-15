@@ -98,7 +98,10 @@ const Sacramento = () => {
 
   return (
     <div>
-      <SEO title="SACRAMENTO - Best Security Guard Service California" />
+      <SEO
+        title="SACRAMENTO - Best Security Guard Service California"
+        description="FalconX Security Services provides top-notch, reliable security guard solutions in Sacramento County. From armed and unarmed security to personalized escort services, we ensure the safety of businesses, schools, hotels, and more. Serving areas like Antelope, Elk Grove, and Citrus Heights, our expert guards are committed to safeguarding your assets and premises."
+      />
       <Banner
         title="SECURITY GUARD COMPANY IN SACRAMENTO"
         backgroundImage={bgImage}

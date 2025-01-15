@@ -48,7 +48,10 @@ const Cemetery = () => {
   ];
   return (
     <div>
-      <SEO title="CEMETERY SECURITY - Best Security Guard Service California" />
+      <SEO
+        title="CEMETERY SECURITY - Best Security Guard Service California"
+        description="Ensure the safety and dignity of your cemetery with FalconX Security Services. Our professional guards offer tailored security solutions, including 24/7 surveillance and specialized patrols, to protect memorials, prevent theft, and maintain a peaceful environment for visitors in California."
+      />
       <Banner
         title="TOP CEMETERY SECURITY SERVICES"
         backgroundImage={bgImage}

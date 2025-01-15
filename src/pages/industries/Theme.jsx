@@ -48,7 +48,10 @@ const Theme = () => {
   ];
   return (
     <div>
-      <SEO title="THEME PARKS SECURITY GUARD SERVICES - Best Security Guard Service California" />
+      <SEO
+        title="THEME PARKS SECURITY GUARD SERVICES - Best Security Guard Service California"
+        description="Ensure a safe and enjoyable experience at California's iconic theme parks with FalconX Security Services. Our trained security professionals provide tailored solutions, including crowd management, emergency response, and ongoing surveillance, to safeguard guests and staff while preserving the magic of the park."
+      />
       <Banner
         title="THEME PARKS SECURITY SERVICES"
         backgroundImage={bgImage}

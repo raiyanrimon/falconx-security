@@ -98,7 +98,10 @@ const Ventura = () => {
 
   return (
     <div>
-      <SEO title="VENTURA COUNTY - Best Security Guard Service California" />
+      <SEO
+        title="VENTURA COUNTY - Best Security Guard Service California"
+        description="FalconX Security Services offers tailored security solutions for Ventura County, including armed and unarmed guards, vehicle patrols, event security, and fire watch services. With 24/7 availability and innovative patrol options, we provide peace of mind to businesses, residents, and visitors across the region, ensuring safety in Ventura’s diverse landscapes and industries."
+      />
       <Banner
         title="SECURITY GUARD COMPANY IN VENTURA COUNTY"
         backgroundImage={bgImage}

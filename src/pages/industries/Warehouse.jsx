@@ -48,7 +48,10 @@ const Warehouse = () => {
   ];
   return (
     <div>
-      <SEO title="WAREHOUSE SECURITY - Best Security Guard Service California" />
+      <SEO
+        title="WAREHOUSE SECURITY - Best Security Guard Service California"
+        description="Ensure the safety of your warehouse with FalconX Security Services. Our expert security guards provide 24/7 protection, utilizing advanced surveillance and patrol systems to prevent theft and fire risks in California. Tailored security solutions for your facility’s safety and asset protection."
+      />
       <Banner
         title="YOUR TRUSTED WAREHOUSE SECURITY PARTNER"
         backgroundImage={bgImage}

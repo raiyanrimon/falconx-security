@@ -9,7 +9,10 @@ import SEO from "../components/shared/Seo";
 const Faq = () => {
   return (
     <div>
-      <SEO title="FAQ - Best Security Guard Service California" />
+      <SEO
+        title="FAQ - Best Security Guard Service California"
+        description="Need help? FalconX Security Services is here to answer your questions 24/7. Explore our FAQs to learn about our diverse security services, background-checked guards, event security options, industry expertise, and tailored solutions for your safety needs. Call or email us anytime!"
+      />
       <Banner title="FAQ's" backgroundImage={image} bgclass="bg-right" />
       <ContactBanner
         image={image1}

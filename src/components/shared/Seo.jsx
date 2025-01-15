@@ -1,7 +1,6 @@
-import React from "react";
 import { Helmet } from "react-helmet";
 
-const SEO = ({ title, description, keywords, author, canonicalUrl }) => (
+const SEO = ({ title, description, keywords, canonicalUrl }) => (
   <Helmet>
     {/* Primary Meta Tags */}
     <title>{title}</title>

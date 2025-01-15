@@ -48,7 +48,10 @@ const Manufacturing = () => {
   ];
   return (
     <div>
-      <SEO title="MANUFACTURING SECURITY - Best Security Guard Service California" />
+      <SEO
+        title="MANUFACTURING SECURITY - Best Security Guard Service California"
+        description="Safeguard your manufacturing facility with FalconX Security Services. Our professional security guards monitor access, prevent theft, and ensure operational continuity with customized security solutions."
+      />
       <Banner
         title="MANUFACTURING FACILITY SAFETY SERVICES"
         backgroundImage={bgImage}

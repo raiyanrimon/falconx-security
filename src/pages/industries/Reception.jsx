@@ -49,7 +49,10 @@ const Reception = () => {
 
   return (
     <div>
-      <SEO title="RECEPTION & LOBBY DESK AREA SECURITY - FALCONX SECURITY" />
+      <SEO
+        title="RECEPTION & LOBBY DESK AREA SECURITY - FALCONX SECURITY"
+        description="Ensure the safety and security of your reception and lobby areas with FalconX Security Services. Our professional, highly trained security guards monitor access, conduct ID checks, and manage visitor registration to prevent unauthorized entry and protect your assets. We create a welcoming yet secure environment by maintaining a visible, authoritative presence that fosters trust while deterring potential threats. Our efficient security services ensure the safety of employees and visitors, helping you maintain a safe, organized, and positive atmosphere for all who enter your premises."
+      />
       <Banner
         title="SECURITY SERVICES FOR LOBBIES AND RECEPTION AREAS"
         backgroundImage={bgImage}

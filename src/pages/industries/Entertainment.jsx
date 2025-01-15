@@ -48,7 +48,10 @@ const Entertainment = () => {
   ];
   return (
     <div>
-      <SEO title="ENTERTAINMENT SECURITY SERVICES - FALCONX SECURITY" />
+      <SEO
+        title="ENTERTAINMENT SECURITY SERVICES - FALCONX SECURITY"
+        description="Ensure the safety of your film production with FalconX Security Services. Our specialized security solutions, including VIP protection, access control, and crew security, are tailored to meet the unique needs of the TV and film industry in California."
+      />
       <Banner
         title="SECURITY FOR ENTERTAINMENT INDUSTRY"
         backgroundImage={bgImage}

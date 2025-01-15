@@ -50,7 +50,10 @@ const Assisted = () => {
   ];
   return (
     <div>
-      <SEO title="ASSISTED LIVING SECURITY - Best Security Guard Service California" />
+      <SEO
+        title="ASSISTED LIVING SECURITY - Best Security Guard Service California"
+        description="Ensure the safety and well-being of residents in assisted living centers with FalconX Security Services. Our trained security guards provide professional, discreet security, offering access control, emergency response, and ongoing monitoring to protect residents, staff, and visitors in California's nursing homes and retirement communities."
+      />
       <Banner
         title="RETIREMENT HOME COMMUNITIES AND ASSISTED LIVING SECURITY GUARD SERVICES"
         backgroundImage={bgImage}

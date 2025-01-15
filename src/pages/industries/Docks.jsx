@@ -48,7 +48,10 @@ const Docks = () => {
   ];
   return (
     <div>
-      <SEO title="DOCKS AND MARINA SECURITY - Best Security Guard Service California" />
+      <SEO
+        title="DOCKS AND MARINA SECURITY - Best Security Guard Service California"
+        description="Protect your dock or marina with FalconX Security Services. Our trained professionals offer 24/7 surveillance, proactive patrols, and rapid emergency response to ensure the safety of your assets and patrons. Trust us to safeguard boats, yachts, and all valuable property against theft, vandalism, and other threats, ensuring a secure environment for all."
+      />
       <Banner
         title="MARINA SECURITY GUARD SERVICES"
         backgroundImage={bgImage}

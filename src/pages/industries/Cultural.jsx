@@ -49,7 +49,10 @@ const Cultural = () => {
 
   return (
     <div>
-      <SEO title="CULTURAL PROPERTIES SECURITY - Best Security Guard Service California" />
+      <SEO
+        title="CULTURAL PROPERTIES SECURITY - Best Security Guard Service California"
+        description="Protect priceless cultural treasures with FalconX Security Services. Our tailored security solutions safeguard galleries, museums, and heritage sites from theft and damage. With expert protection and trained personnel, we ensure the safety of your valuable artifacts and enhance visitor experience."
+      />
       <Banner
         title="YOUR TRUSTED SECURITY PARTNER OF CULTURAL PROPERTY"
         backgroundImage={bgImage}

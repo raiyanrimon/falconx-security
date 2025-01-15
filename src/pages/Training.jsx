@@ -15,7 +15,11 @@ import download from "../assets/images/download.jpg";
 const Training = () => {
   return (
     <div>
-      <SEO title="Training - Best Security Guard Service California" />
+      <SEO
+        title="Training - Best Security Guard Service California"
+        description="Effective and Discreet Security Services Training
+FalconX Security Services adhere to a stringent and comprehensive recruitment procedure and offer training to all security guards upon hiring."
+      />
       <Banner title="TRAINING FOR SECURITY GUARDS" backgroundImage={bgImage} />
       <div className="max-w-6xl mx-auto my-12 ">
         <h2 className="font-noto text-[#003366] font-medium md:text-4xl text-xl text-center mb-5">

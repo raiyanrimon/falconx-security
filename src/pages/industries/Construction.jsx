@@ -48,7 +48,10 @@ const Construction = () => {
 
   return (
     <div>
-      <SEO title="CONSTRUCTION SITE SECURITY SERVICES - Best Security Guard Service California" />
+      <SEO
+        title="CONSTRUCTION SITE SECURITY SERVICES - Best Security Guard Service California"
+        description="Ensure the safety of your construction site with FalconX Security Services. Our expert security guards are trained to prevent theft, vandalism, and unauthorized access, providing 24/7 protection for your valuable equipment and assets. Trust us to secure your project and minimize liability risks."
+      />
       <Banner
         title="CONSTRUCTION SITE SECURITY SERVICES"
         backgroundImage={bgImage}

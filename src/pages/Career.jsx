@@ -6,7 +6,10 @@ import SEO from "../components/shared/Seo";
 const Career = () => {
   return (
     <div>
-      <SEO title="Careers - Best Security Guard Service California" />
+      <SEO
+        title="Careers - Best Security Guard Service California"
+        description="Discover career opportunities at FalconX Security Services, where we offer top-tier security roles including armed and unarmed guards, CCTV operators, and more. Join our team and enjoy competitive benefits, career growth, and a commitment to safety and customer satisfaction."
+      />
       <Banner title="CAREERS" backgroundImage={bgImage} bgclass="bg-right" />
       <div className="bg-[#7C7C7C] py-16">
         <div className="max-w-6xl mx-auto flex items-center">

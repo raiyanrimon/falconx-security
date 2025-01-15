@@ -47,7 +47,10 @@ const Worship = () => {
   ];
   return (
     <div>
-      <SEO title="HOUSES OF WORSHIP SECURITY - Best Security Guard Service California" />
+      <SEO
+        title="HOUSES OF WORSHIP SECURITY - Best Security Guard Service California"
+        description="Protect your place of worship with FalconX Security Services. Our trained security professionals provide armed and unarmed guards, tailored security solutions, and 24/7 surveillance to safeguard religious establishments and worshippers from theft, violence, and other threats across California."
+      />
       <Banner
         title="HOUSES OF WORSHIP SECURITY GUARD COMPANY"
         backgroundImage={bgImage}

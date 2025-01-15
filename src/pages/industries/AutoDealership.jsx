@@ -50,7 +50,10 @@ const AutoDealership = () => {
   ];
   return (
     <div>
-      <SEO title="AUTO DEALERSHIP SECURITY SERVICES - FALCONX SECURITY" />
+      <SEO
+        title="AUTO DEALERSHIP SECURITY SERVICES - FALCONX SECURITY"
+        description="Protect your auto dealership with FalconX Security Services. Our trained security guards provide comprehensive protection, rapid response, and customer assistance, ensuring the safety of your high-value inventory and assets."
+      />
       <Banner
         title="SECURITY IN AUTO DEALERSHIPS: WHY IT MATTERS"
         backgroundImage={bgImage}

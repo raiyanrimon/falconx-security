@@ -98,7 +98,10 @@ const Fresno = () => {
 
   return (
     <div>
-      <SEO title="FRESNO- Best Security Guard Service California" />
+      <SEO
+        title="FRESNO- Best Security Guard Service California"
+        description="FalconX Security Services provides top-tier security guard services in Fresno County, offering both armed and unarmed protection. Our trained personnel act as a visible deterrent to crime, ensuring safety and peace of mind for residents, businesses, and institutions."
+      />
       <Banner
         title="SECURITY GUARD SERVICES IN FRESNO COUNTY, CA"
         backgroundImage={bgImage}

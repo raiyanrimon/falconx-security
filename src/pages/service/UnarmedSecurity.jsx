@@ -49,7 +49,10 @@ const UnarmedSecurity = () => {
 
   return (
     <div>
-      <SEO title="UNARMED SECURITY GUARDS - Best Security Guard Service California" />
+      <SEO
+        title="UNARMED SECURITY GUARDS - Best Security Guard Service California"
+        description="FalconX Security Services provides discreet and effective unarmed security guards in Los Angeles. Our highly trained professionals offer customized solutions to protect your assets and ensure safety across various industries."
+      />
       <Banner
         title="UNARMED SECURITY GUARDS"
         backgroundImage={bgImage}

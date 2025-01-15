@@ -98,7 +98,10 @@ const Bakersfield = () => {
 
   return (
     <div>
-      <SEO title="BAKERSFIELD - Best Security Guard Service California" />
+      <SEO
+        title="BAKERSFIELD - Best Security Guard Service California"
+        description="Stay secure with FalconX Security Services in Bakersfield. Our highly qualified, trained security guards provide 24/7 services, including patrols, alarm monitoring, crowd control, and more, ensuring safety and reducing crime risks."
+      />
       <Banner
         title="BAKERSFIELD SECURITY SERVICES"
         backgroundImage={bgImage}

@@ -98,7 +98,10 @@ const SanDiego = () => {
 
   return (
     <div>
-      <SEO title="SAN DIEGO - Best Security Guard Service California" />
+      <SEO
+        title="SAN DIEGO - Best Security Guard Service California"
+        description="FalconX Security Services is a leading security guard company in San Diego, offering reliable 24/7 protection for businesses, homes, and assets. With BSIS-licensed security guards, we provide vehicle patrols, live video monitoring, and various other services to ensure your safety and peace of mind."
+      />
       <Banner
         title="TRUSTED SECURITY EXPERTS IN SAN DIEGO"
         backgroundImage={bgImage}

@@ -48,7 +48,10 @@ const FireWatch = () => {
   ];
   return (
     <div>
-      <SEO title="FIRE WATCH - Best Security Guard Service California" />
+      <SEO
+        title="FIRE WATCH - Best Security Guard Service California"
+        description="FalconX Security provides expert fire watch security services in Los Angeles, offering proactive measures and professional guards to prevent fire-related accidents and ensure building safety."
+      />
       <Banner
         title="FIRE WATCH SECURITY GUARD SERVICES"
         backgroundImage={bgImage}

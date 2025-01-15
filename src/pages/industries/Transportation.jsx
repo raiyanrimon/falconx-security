@@ -49,7 +49,10 @@ const Transportation = () => {
   ];
   return (
     <div>
-      <SEO title="TRANSPORATION, LOGISTICS SECURITY - Best Security Guard Service California" />
+      <SEO
+        title="TRANSPORATION, LOGISTICS SECURITY - Best Security Guard Service California"
+        description="Ensure the safety and efficiency of your logistics center with FalconX Security Services. We offer both armed and unarmed security, vehicle patrols, CCTV monitoring, emergency response services, and escorted security for staff, providing comprehensive protection for all logistics operations in California."
+      />
       <Banner
         title="SECURITY SOLUTIONS FOR TRANSPORT AND LOGISTICS"
         backgroundImage={bgImage}

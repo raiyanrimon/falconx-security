@@ -98,7 +98,10 @@ const SanFrancisco = () => {
 
   return (
     <div>
-      <SEO title="SAN FRANCISCO - Best Security Guard Service California" />
+      <SEO
+        title="SAN FRANCISCO - Best Security Guard Service California"
+        description="FalconX Security Services provides trained and efficient security guard services in San Francisco County, offering 24/7 protection for businesses and employees. Our experienced, BSIS-licensed guards ensure your assets are safeguarded with expertise in on-site security and VIP protection."
+      />
       <Banner
         title="SECURITY GUARD COMPANIES IN SAN FRANCISCO"
         backgroundImage={bgImage}

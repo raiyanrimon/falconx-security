@@ -48,7 +48,10 @@ const Parking = () => {
   ];
   return (
     <div>
-      <SEO title="PARKING LOT SECURITY - Best Security Guard Service California" />
+      <SEO
+        title="PARKING LOT SECURITY - Best Security Guard Service California"
+        description="Ensure the safety of your parking lot with FalconX Security Services. Our professional security guards provide 24/7 surveillance, tailored security plans, and proactive measures to prevent theft, vandalism, and unauthorized access."
+      />
       <Banner
         title="PARKING LOT PATROL SERVICES"
         backgroundImage={bgImage}

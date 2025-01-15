@@ -50,7 +50,10 @@ const Apartment = () => {
   ];
   return (
     <div>
-      <SEO title="APARTMENT AND CONDOMINIUM SECURITY - Best Security Guard Service California" />
+      <SEO
+        title="APARTMENT AND CONDOMINIUM SECURITY - Best Security Guard Service California"
+        description="Ensure a secure and peaceful living environment with FalconX Security Services. Our expert security guards provide 24/7 surveillance, access control, and emergency response for residential communities, preventing theft and unauthorized access for condominiums, apartments, and housing complexes in California."
+      />
       <Banner
         title="TECH FIRMS AND DATA CENTER SECURITY SOLUTIONS"
         backgroundImage={bgImage}

@@ -98,7 +98,10 @@ const SantaBarbara = () => {
 
   return (
     <div>
-      <SEO title="SANTA BARBARA - Best Security Guard Service California" />
+      <SEO
+        title="SANTA BARBARA - Best Security Guard Service California"
+        description="FalconX Security Services offers trusted security solutions in Santa Barbara, CA, safeguarding businesses, residents, and visitors. Our range of services includes access control, vehicle patrolling, and both armed and unarmed security guards to ensure safety while preserving the city’s charm."
+      />
       <Banner
         title="SECURITY GUARD SERVICES IN SANTA BARBARA"
         backgroundImage={bgImage}

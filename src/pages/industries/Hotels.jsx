@@ -47,7 +47,10 @@ const Hotels = () => {
   ];
   return (
     <div>
-      <SEO title="HOTELS SECURITY SERVICES - Best Security Guard Service California" />
+      <SEO
+        title="HOTELS SECURITY SERVICES - Best Security Guard Service California"
+        description="Ensure the safety of your hotel or resort with FalconX Security Services. Our expert security team provides tailored solutions, offering both armed and unarmed guards, surveillance systems, and emergency response services to protect guests, staff, and property across California."
+      />
       <Banner
         title="HOTEL AND RESORT SECURITY GUARD SERVICES"
         backgroundImage={bgImage}

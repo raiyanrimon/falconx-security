@@ -50,7 +50,10 @@ const VideoSecurity = () => {
 
   return (
     <div>
-      <SEO title="LIVE VIDEO SECURITY - Best Security Guard Service California" />
+      <SEO
+        title="LIVE VIDEO SECURITY - Best Security Guard Service California"
+        description="FalconX Security Services offers advanced 24/7 live video security to ensure continuous surveillance and proactive protection for businesses and properties across California, providing peace of mind and safeguarding assets."
+      />
       <Banner title="LIVE VIDEO SECURITY" video={bgImage} />
       <div style={{ backgroundImage: `url(${bg})` }} className="bg-cover">
         <div className="max-w-7xl mx-auto grid md:grid-cols-[33%_67%] py-16">

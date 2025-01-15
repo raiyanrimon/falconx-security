@@ -48,7 +48,10 @@ const Tournament = () => {
   ];
   return (
     <div>
-      <SEO title="TOURNAMENT SPORT EVENT SECURITY - Best Security Guard Service California" />
+      <SEO
+        title="TOURNAMENT SPORT EVENT SECURITY - Best Security Guard Service California"
+        description="Ensure the safety of your tournament sports events with FalconX Security Services. From crowd control to emergency response, our trained security guards protect attendees, athletes, and staff at major sports arenas across California. Trust us for vigilant surveillance and proactive security measures."
+      />
       <Banner
         title="SPORTS ARENAS AND TOURNAMENT SECURITY GUARDS"
         backgroundImage={bgImage}
