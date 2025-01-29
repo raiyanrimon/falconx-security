@@ -8,7 +8,7 @@ const Features = () => {
   return (
     <div className="max-w-6xl mx-auto px-4 py-12">
       {/* Main Title */}
-      <h1 className="sm:text-4xl text-xl font-noto font-semibold text-[#003366] text-center mb-12">
+      <h1 className="sm:text-4xl text-2xl font-noto font-semibold text-[#003366] text-center mb-12">
         TOP RATED SECURITY SERVICES COMPANY IN LOS ANGELES
       </h1>
 

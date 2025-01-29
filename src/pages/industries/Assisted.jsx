@@ -51,7 +51,7 @@ const Assisted = () => {
   return (
     <div>
       <SEO
-        title="ASSISTED LIVING SECURITY - Best Security Guard Service California"
+        title="ASSISTED LIVING SECURITY - Best Security Guard Service Company"
         description="Ensure the safety and well-being of residents in assisted living centers with FalconX Security Services. Our trained security guards provide professional, discreet security, offering access control, emergency response, and ongoing monitoring to protect residents, staff, and visitors in California's nursing homes and retirement communities."
       />
       <Banner
@@ -63,7 +63,7 @@ const Assisted = () => {
         <div className="max-w-7xl mx-auto grid md:grid-cols-[33%_67%] py-16">
           <ServicesNav />
           <div className="mt-10 md:pr-10 p-4">
-            <h2 className="font-noto md:pr-20  text-center font-semibold text-xl mb-6 text-[#003366] md:text-3xl">
+            <h2 className="font-noto md:pr-20  text-center font-semibold text-2xl mb-6 text-[#003366] md:text-3xl">
               Professional Security Guard Services for Assisted Living Centers
               in California
             </h2>
@@ -160,10 +160,7 @@ const Assisted = () => {
           </div>
         </div>
       </div>
-      <Quote
-        text1="SHARE YOUR NEEDS WITH US. WE'RE HERE TO LISTEN AND"
-        text2="COLLABORATE TO ENSURE YOUR COMPLETE SATISFACTION"
-      />
+      <Quote text1="SHARE YOUR NEEDS WITH US. WE'RE HERE TO LISTEN AND COLLABORATE TO ENSURE YOUR COMPLETE SATISFACTION" />
       <Slider
         title="Responsibilities of Assisted Living Security Guards in California"
         text="FalconX Security Services is committed to providing the utmost safety to the people with highly professional assisted living security guards."
@@ -172,7 +169,7 @@ const Assisted = () => {
         title="Advantages Of Security Services In Assisted Living"
         image={image1}
       />
-      <div className="grid md:grid-cols-2 max-w-6xl mx-auto gap-10 md:my-20">
+      <div className="grid md:grid-cols-2 max-w-6xl mx-auto gap-10 md:my-20 my-7">
         <div>
           <h2 className="md:text-3xl text-xl text-[#003366] font-bold  px-4">
             Why Choose FalconX Security Services for Assisted Living Safety?

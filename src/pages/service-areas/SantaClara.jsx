@@ -99,7 +99,7 @@ const SantaClara = () => {
   return (
     <div>
       <SEO
-        title="SANTA CLARA - Best Security Guard Service California"
+        title="SANTA CLARA - Best Security Guard Service Company"
         description="FalconX Security Services provides top-tier security solutions in Santa Clara County, safeguarding businesses, residents, and institutions. With a focus on personalized security, our trained and experienced security guards ensure a safe environment for all, from Silicon Valley to Willow Glen and beyond."
       />
       <Banner
@@ -111,7 +111,7 @@ const SantaClara = () => {
         <div className="max-w-7xl mx-auto grid md:grid-cols-[33%_67%] py-16">
           <AreasNav />
           <div className="mt-10 md:pr-10 p-4">
-            <h2 className="font-noto md:pr-20  text-center font-semibold text-xl mb-6 text-[#003366] md:text-3xl">
+            <h2 className="font-noto md:pr-20  text-center font-semibold text-2xl mb-6 text-[#003366] md:text-3xl">
               FalconX Security Services: Best Security Guard Services in Santa
               Clara
             </h2>
@@ -164,7 +164,7 @@ const SantaClara = () => {
           <div className="grid lg:grid-cols-2 gap-8 items-center">
             {/* Text Content */}
             <div className="space-y-6">
-              <h1 className="text-xl md:text-4xl font-semibold font-noto text-[#003366]">
+              <h1 className="text-2xl md:text-left text-center md:text-4xl font-semibold font-noto text-[#003366]">
                 What can You Expect from our Santa Clara security guard
                 services?
               </h1>
@@ -216,10 +216,7 @@ const SantaClara = () => {
         description="We provide private security guard services to many cities and neighborhoods in Santa Clara, California."
         cities={cities}
       />
-      <Quote
-        text1="SHARE YOUR NEEDS WITH US. WE'RE HERE TO LISTEN AND"
-        text2="COLLABORATE TO ENSURE YOUR COMPLETE SATISFACTION"
-      />
+      <Quote text1="SHARE YOUR NEEDS WITH US. WE'RE HERE TO LISTEN AND COLLABORATE TO ENSURE YOUR COMPLETE SATISFACTION" />
       <Slider
         title="Responsibilities of Security Guards in Santa Clara"
         text="FalconX Security Services is committed to providing the utmost safety to the people of Santa Clara County with highly professional security guards."
@@ -228,9 +225,9 @@ const SantaClara = () => {
         title="Benefits of Hiring Security Guards in Santa Clara"
         image={image1}
       />
-      <div className="grid md:grid-cols-2 max-w-6xl mx-auto gap-10 md:my-20">
+      <div className="grid md:grid-cols-2 max-w-6xl mx-auto gap-10 md:my-20 my-7">
         <div>
-          <h2 className="text-xl md:text-3xl text-[#003366] font-bold  px-4">
+          <h2 className="text-2xl  py-4 text-center md:text-left md:py-0 md:text-3xl text-[#003366] font-bold  px-4">
             Ensuring Safety in Santa Clara: Customized Security Solutions for
             Every Need
           </h2>

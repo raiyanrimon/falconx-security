@@ -7,14 +7,14 @@ const Career = () => {
   return (
     <div>
       <SEO
-        title="Careers - Best Security Guard Service California"
+        title="Careers - Best Security Guard Service Company"
         description="Discover career opportunities at FalconX Security Services, where we offer top-tier security roles including armed and unarmed guards, CCTV operators, and more. Join our team and enjoy competitive benefits, career growth, and a commitment to safety and customer satisfaction."
       />
       <Banner title="CAREERS" backgroundImage={bgImage} bgclass="bg-right" />
-      <div className="bg-[#7C7C7C] py-16">
-        <div className="max-w-6xl mx-auto flex items-center">
+      <div className="bg-[#7C7C7C] md:py-16 p-4">
+        <div className="max-w-6xl mx-auto md:flex items-center">
           <img src={image} alt="" />
-          <div className="text-white space-y-4 text-justify">
+          <div className="text-white space-y-4  text-justify">
             <h2 className="font-noto font-medium text-2xl">
               About Working at FalconX Security Services
             </h2>

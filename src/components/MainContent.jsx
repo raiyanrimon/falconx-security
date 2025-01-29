@@ -2,10 +2,10 @@ import security from "../assets/images/Website-Copy-copy-1024x1024.png.webp";
 
 export default function MainContent() {
   return (
-    <div className="max-w-7xl mx-auto mb-40 mt-12 py-4 px-4 md:px-10 relative">
+    <div className="max-w-7xl mx-auto lg:mb-40 mt-12 py-4 md:px-10 relative">
       <div className="grid  lg:grid-cols-[60%_40%] gap-8 items-center">
-        <div className="space-y-6">
-          <h1 className="text-[#083264] font-noto text-xl md:text-4xl font-semibold sm:text-3xl">
+        <div className="space-y-6 px-3">
+          <h1 className="text-[#083264]   text-center md:text-left font-noto text-2xl md:text-4xl font-semibold sm:text-3xl">
             FALCONX SECURITY SERVICES: SECURITY GUARD SERVICES COMPANY
           </h1>
 

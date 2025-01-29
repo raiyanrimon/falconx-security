@@ -51,7 +51,7 @@ const Patrol = () => {
   return (
     <div>
       <SEO
-        title="PATROL DIVISION - Best Security Guard Service California"
+        title="PATROL DIVISION - Best Security Guard Service Company"
         description="FalconX Security Services offers high-quality, affordable vehicle patrol security in Los Angeles. Our trained guards conduct regular rounds, using advanced technology to swiftly respond to threats and ensure safety."
       />
       <Banner
@@ -62,7 +62,7 @@ const Patrol = () => {
         <div className="max-w-7xl mx-auto grid md:grid-cols-[33%_67%] py-16">
           <ServicesNav />
           <div className="mt-7 md:pr-10 p-4">
-            <h2 className="font-noto md:pr-20  text-center font-semibold text-xl mb-6 text-[#003366] md:text-3xl">
+            <h2 className="font-noto md:pr-20  text-center font-semibold text-2xl mb-6 text-[#003366] md:text-3xl">
               High-Quality, Affordable Vehicle Patrol Security Services in Los
               Angeles
             </h2>
@@ -183,8 +183,16 @@ const Patrol = () => {
         </div>
       </div>
       <Quote
-        text1="Call Us (866-500-2050) for Unmatched Vehicle Patrol Security"
-        text2="Solutions – Together, We Can Achieve Peace of Mind."
+        text1={
+          <>
+            Call Us
+            <a href="tel:8665002050" className="font-extrabold">
+              (866-500-2050)
+            </a>
+            for Unmatched Vehicle Patrol Security Solutions – Together, We Can
+            Achieve Peace of Mind.
+          </>
+        }
       />
       <Slider
         title="Responsibilities of Vehicle Patrol Guards in Los Angeles"
@@ -194,9 +202,9 @@ const Patrol = () => {
         title="Advantages of Hiring the Best Vehicle Patrol Guards"
         image={image1}
       />
-      <div className="grid md:grid-cols-2 max-w-6xl mx-auto gap-10 md:my-20">
+      <div className="grid md:grid-cols-2 max-w-6xl mx-auto gap-10 md:my-20 my-7">
         <div>
-          <h2 className="text-xl md:text-3xl text-[#003366] font-bold  px-4">
+          <h2 className="text-2xl  py-4 text-center md:text-left md:py-0 md:text-3xl text-[#003366] font-bold  px-4">
             Do I Need Patrol Guards in Los Angeles?
           </h2>
           <div className="space-y-5 p-3 text-justify leading-[25px]">

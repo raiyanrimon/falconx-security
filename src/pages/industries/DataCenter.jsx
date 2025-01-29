@@ -5,7 +5,7 @@ import ServicesNav from "../../components/ServicesNav";
 import image1 from "../../assets/images/02-44.webp";
 import image2 from "../../assets/images/03-43-1024x819.webp";
 
-import sideImg from "../../assets/images/01-webp-3-1024x819.webp";
+import sideImg from "../../assets/images/01-webp-1-1024x819.webp";
 import AreasWeServe from "../../components/shared/AreasWeServe";
 import ClientLogoCarousel from "../../components/shared/ClientLogoCarousel";
 import Advantage from "../../components/shared/Advantage";
@@ -60,7 +60,7 @@ const DataCenter = () => {
         <div className="max-w-7xl mx-auto grid md:grid-cols-[33%_67%] py-16">
           <ServicesNav />
           <div className="mt-10 md:pr-10 p-4">
-            <h2 className="font-noto md:pr-20  text-center font-semibold text-xl mb-6 text-[#003366] md:text-3xl">
+            <h2 className="font-noto md:pr-20  text-center font-semibold text-2xl mb-6 text-[#003366] md:text-3xl">
               FalconX Security Services Offers Safety for Data Centers and Tech
               Companies
             </h2>
@@ -170,10 +170,7 @@ const DataCenter = () => {
           </div>
         </div>
       </div>
-      <Quote
-        text1="SHARE YOUR NEEDS WITH US. WE'RE HERE TO LISTEN AND"
-        text2="COLLABORATE TO ENSURE YOUR COMPLETE SATISFACTION"
-      />
+      <Quote text1="SHARE YOUR NEEDS WITH US. WE'RE HERE TO LISTEN AND COLLABORATE TO ENSURE YOUR COMPLETE SATISFACTION" />
       <Slider
         title="Responsibilities of Data Centers and Tech Companies Security Guards in California"
         text="FalconX Security Services is committed to providing the utmost safety to the people with highly professional data centers and tech company security guards."
@@ -182,7 +179,7 @@ const DataCenter = () => {
         title="Advantages Of Engaging Security Guard Services For Data Centers And Tech Companies"
         image={image1}
       />
-      <div className="grid md:grid-cols-2 max-w-6xl mx-auto gap-10 md:my-20">
+      <div className="grid md:grid-cols-2 max-w-6xl mx-auto gap-10 md:my-20 my-7">
         <div>
           <h2 className="md:text-3xl text-xl text-[#003366] font-bold  px-4">
             Why Choose FalconX Security Services for Data Centers and Tech

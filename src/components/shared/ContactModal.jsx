@@ -54,7 +54,7 @@ const ContactModal = ({ isOpen, onClose }) => {
     <div className="fixed inset-0 bg-black bg-opacity-50 flex justify-center items-center z-50">
       <div className="border-l-[#005DBA] border-t-[#005DBA] border-[10px] border-r-black border-b-black">
         <div className="bg-white p-2">
-          <div className="bg-[#003366] w-full max-w-2xl shadow-lg p-8 relative">
+          <div className="bg-[#003366] w-full max-w-xl shadow-lg p-8 relative">
             <button
               className="absolute top-3 right-3 text-white hover:text-gray-700 font-bold"
               onClick={onClose}
@@ -119,7 +119,7 @@ const ContactModal = ({ isOpen, onClose }) => {
 
               <button
                 type="submit"
-                className="w-full bg-gray-400 text-white py-3 rounded font-semibold hover:bg-gray-500 transition-colors"
+                className="w-full bg-gray-400 text-white py-3 rounded font-semibold hover:bg-white hover:text-[#003366] transition-colors"
               >
                 SEND
               </button>
@@ -131,7 +131,10 @@ const ContactModal = ({ isOpen, onClose }) => {
               )}
 
               <div className="text-center mt-4 text-white">
-                or Call Now 866-500-2050
+                or Call Now{" "}
+                <a href="tel:8665002050" className="font-bold">
+                  866-500-2050
+                </a>
               </div>
             </form>
           </div>

@@ -49,7 +49,7 @@ const Cemetery = () => {
   return (
     <div>
       <SEO
-        title="CEMETERY SECURITY - Best Security Guard Service California"
+        title="CEMETERY SECURITY - Best Security Guard Service Company"
         description="Ensure the safety and dignity of your cemetery with FalconX Security Services. Our professional guards offer tailored security solutions, including 24/7 surveillance and specialized patrols, to protect memorials, prevent theft, and maintain a peaceful environment for visitors in California."
       />
       <Banner
@@ -61,7 +61,7 @@ const Cemetery = () => {
         <div className="max-w-7xl mx-auto grid md:grid-cols-[33%_67%] py-16">
           <ServicesNav />
           <div className="mt-10 md:pr-10 p-4">
-            <h2 className="font-noto md:pr-20  text-center font-semibold text-xl mb-6 text-[#003366] md:text-3xl">
+            <h2 className="font-noto md:pr-20  text-center font-semibold text-2xl mb-6 text-[#003366] md:text-3xl">
               Top Rated Cemetery Security Services from FalconX Security
               Services
             </h2>
@@ -163,10 +163,7 @@ const Cemetery = () => {
           </div>
         </div>
       </div>
-      <Quote
-        text1="SHARE YOUR NEEDS WITH US. WE'RE HERE TO LISTEN AND"
-        text2="COLLABORATE TO ENSURE YOUR COMPLETE SATISFACTION"
-      />
+      <Quote text1="SHARE YOUR NEEDS WITH US. WE'RE HERE TO LISTEN AND COLLABORATE TO ENSURE YOUR COMPLETE SATISFACTION" />
       <Slider
         title="Responsibilities of Cemetery Security Guards in California"
         text="FalconX Security Services is committed to providing the utmost safety to the people of California with highly professional cemetery security guards."
@@ -175,7 +172,7 @@ const Cemetery = () => {
         title="Advantages of Employing Cemetery Security Guards"
         image={image1}
       />
-      <div className="grid md:grid-cols-2 max-w-6xl mx-auto gap-10 md:my-20">
+      <div className="grid md:grid-cols-2 max-w-6xl mx-auto gap-10 md:my-20 my-7">
         <div>
           <h2 className="md:text-3xl text-xl text-[#003366] font-bold  px-4">
             Why Choose FalconX Security Services for Cemetery Security?

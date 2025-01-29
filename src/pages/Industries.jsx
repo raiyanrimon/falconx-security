@@ -9,7 +9,7 @@ const Industries = () => {
   return (
     <div>
       <SEO
-        title="INDUSTRIES - Best Security Guard Service California"
+        title="INDUSTRIES - Best Security Guard Service Company"
         description="FalconX Security Services offers tailored security solutions for diverse industries in California. Our skilled security guards deliver customized, affordable protection, ensuring the safety of people, assets, and properties with a commitment to excellence and industry-specific expertise."
       />
       <Banner backgroundImage={banner} title="INDUSTRIES" bgclass="bg-left" />

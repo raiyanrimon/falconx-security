@@ -49,7 +49,7 @@ const Theme = () => {
   return (
     <div>
       <SEO
-        title="THEME PARKS SECURITY GUARD SERVICES - Best Security Guard Service California"
+        title="THEME PARKS SECURITY GUARD SERVICES - Best Security Guard Service Company"
         description="Ensure a safe and enjoyable experience at California's iconic theme parks with FalconX Security Services. Our trained security professionals provide tailored solutions, including crowd management, emergency response, and ongoing surveillance, to safeguard guests and staff while preserving the magic of the park."
       />
       <Banner
@@ -61,7 +61,7 @@ const Theme = () => {
         <div className="max-w-7xl mx-auto grid md:grid-cols-[33%_67%] py-16">
           <ServicesNav />
           <div className="mt-10 md:pr-10 p-4">
-            <h2 className="font-noto md:pr-20  text-center font-semibold text-xl mb-6 text-[#003366] md:text-3xl">
+            <h2 className="font-noto md:pr-20  text-center font-semibold text-2xl mb-6 text-[#003366] md:text-3xl">
               Ensuring Safety and Fun in California's Iconic Theme Parks with
               FalconX Security Services
             </h2>
@@ -172,10 +172,7 @@ const Theme = () => {
           </div>
         </div>
       </div>
-      <Quote
-        text1="SHARE YOUR NEEDS WITH US. WE'RE HERE TO LISTEN AND"
-        text2="COLLABORATE TO ENSURE YOUR COMPLETE SATISFACTION"
-      />
+      <Quote text1="SHARE YOUR NEEDS WITH US. WE'RE HERE TO LISTEN AND COLLABORATE TO ENSURE YOUR COMPLETE SATISFACTION" />
       <Slider
         title="Responsibilities of Theme Parks Security Guards"
         text="FalconX Security Services is committed to providing the utmost safety to the people with highly professional theme park security guards."
@@ -184,7 +181,7 @@ const Theme = () => {
         title="Advantages of Opting for Armed Security Services"
         image={image1}
       />
-      <div className="grid md:grid-cols-2 max-w-6xl mx-auto gap-10 md:my-20">
+      <div className="grid md:grid-cols-2 max-w-6xl mx-auto gap-10 md:my-20 my-7">
         <div>
           <h2 className="md:text-3xl text-xl text-[#003366] font-bold  px-4">
             Why Choose FalconX Security Services for Theme Parks Safety?

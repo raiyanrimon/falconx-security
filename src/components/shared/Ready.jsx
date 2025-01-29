@@ -75,14 +75,12 @@ const Ready = () => {
           city: "",
           message: "",
         });
-        alert("Form submitted successfully!");
+        console.log("Form submitted successfully!");
       } else {
         console.error("Error submitting form:", await response.json());
-        alert("Error submitting form. Please try again.");
       }
     } catch (error) {
       console.error("Submission error:", error);
-      alert("Error submitting form. Please try again.");
     }
   };
 
@@ -195,10 +193,10 @@ const Ready = () => {
               ></textarea>
 
               {/* Submit Button */}
-              <div className="flex justify-center lg:justify-start">
+              <div className="flex justify-center items-center ">
                 <button
                   type="submit"
-                  className="w-full sm:w-auto px-8 py-3 bg-gray-500 hover:bg-gray-600 text-white font-bold rounded transition-colors duration-200"
+                  className="w-full  sm:w-auto px-10 py-3 bg-gray-500 uppercase hover:bg-white hover:text-[#003366] text-white font-bold  transition-colors duration-200"
                 >
                   Submit
                 </button>
@@ -207,82 +205,67 @@ const Ready = () => {
           </div>
 
           {/* Testimonials Section */}
-          <div className="w-full lg:w-1/2 bg-white rounded-lg shadow-lg p-4 sm:p-6 md:p-8">
+          <div className="w-full flex justify-center items-center lg:w-1/2 bg-white rounded-lg shadow-lg p-4 sm:p-6 md:p-8">
             <Swiper
               modules={[Autoplay, Navigation]}
               spaceBetween={30}
               slidesPerView={1}
-              navigation
-              autoplay={{ delay: 5000, disableOnInteraction: false }}
+              autoplay={{ delay: 3000, disableOnInteraction: false }}
               loop={true}
-              className="h-full"
+              className="max-w-3xl mx-auto"
             >
               {testimonials.map((testimonial) => (
                 <SwiperSlide key={testimonial.id}>
-                  <div className="flex flex-col h-full">
-                    <div className="flex items-center justify-center mb-4">
-                      <div className="relative">
-                        <div className="w-12 sm:w-16 h-12 sm:h-16 bg-gray-200 rounded-full flex items-center justify-center">
-                          <span className="text-xl sm:text-2xl text-gray-600">
-                            {testimonial.name.charAt(0).toUpperCase()}
-                          </span>
-                        </div>
-                        <div className="absolute -bottom-1 -right-1 bg-white rounded-full p-1 shadow-md">
-                          <svg
-                            className="w-4 h-4 sm:w-6 sm:h-6"
-                            viewBox="0 0 24 24"
-                          >
-                            <path
-                              fill="#4285F4"
-                              d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"
-                            />
-                            <path
-                              fill="#34A853"
-                              d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"
-                            />
-                            <path
-                              fill="#FBBC05"
-                              d="M5.84 13.93c-.25-.72-.39-1.49-.39-2.33s.14-1.61.39-2.33V6.41H2.18C1.06 7.88 0 9.99 0 12s1.06 4.12 2.18 5.59l3.66-2.85z"
-                            />
-                            <path
-                              fill="#EA4335"
-                              d="M12 4.74c1.44 0 2.68.49 3.67 1.31l2.72-2.72C16.43 1.64 14.32 0 12 0c-4.3 0-7.01 2.8-8.16 6.53l3.73 2.83c.88-2.6 3.3-4.53 6.16-4.53z"
-                            />
-                          </svg>
-                        </div>
-                      </div>
-                    </div>
-
-                    <div className="flex justify-center gap-1 mb-4">
-                      {[...Array(testimonial.rating)].map((_, idx) => (
-                        <svg
-                          key={idx}
-                          className="w-4 h-4 sm:w-5 sm:h-5 text-yellow-400"
-                          viewBox="0 0 20 20"
-                          fill="currentColor"
-                        >
+                  <div className="bg-[#F4F4F4] shadow-lg rounded-lg md:p-6 flex flex-col items-center justify-center relative">
+                    {/* Google Logo in Place of Image */}
+                    <div className="relative w-20 h-20 mb-4 flex items-center justify-center bg-gray-100 rounded-full">
+                      <svg viewBox="0 0 48 48">
+                        <title>Google Logo</title>
+                        <clipPath id="g">
+                          <path d="M44.5 20H24v8.5h11.8C34.7 33.9 30.1 37 24 37c-7.2 0-13-5.8-13-13s5.8-13 13-13c3.1 0 5.9 1.1 8.1 2.9l6.4-6.4C34.6 4.1 29.6 2 24 2 11.8 2 2 11.8 2 24s9.8 22 22 22c11 0 21-8 21-22 0-1.3-.2-2.7-.5-4z" />
+                        </clipPath>
+                        <g class="colors" clip-path="url(#g)">
+                          <path fill="#FBBC05" d="M0 37V11l17 13z" />
                           <path
-                            fillRule="evenodd"
-                            d="M10 15l-3.64 2.18.7-4.28L3 8.73l4.28-.62L10 3l1.72 4.11 4.28.62-3.06 4.17.7 4.28L10 15z"
-                            clipRule="evenodd"
+                            fill="#EA4335"
+                            d="M0 11l17 13 7-6.1L48 14V0H0z"
                           />
-                        </svg>
-                      ))}
+                          <path
+                            fill="#34A853"
+                            d="M0 37l30-23 7.9 1L48 0v48H0z"
+                          />
+                          <path fill="#4285F4" d="M48 48L17 24l-4-3 35-10z" />
+                        </g>
+                      </svg>
                     </div>
 
-                    <div className="flex-grow overflow-y-auto">
-                      <p className="text-gray-600 text-sm sm:text-base mb-4 line-clamp-6">
-                        {testimonial.text}
-                      </p>
-                    </div>
-
-                    <div className="text-center mt-4">
-                      <p className="font-semibold text-gray-800 capitalize text-sm sm:text-base">
+                    {/* Testimonial Content */}
+                    <div className="text-center">
+                      <div className="text-gray-700 font-bold font-noto">
                         {testimonial.name}
-                      </p>
-                      <p className="text-xs sm:text-sm text-gray-500">
+                      </div>
+                      <div className="text-gray-500 text-sm mb-4">
                         {testimonial.date}
-                      </p>
+                      </div>
+                      <div className="flex justify-center mb-4">
+                        {[...Array(5)].map((_, i) => (
+                          <svg
+                            key={i}
+                            className={`w-5 h-5 ${
+                              i < testimonial.rating
+                                ? "text-yellow-400"
+                                : "text-gray-300"
+                            }`}
+                            fill="currentColor"
+                            viewBox="0 0 20 20"
+                          >
+                            <path d="M9 .38" />
+                          </svg>
+                        ))}
+                      </div>
+
+                      {/* Full Testimonial Text */}
+                      <p className="text-gray-600 italic">{testimonial.text}</p>
                     </div>
                   </div>
                 </SwiperSlide>

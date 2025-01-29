@@ -63,7 +63,7 @@ const AirportSecurityServices = () => {
         <div className="max-w-7xl mx-auto grid md:grid-cols-[33%_67%] py-16">
           <ServicesNav />
           <div className="mt-10 md:pr-10 p-4">
-            <h2 className="font-noto md:pr-20  text-center font-semibold text-xl mb-6 text-[#003366] md:text-3xl">
+            <h2 className="font-noto md:pr-20  text-center font-semibold text-2xl mb-6 text-[#003366] md:text-3xl">
               Security for Airports: Keeping Passengers, Assets, and Crews Safe
             </h2>
             <p className=" text-gray-800 my-3 text-justify leading-[27px]">
@@ -180,10 +180,7 @@ const AirportSecurityServices = () => {
           </div>
         </div>
       </div>
-      <Quote
-        text1="FalconX Security Services ensures that passengers travel by"
-        text2="air with the highest level of safety."
-      />
+      <Quote text1="FalconX Security Services ensures that passengers travel by air with the highest level of safety." />
       <Slider
         title="Responsibilities of Airport Security Guards in California"
         text="FalconX Security Services are exceptionally productive in fulfilling their responsibilities at client’s premises."
@@ -194,7 +191,7 @@ const AirportSecurityServices = () => {
       />
       <div className="grid md:grid-cols-2 max-w-6xl mx-auto gap-10 my-5 md:my-20">
         <div>
-          <h2 className="text-xl md:text-3xl text-[#003366] font-bold  px-4">
+          <h2 className="text-2xl  py-4 text-center md:text-left md:py-0 md:text-3xl text-[#003366] font-bold  px-4">
             Navigating Airports with Security Assistance
           </h2>
           <div className="space-y-5 p-3 text-justify leading-[25px]">

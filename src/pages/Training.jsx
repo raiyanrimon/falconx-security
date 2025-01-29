@@ -16,7 +16,7 @@ const Training = () => {
   return (
     <div>
       <SEO
-        title="Training - Best Security Guard Service California"
+        title="Training - Best Security Guard Service Company"
         description="Effective and Discreet Security Services Training
 FalconX Security Services adhere to a stringent and comprehensive recruitment procedure and offer training to all security guards upon hiring."
       />

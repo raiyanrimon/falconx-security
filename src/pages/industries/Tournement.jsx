@@ -49,7 +49,7 @@ const Tournament = () => {
   return (
     <div>
       <SEO
-        title="TOURNAMENT SPORT EVENT SECURITY - Best Security Guard Service California"
+        title="TOURNAMENT SPORT EVENT SECURITY - Best Security Guard Service Company"
         description="Ensure the safety of your tournament sports events with FalconX Security Services. From crowd control to emergency response, our trained security guards protect attendees, athletes, and staff at major sports arenas across California. Trust us for vigilant surveillance and proactive security measures."
       />
       <Banner
@@ -60,7 +60,7 @@ const Tournament = () => {
         <div className="max-w-7xl mx-auto grid md:grid-cols-[33%_67%] py-16">
           <ServicesNav />
           <div className="mt-10 md:pr-10 p-4">
-            <h2 className="font-noto md:pr-20  text-center font-semibold text-xl mb-6 text-[#003366] md:text-3xl">
+            <h2 className="font-noto md:pr-20  text-center font-semibold text-2xl mb-6 text-[#003366] md:text-3xl">
               Guarding the Golden State: Offering Tournament Sports Events
               Security
             </h2>
@@ -206,10 +206,7 @@ const Tournament = () => {
           </div>
         </div>
       </div>
-      <Quote
-        text1="SHARE YOUR NEEDS WITH US. WE'RE HERE TO LISTEN AND"
-        text2="COLLABORATE TO ENSURE YOUR COMPLETE SATISFACTION"
-      />
+      <Quote text1="SHARE YOUR NEEDS WITH US. WE'RE HERE TO LISTEN AND COLLABORATE TO ENSURE YOUR COMPLETE SATISFACTION" />
       <Slider
         title="Responsibilities of Tournament Sport Events Security Guards"
         text="FalconX Security Services is committed to providing the utmost safety to the people with highly professional tournament sports events security guards."
@@ -218,7 +215,7 @@ const Tournament = () => {
         title="Benefits of Hiring For Sporting Event Security Services"
         image={image1}
       />
-      <div className="grid md:grid-cols-2 max-w-6xl mx-auto gap-10 md:my-20">
+      <div className="grid md:grid-cols-2 max-w-6xl mx-auto gap-10 md:my-20 my-7">
         <div>
           <h2 className="md:text-3xl text-xl text-[#003366] font-bold  px-4">
             Why Choose FalconX Security Services for Tournament Sports Events

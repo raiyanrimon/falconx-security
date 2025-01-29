@@ -75,6 +75,7 @@ import Stockton from "../pages/service-areas/Stockton";
 import Temecula from "../pages/service-areas/Temecula";
 import Training from "../pages/Training";
 import ErrorPage from "../components/ErrorPage";
+import PrivacyPolicy from "../pages/PrivacyPolicy";
 
 export const router = createBrowserRouter([
   {
@@ -90,6 +91,10 @@ export const router = createBrowserRouter([
       {
         path: "faq",
         element: <Faq />,
+      },
+      {
+        path: "privacy-policy",
+        element: <PrivacyPolicy />,
       },
       {
         path: "service",

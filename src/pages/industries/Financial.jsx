@@ -61,7 +61,7 @@ const Financial = () => {
         <div className="max-w-7xl mx-auto grid md:grid-cols-[33%_67%] py-16">
           <ServicesNav />
           <div className="mt-10 md:pr-10 p-4">
-            <h2 className="font-noto md:pr-20  text-center font-semibold text-xl mb-6 text-[#003366] md:text-3xl">
+            <h2 className="font-noto md:pr-20  text-center font-semibold text-2xl mb-6 text-[#003366] md:text-3xl">
               Trusted and Reliable Bank Security Guard Services in California
             </h2>
             <p className=" text-gray-800 my-3 text-justify leading-[27px]">
@@ -172,10 +172,7 @@ const Financial = () => {
           </div>
         </div>
       </div>
-      <Quote
-        text1="Secure Your Banking Premises in California with FalconX"
-        text2="Security Services"
-      />
+      <Quote text1="Secure Your Banking Premises in California with FalconX Security Services" />
       <Slider
         title="Responsibilities of Hiring Bank Security Guards in California"
         text="FalconX Security Services ensures the safety of banking premises by employing the best bank security guards in California."
@@ -184,7 +181,7 @@ const Financial = () => {
         title="Benefits of Hiring Bank Security Guard Services in California"
         image={image1}
       />
-      <div className="grid md:grid-cols-2 max-w-6xl mx-auto gap-10 md:my-20">
+      <div className="grid md:grid-cols-2 max-w-6xl mx-auto gap-10 md:my-20 my-7">
         <div>
           <h2 className=" text-xl md:text-3xl text-[#003366] font-bold  px-4">
             Banking Security: Enhancing Security Standards in California

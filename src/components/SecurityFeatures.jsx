@@ -49,23 +49,23 @@ const features = [
 export default function SecurityFeatures() {
   return (
     <section>
-      <div className="bg-[#C7C7C7] py-12 mb-16 px-10">
+      <div className="bg-[#C7C7C7] md:py-16 py-7 mb-16 md:px-10 px-3">
         <div className="max-w-7xl mx-auto md:px-6">
-          <div className="flex flex-col lg:flex-row justify-between items-center gap-5">
-            <h1 className="text-[#083264] text-xl sm:text-3xl md:text-4xl font-semibold font-noto mb-8 md:mb-0">
+          <div className="flex flex-col lg:flex-row justify-between items-center gap-2">
+            <h1 className="text-[#083264] text-2xl text-center md:text-left sm:text-3xl md:text-4xl font-semibold font-noto mb-8 md:mb-0">
               Safety Matters to Us! Ensure Your Safety with Our Reliable
               Security Guards Across All Regions of California
             </h1>
             <div className="space-y-1.5">
               <a
                 href="tel:866-500-2050"
-                className="flex items-center justify-center text-xl gap-2 bg-[#083264] text-white font-bold px-8 py-4 rounded"
+                className="flex items-center justify-center text-xl gap-3 bg-[#083264] text-white font-bold px-8 py-4 rounded"
               >
                 <FaPhone /> 866-500-2050
               </a>
               <a
                 href="mailto:info@falconxsecurity.com"
-                className="flex items-center justify-center gap-2 bg-[#083264] text-xl text-white py-4 font-bold px-2 rounded"
+                className="flex items-center justify-center gap-3 bg-[#083264] text-xl text-white py-4 font-bold px-2 rounded"
               >
                 <CgMail /> info@falconxsecurity.com
               </a>
@@ -75,9 +75,9 @@ export default function SecurityFeatures() {
       </div>
 
       {/* Main Content */}
-      <div className="max-w-6xl mx-auto px-4">
-        <div className="sm:text-center mb-16">
-          <h2 className="text-[#083264] text-xl sm:text-4xl  font-bold mb-4">
+      <div className="max-w-6xl mx-auto px-3">
+        <div className="text-center mb-16">
+          <h2 className="text-[#083264] text-2xl sm:text-4xl md:px-10 px-5  font-bold mb-4">
             SECURE YOUR BUSINESS AND PROPERTY WITH FALCONX SECURITY SERVICES
           </h2>
           <p className="text-gray-600 text-[16px] font-bold">
@@ -85,14 +85,16 @@ export default function SecurityFeatures() {
           </p>
         </div>
 
-        <div className="grid md:grid-cols-3 gap-10">
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-10">
           {features.map((feature) => {
             return (
               <div key={feature.title} className="text-center">
                 <div className="bg-white rounded-full hover:border-black border-transparent border-[4px] w-20 h-20 mx-auto mb-6 flex items-center justify-center shadow-lg">
                   <img src={feature.image} alt="" />
                 </div>
-                <h3 className="text-2xl font-bold mb-4">{feature.title}</h3>
+                <h3 className="text-2xl font-bold mb-4 md:h-12">
+                  {feature.title}
+                </h3>
                 <p className="text-gray-600">{feature.description}</p>
               </div>
             );

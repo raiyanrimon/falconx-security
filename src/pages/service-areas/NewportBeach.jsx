@@ -99,7 +99,7 @@ const NewportBeach = () => {
   return (
     <div>
       <SEO
-        title="NEWPORT BEACH - Best Security Guard Service California"
+        title="NEWPORT BEACH - Best Security Guard Service Company"
         description="FalconX Security Services provides reliable security guard services in Newport Beach, ensuring the safety of businesses, residents, and properties. We offer comprehensive protection for offices, retail stores, hotels, medical facilities, and more."
       />
       <Banner
@@ -111,7 +111,7 @@ const NewportBeach = () => {
         <div className="max-w-7xl mx-auto grid md:grid-cols-[33%_67%] py-16">
           <AreasNav />
           <div className="mt-10 md:pr-10 p-4">
-            <h2 className="font-noto md:pr-20  text-center font-semibold text-xl mb-6 text-[#003366] md:text-3xl">
+            <h2 className="font-noto md:pr-20  text-center font-semibold text-2xl mb-6 text-[#003366] md:text-3xl">
               Reliable Security Guard Services in Newport Beach
             </h2>
             <p className=" text-gray-800 my-3 text-justify leading-[27px]">
@@ -146,7 +146,7 @@ const NewportBeach = () => {
           <div className="grid lg:grid-cols-2 gap-8 items-center">
             {/* Text Content */}
             <div className="space-y-6">
-              <h1 className="text-xl md:text-4xl font-semibold font-noto text-[#003366]">
+              <h1 className="text-2xl md:text-left text-center md:text-4xl font-semibold font-noto text-[#003366]">
                 FalconX Security Services: The Best Security Guard Company in
                 Newport Beach
               </h1>
@@ -186,10 +186,7 @@ const NewportBeach = () => {
         description="We provide private security guard services to many cities and neighborhood in areas of Newport Beach."
         cities={cities}
       />
-      <Quote
-        text1="SHARE YOUR NEEDS WITH US. WE'RE HERE TO LISTEN AND"
-        text2="COLLABORATE TO ENSURE YOUR COMPLETE SATISFACTION"
-      />
+      <Quote text1="SHARE YOUR NEEDS WITH US. WE'RE HERE TO LISTEN AND COLLABORATE TO ENSURE YOUR COMPLETE SATISFACTION" />
       <Slider
         title="Responsibilities of Security Guards in Newport Beach"
         text="FalconX Security Services is committed to providing the utmost safety to the people of Newport Beach city with highly professional security guards."
@@ -198,9 +195,9 @@ const NewportBeach = () => {
         title="Advantages of Hiring Security Guards in Newport Beach"
         image={image1}
       />
-      <div className="grid md:grid-cols-2 max-w-6xl mx-auto gap-10 md:my-20">
+      <div className="grid md:grid-cols-2 max-w-6xl mx-auto gap-10 md:my-20 my-7">
         <div>
-          <h2 className="text-xl md:text-3xl text-[#003366] font-bold  px-4">
+          <h2 className="text-2xl  py-4 text-center md:text-left md:py-0 md:text-3xl text-[#003366] font-bold  px-4">
             Why Choose FalconX Security Services in Newport Beach?
           </h2>
           <div className="space-y-5 p-3 text-justify leading-[25px]">

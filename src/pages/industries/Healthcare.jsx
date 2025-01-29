@@ -60,7 +60,7 @@ const HealthCare = () => {
         <div className="max-w-7xl mx-auto grid md:grid-cols-[33%_67%] py-16">
           <ServicesNav />
           <div className="mt-10 md:pr-10 p-4">
-            <h2 className="font-noto md:pr-20  text-center font-semibold text-xl mb-6 text-[#003366] md:text-3xl">
+            <h2 className="font-noto md:pr-20  text-center font-semibold text-2xl mb-6 text-[#003366] md:text-3xl">
               Pillars of Health: Safeguarding Californians with FalconX Security
               Services
             </h2>
@@ -146,7 +146,7 @@ const HealthCare = () => {
         <div className="grid lg:grid-cols-2 gap-8 items-center">
           {/* Text Content */}
           <div className="space-y-6">
-            <h1 className="text-xl md:text-4xl font-semibold font-noto text-[#003366]">
+            <h1 className="text-2xl md:text-left text-center md:text-4xl font-semibold font-noto text-[#003366]">
               The Crucial Role of FalconX Security Services in Hospital Security
             </h1>
 
@@ -177,10 +177,7 @@ const HealthCare = () => {
           </div>
         </div>
       </div>
-      <Quote
-        text1="SHARE YOUR NEEDS WITH US. WE'RE HERE TO LISTEN AND"
-        text2="COLLABORATE TO ENSURE YOUR COMPLETE SATISFACTION"
-      />
+      <Quote text1="SHARE YOUR NEEDS WITH US. WE'RE HERE TO LISTEN AND COLLABORATE TO ENSURE YOUR COMPLETE SATISFACTION" />
       <Slider
         title="Responsibilities of Healthcare and Hospital Security Guards"
         text="FalconX Security Services is committed to providing the utmost safety to people with highly professional healthcare and hospital security guards."
@@ -189,9 +186,9 @@ const HealthCare = () => {
         title="Advantages of Hiring For Healthcare and Hospital Security Services"
         image={image1}
       />
-      <div className="grid md:grid-cols-2 max-w-6xl mx-auto gap-10 md:my-20">
+      <div className="grid md:grid-cols-2 max-w-6xl mx-auto gap-10 md:my-20 my-7">
         <div>
-          <h2 className="text-xl md:text-3xl text-[#003366] font-bold  px-4">
+          <h2 className="text-2xl  py-4 text-center md:text-left md:py-0 md:text-3xl text-[#003366] font-bold  px-4">
             FalconX Security Services: Guardians of Healthcare Centers
           </h2>
           <div className="space-y-5 p-3 text-justify leading-[25px]">

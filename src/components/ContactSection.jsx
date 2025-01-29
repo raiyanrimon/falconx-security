@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { CgMail } from "react-icons/cg";
-import { FaClock, FaMapPin, FaPhone } from "react-icons/fa6";
+
+import { FaAddressCard, FaClock, FaPhone } from "react-icons/fa6";
 
 const ContactSection = ({
   address = "11150 W Olympic Blvd, Suite 1050 Los Angeles, CA 90064",
@@ -28,7 +29,7 @@ const ContactSection = ({
   };
 
   return (
-    <div className="max-w-6xl mx-auto p-6 flex flex-col md:flex-row gap-8 my-12">
+    <div className="max-w-5xl mx-auto p-6 flex flex-col md:flex-row gap-8 my-12">
       {/* Left Section - Contact Info */}
       <div className="md:w-1/2 font-bold">
         <h2 className="text-gray-600 text-2xl mb-2">Get in Touch</h2>
@@ -43,7 +44,7 @@ const ContactSection = ({
         {/* Contact Details */}
         <div className="space-y-6">
           <div className="flex items-start gap-4">
-            <FaMapPin className="w-6 h-6 text-[#003366] mt-1" />
+            <FaAddressCard className="w-6 h-6 text-[#003366] mt-1" />
             <span className="text-gray-600">{address}</span>
           </div>
 
@@ -115,12 +116,17 @@ const ContactSection = ({
 
             <button
               type="submit"
-              className="w-full bg-gray-400 text-white py-3 rounded hover:bg-gray-500 transition-colors"
+              className="w-full font-bold bg-gray-400 text-white py-3 rounded hover:bg-white hover:text-[#003366] transition-colors"
             >
               SEND
             </button>
 
-            <p className="text-center text-white">or Call Now {phone}</p>
+            <p className="text-center text-white">
+              or Call Now{" "}
+              <a href={`tel:${phone}`} className="font-bold">
+                {phone}
+              </a>
+            </p>
           </div>
         </form>
       </div>

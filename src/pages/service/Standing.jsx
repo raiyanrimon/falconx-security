@@ -50,7 +50,7 @@ const Standing = () => {
   return (
     <div>
       <SEO
-        title="STANDING GUARD - Best Security Guard Service California"
+        title="STANDING GUARD - Best Security Guard Service Company"
         description="Discover the best standing guards in California with FalconX Security Services. We offer tailored security solutions to protect your people, assets, and property, ensuring a proactive presence to prevent criminal activities."
       />
       <Banner
@@ -62,7 +62,7 @@ const Standing = () => {
         <div className="max-w-7xl mx-auto grid md:grid-cols-[33%_67%] py-16">
           <ServicesNav />
           <div className="mt-7 md:pr-10 p-4">
-            <h2 className="font-noto md:pr-20  text-center font-semibold text-xl mb-6 text-[#003366] md:text-3xl">
+            <h2 className="font-noto md:pr-20  text-center font-semibold text-2xl mb-6 text-[#003366] md:text-3xl">
               Best Standing Guards in California - Protecting People, Assets,
               and Property
             </h2>
@@ -130,7 +130,7 @@ const Standing = () => {
         <div className="grid lg:grid-cols-2 gap-8 items-center">
           {/* Text Content */}
           <div className="space-y-6">
-            <h1 className="text-xl md:text-4xl font-semibold font-noto text-[#003366]">
+            <h1 className="text-2xl md:text-left text-center md:text-4xl font-semibold font-noto text-[#003366]">
               Licensed Standing Guards in California: Your Assurance of
               Excellence
             </h1>
@@ -169,10 +169,7 @@ const Standing = () => {
           </div>
         </div>
       </div>
-      <Quote
-        text1="Protection You Can Trust – Leading Provider of Specialized"
-        text2="Standing Security Guards in California."
-      />
+      <Quote text1="Protection You Can Trust – Leading Provider of Specialized Standing Security Guards in California." />
       <Slider
         title="Responsibilities of Standing Security Guards"
         text="FalconX Security Services are exceptionally productive in fulfilling their responsibilities at client’s premises."
@@ -181,9 +178,9 @@ const Standing = () => {
         title="Advantages of Hiring Standing Security Guards"
         image={image1}
       />
-      <div className="grid md:grid-cols-2 max-w-6xl mx-auto gap-10 md:my-20">
+      <div className="grid md:grid-cols-2 max-w-6xl mx-auto gap-10 md:my-20 my-7">
         <div>
-          <h2 className="text-xl md:text-3xl text-[#003366] font-bold  px-4">
+          <h2 className="text-2xl  py-4 text-center md:text-left md:py-0 md:text-3xl text-[#003366] font-bold  px-4">
             How FalconX Security Services Can Benefit Your Business?
           </h2>
           <div className="space-y-5 p-3 text-justify leading-[25px]">

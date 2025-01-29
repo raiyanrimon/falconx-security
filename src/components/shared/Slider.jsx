@@ -4,7 +4,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/navigation";
 
-// import required modules
+// Import required modules
 import { Autoplay, Navigation } from "swiper/modules";
 import camera from "../../assets/images/01-2-1.svg";
 import prompt from "../../assets/images/02-2.svg";
@@ -75,8 +75,8 @@ const Slider = ({ title, text }) => {
   ];
 
   return (
-    <div className="w-full max-w-4xl mx-auto my-10 px-4 py-8 text-center">
-      <h1 className="text-xl md:text-[31px] font-semibold text-[#003366] font-noto text-center mb-6">
+    <div className="w-full max-w-4xl mx-auto my-10 md:px-4 py-8 text-center">
+      <h1 className="text-2xl md:text-[31px] font-semibold text-[#003366] px-2 font-noto text-center mb-6">
         {title}
       </h1>
       <p className="text-gray-600 font-noto text-lg text-center mb-6">{text}</p>
@@ -97,15 +97,18 @@ const Slider = ({ title, text }) => {
         >
           {slides.map((slide, index) => (
             <SwiperSlide key={index}>
-              <div className="bg-white px-3 rounded-lg shadow-lg flex flex-col min-h-[210px]">
-                <div className="flex justify-center mb-4">
-                  <img src={slide.icon} alt="" className="w-20 h-20" />
+              <div className="bg-white border border-gray-200 rounded-lg shadow-lg transition-transform transform hover:-translate-y-1 flex flex-col min-h-[300px] relative overflow-hidden p-6">
+                {/* Inner Shadow Effect */}
+                <div className="absolute inset-0 rounded-lg shadow-md transition-shadow duration-300 ease-in-out hover:shadow-xl"></div>
+
+                <div className="flex justify-center mb-4 z-10">
+                  <img src={slide.icon} alt="" className="w-[80px] h-[80px]" />
                 </div>
-                <div className="flex-grow flex flex-col">
-                  <h3 className="text-xl font-semibold font-noto text-center h-16">
+                <div className="flex-grow flex flex-col z-10">
+                  <h3 className="text-xl font-semibold font-noto text-center mb-2">
                     {slide.title}
                   </h3>
-                  <p className="text-gray-600 font-medium text-xs text-center">
+                  <p className="text-gray-600 font-medium text-sm text-center">
                     {slide.description}
                   </p>
                 </div>

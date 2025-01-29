@@ -141,8 +141,8 @@ const ServicesNav = () => {
               className={`w-4 h-4 rounded-full transition-colors duration-200
                 ${
                   activeService === service.name
-                    ? "bg-blue-600"
-                    : "bg-white border-2 border-[#003366] group-hover:border-blue-400"
+                    ? "bg-[#003366]"
+                    : "bg-white border-2 border-[#003366] group-hover:border-[#003366]"
                 }
                 z-10`}
             />
@@ -154,8 +154,8 @@ const ServicesNav = () => {
               className={`ml-6 transition-colors duration-200
                 ${
                   activeService === service.name
-                    ? "text-blue-600 font-semibold"
-                    : "text-gray-600 hover:text-blue-600"
+                    ? "text-[#003366] font-bold"
+                    : "text-gray-600 hover:text-[#003366]"
                 }`}
             >
               {service.name}

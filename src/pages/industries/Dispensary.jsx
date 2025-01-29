@@ -2,10 +2,10 @@ import Banner from "../../components/shared/Banner";
 import bgImage from "../../assets/images/banner-12.jpg.webp";
 import bg from "../../assets/images/Group-7140-1.webp";
 import ServicesNav from "../../components/ServicesNav";
-import image1 from "../../assets/images/02-40.webp";
+import image1 from "../../assets/images/02-36.webp";
 import image2 from "../../assets/images/03-35-1024x819.webp";
 
-import sideImg from "../../assets/images/01-webp-5.webp";
+import sideImg from "../../assets/images/01-webp-2.webp";
 import AreasWeServe from "../../components/shared/AreasWeServe";
 import ClientLogoCarousel from "../../components/shared/ClientLogoCarousel";
 import Advantage from "../../components/shared/Advantage";
@@ -53,14 +53,14 @@ const Dispensary = () => {
         description="Protect your dispensary with FalconX Security Services. Our experienced, licensed professionals offer customized security plans tailored to your unique needs. Available 24/7, we ensure the safety of your business, employees, and customers, providing proactive, affordable solutions to mitigate risks and safeguard your dispensary."
       />
       <Banner
-        title="SECURITY SOLUTIONS FOR CLINICS AND MEDICAL CENTERS"
+        title="SECURITY SERVICES FOR CANNABIS DISPENSARIES"
         backgroundImage={bgImage}
       />
       <div style={{ backgroundImage: `url(${bg})` }} className="bg-cover">
         <div className="max-w-7xl mx-auto grid md:grid-cols-[33%_67%] py-16">
           <ServicesNav />
           <div className="mt-10 md:pr-10 p-4">
-            <h2 className="font-noto md:pr-20  text-center font-semibold text-xl mb-6 text-[#003366] md:text-3xl">
+            <h2 className="font-noto md:pr-20  text-center font-semibold text-2xl mb-6 text-[#003366] md:text-3xl">
               Secure Your Dispensary with FalconX Security Services
             </h2>
             <p className=" text-gray-800 my-3 text-justify leading-[27px]">
@@ -161,10 +161,7 @@ const Dispensary = () => {
           </div>
         </div>
       </div>
-      <Quote
-        text1="Secure Dispensaries in California via FalconX Security"
-        text2="Services. Call Us (866-500-2050) Now for a Free Consultation."
-      />
+      <Quote text1="Secure Dispensaries in California via FalconX Security Services. Call Us (866-500-2050) Now for a Free Consultation." />
       <Slider
         title="Responsibilities of Dispensary Security Guards in California"
         text="FalconX Security Services takes great pride in safeguarding dispensaries and patrons by providing the best dispensary security services."
@@ -173,7 +170,7 @@ const Dispensary = () => {
         title="Advantages of Hiring Dispensary Security Guards in California"
         image={image1}
       />
-      <div className="grid md:grid-cols-2 max-w-6xl mx-auto gap-10 md:my-20">
+      <div className="grid md:grid-cols-2 max-w-6xl mx-auto gap-10 md:my-20 my-7">
         <div>
           <h2 className="md:text-3xl text-xl text-[#003366] font-bold  px-4">
             Why Choose FalconX Security Services to Secure Dispensaries?

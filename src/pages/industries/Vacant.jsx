@@ -49,7 +49,7 @@ const Vacant = () => {
   return (
     <div>
       <SEO
-        title="VACANT PROPERTY SECURITY SERVICES - Best Security Guard Service California"
+        title="VACANT PROPERTY SECURITY SERVICES - Best Security Guard Service Company"
         description="Protect your vacant property with FalconX Security Services. We offer tailored security solutions to prevent theft, vandalism, squatting, and arson. Our expert security guards ensure your property remains safe and secure, providing peace of mind with customized protection plans."
       />
       <Banner
@@ -60,7 +60,7 @@ const Vacant = () => {
         <div className="max-w-7xl mx-auto grid md:grid-cols-[33%_67%] py-16">
           <ServicesNav />
           <div className="mt-10 md:pr-10 p-4">
-            <h2 className="font-noto md:pr-20  text-center font-semibold text-xl mb-6 text-[#003366] md:text-3xl">
+            <h2 className="font-noto md:pr-20  text-center font-semibold text-2xl mb-6 text-[#003366] md:text-3xl">
               Protect Your Vacant Property with FalconX Security Services
             </h2>
             <p className=" text-gray-800 my-3 text-justify leading-[27px]">
@@ -179,10 +179,7 @@ const Vacant = () => {
           </div>
         </div>
       </div>
-      <Quote
-        text1="SHARE YOUR NEEDS WITH US. WE'RE HERE TO LISTEN AND"
-        text2="COLLABORATE TO ENSURE YOUR COMPLETE SATISFACTION"
-      />
+      <Quote text1="SHARE YOUR NEEDS WITH US. WE'RE HERE TO LISTEN AND COLLABORATE TO ENSURE YOUR COMPLETE SATISFACTION" />
       <Slider
         title="Responsibilities of Vacant Properties Security Guards"
         text="FalconX Security Services is committed to providing the utmost safety to the people of California with highly professional vacant property security guards."
@@ -191,7 +188,7 @@ const Vacant = () => {
         title="Advantages Of Hiring For Vacant Properties Security Services"
         image={image1}
       />
-      <div className="grid md:grid-cols-2 max-w-6xl mx-auto gap-10 md:my-20">
+      <div className="grid md:grid-cols-2 max-w-6xl mx-auto gap-10 md:my-20 my-7">
         <div>
           <h2 className="md:text-3xl text-xl text-[#003366] font-bold  px-4">
             Why Choose FalconX Security Services for Vacant Properties Safety?

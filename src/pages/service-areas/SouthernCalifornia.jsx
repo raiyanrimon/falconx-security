@@ -99,7 +99,7 @@ const SouthernCalifornia = () => {
   return (
     <div>
       <SEO
-        title="SOUTHERN CALIFORNIA - Best Security Guard Service California"
+        title="SOUTHERN CALIFORNIA - Best Security Guard Service Company"
         description="FalconX Security Services offers trusted and reliable security solutions across Southern California, with a team of highly trained professionals providing 24/7 protection for residential, commercial, and public spaces. Backed by military veteran leadership, we ensure safety, minimize risks, and foster peace of mind."
       />
       <Banner
@@ -111,7 +111,7 @@ const SouthernCalifornia = () => {
         <div className="max-w-7xl mx-auto grid md:grid-cols-[33%_67%] py-16">
           <AreasNav />
           <div className="mt-10 md:pr-10 p-4">
-            <h2 className="font-noto md:pr-20  text-center font-semibold text-xl mb-6 text-[#003366] md:text-3xl">
+            <h2 className="font-noto md:pr-20  text-center font-semibold text-2xl mb-6 text-[#003366] md:text-3xl">
               Guardians of Security: Ensuring Safety and Peace of Mind in
               Southern California
             </h2>
@@ -161,7 +161,7 @@ const SouthernCalifornia = () => {
           <div className="grid lg:grid-cols-2 gap-8 items-center">
             {/* Text Content */}
             <div className="space-y-6">
-              <h1 className="text-xl md:text-4xl font-semibold font-noto text-[#003366]">
+              <h1 className="text-2xl md:text-left text-center md:text-4xl font-semibold font-noto text-[#003366]">
                 Do I Need Security Services in Southern California?
               </h1>
 
@@ -212,9 +212,9 @@ const SouthernCalifornia = () => {
         title="Advantages of Hiring Security Guards In Southern California"
         image={image1}
       />
-      <div className="grid md:grid-cols-2 max-w-6xl mx-auto gap-10 md:my-20">
+      <div className="grid md:grid-cols-2 max-w-6xl mx-auto gap-10 md:my-20 my-7">
         <div>
-          <h2 className="text-xl md:text-3xl text-[#003366] font-bold  px-4">
+          <h2 className="text-2xl  py-4 text-center md:text-left md:py-0 md:text-3xl text-[#003366] font-bold  px-4">
             Safety Beyond Boundaries: FalconX Security Services in Action
           </h2>
           <div className="space-y-5 p-3 text-justify leading-[25px]">

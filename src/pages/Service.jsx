@@ -10,7 +10,7 @@ const Service = () => {
   return (
     <div>
       <SEO
-        title="Services - Best Security Guard Service California"
+        title="Services - Best Security Guard Service Company"
         description="FalconX Security Services provides professional security guard services across California, offering customized solutions such as foot patrols, live video monitoring, and fire watch services. Our licensed and experienced guards ensure the safety of individuals, businesses, and assets with a focus on minimizing risks and delivering top-tier protection."
       />
       <Banner title="SERVICES" backgroundImage={service} bgclass="bg-left" />

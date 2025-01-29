@@ -61,7 +61,7 @@ const College = () => {
         <div className="max-w-7xl mx-auto grid md:grid-cols-[33%_67%] py-16">
           <ServicesNav />
           <div className="mt-10 md:pr-10 p-4">
-            <h2 className="font-noto md:pr-20  text-center font-semibold text-xl mb-6 text-[#003366] md:text-3xl">
+            <h2 className="font-noto md:pr-20  text-center font-semibold text-2xl mb-6 text-[#003366] md:text-3xl">
               Ensuring Safety in Educational Institutions with FalconX Security
               Services
             </h2>
@@ -187,10 +187,7 @@ const College = () => {
           </div>
         </div>
       </div>
-      <Quote
-        text1="FalconX Security Services: Defenders of Higher Education and"
-        text2="Future of Tomorrow."
-      />
+      <Quote text1="FalconX Security Services: Defenders of Higher Education and Future of Tomorrow." />
       <Slider
         title="Responsibilities of Hiring Schools, Colleges, and Universities Security Guards in California"
         text="FalconX Security Services are exceptionally productive in fulfilling their responsibilities at client’s premises."
@@ -199,7 +196,7 @@ const College = () => {
         title="Advantages of Hiring Security Guards to Protect Educational Institutions in California"
         image={image1}
       />
-      <div className="grid md:grid-cols-2 max-w-6xl mx-auto gap-10 md:my-20">
+      <div className="grid md:grid-cols-2 max-w-6xl mx-auto gap-10 md:my-20 my-7">
         <div>
           <h2 className="md:text-3xl text-xl text-[#003366] font-bold  px-4">
             Guardians of Education: Ensuring Safety with Our College and

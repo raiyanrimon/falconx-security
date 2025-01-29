@@ -7,14 +7,14 @@ const SecurityAd = () => {
   return (
     <div className="bg-[#C7C7C7] ">
       <div className="max-w-6xl mx-auto md:flex justify-between items-center md:py-12 p-5">
-        <div className="text-left ">
-          <p className="text-xl md:text-3xl font-noto text-[#003366] ">
+        <div className="md:text-left text-center px-2 ">
+          <p className="text-2xl md:text-3xl font-noto text-[#003366] py-3 ">
             Feeling Unsafe in California?
           </p>
-          <h1 className=" text-2xl md:text-3xl font-noto font-bold text-[#003366] ">
+          <h1 className=" text-xl md:text-3xl font-noto font-bold text-[#003366] ">
             Hire Ex-Military Personnel from FalconX
           </h1>
-          <h1 className="text-2xl md:text-3xl font-bold font-noto text-[#003366] ">
+          <h1 className="text-xl md:text-3xl font-bold font-noto text-[#003366] ">
             Security Services and Invest in Your Safety.
           </h1>
         </div>

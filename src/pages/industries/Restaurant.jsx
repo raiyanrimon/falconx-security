@@ -49,7 +49,7 @@ const Restaurant = () => {
   return (
     <div>
       <SEO
-        title="RESTAURANT SECURITY - Best Security Guard Service California"
+        title="RESTAURANT SECURITY - Best Security Guard Service Company"
         description="Ensure the safety and reputation of your restaurant with FalconX Security Services. Our professional security guards and advanced technologies provide discreet, effective protection for your patrons and staff, helping prevent disturbances and safeguard your assets."
       />
       <Banner
@@ -61,7 +61,7 @@ const Restaurant = () => {
         <div className="max-w-7xl mx-auto grid md:grid-cols-[33%_67%] py-16">
           <ServicesNav />
           <div className="mt-10 md:pr-10 p-4">
-            <h2 className="font-noto md:pr-20  text-center font-semibold text-xl mb-6 text-[#003366] md:text-3xl">
+            <h2 className="font-noto md:pr-20  text-center font-semibold text-2xl mb-6 text-[#003366] md:text-3xl">
               Reliable Restaurant Security Services in California
             </h2>
             <p className=" text-gray-800 my-3 text-justify leading-[27px]">
@@ -159,10 +159,7 @@ const Restaurant = () => {
           </div>
         </div>
       </div>
-      <Quote
-        text1="Enjoy a Great Dining Experience in California with Our"
-        text2="Dedicated Restaurant Security Guards"
-      />
+      <Quote text1="Enjoy a Great Dining Experience in California with Our Dedicated Restaurant Security Guards" />
       <Slider
         title="Responsibilities of Restaurant Security Guards"
         text="FalconX Security Services is committed to providing the utmost safety to the people with highly professional security guards."
@@ -171,7 +168,7 @@ const Restaurant = () => {
         title="Advantages of Hiring For Restaurant Security Services"
         image={image1}
       />
-      <div className="grid md:grid-cols-2 max-w-6xl mx-auto gap-10 md:my-20">
+      <div className="grid md:grid-cols-2 max-w-6xl mx-auto gap-10 md:my-20 my-7">
         <div>
           <h2 className="md:text-3xl text-xl text-[#003366] font-bold  px-4">
             Premier Restaurant Security Guards Services in California

@@ -50,7 +50,7 @@ const Pharmaceutical = () => {
   return (
     <div>
       <SEO
-        title="PHARMACEUTICAL MANUFACTURING SECURITY - Best Security Guard Service California"
+        title="PHARMACEUTICAL MANUFACTURING SECURITY - Best Security Guard Service Company"
         description="Secure your research facility with FalconX Security Services. Our expert security guards use advanced technology to protect sensitive data, assets, and personnel, ensuring a safe and productive environment for research in California."
       />
       <Banner
@@ -62,7 +62,7 @@ const Pharmaceutical = () => {
         <div className="max-w-7xl mx-auto grid md:grid-cols-[33%_67%] py-16">
           <ServicesNav />
           <div className="mt-10 md:pr-10 p-4">
-            <h2 className="font-noto md:pr-20  text-center font-semibold text-xl mb-6 text-[#003366] md:text-3xl">
+            <h2 className="font-noto md:pr-20  text-center font-semibold text-2xl mb-6 text-[#003366] md:text-3xl">
               Protecting California's Biomedical Innovations: We Ensure Safety
               in Research Facilities
             </h2>
@@ -172,10 +172,7 @@ const Pharmaceutical = () => {
           </div>
         </div>
       </div>
-      <Quote
-        text1="SHARE YOUR NEEDS WITH US. WE'RE HERE TO LISTEN AND"
-        text2="COLLABORATE TO ENSURE YOUR COMPLETE SATISFACTION"
-      />
+      <Quote text1="SHARE YOUR NEEDS WITH US. WE'RE HERE TO LISTEN AND COLLABORATE TO ENSURE YOUR COMPLETE SATISFACTION" />
       <Slider
         title="Responsibilities of Research Facility Security Guards in California"
         text="FalconX Security Services is committed to providing the utmost safety to the people of California with highly professional research facility security guards."
@@ -184,7 +181,7 @@ const Pharmaceutical = () => {
         title="Advantages Of Hiring For Pharmaceutical Security Services"
         image={image1}
       />
-      <div className="grid md:grid-cols-2 max-w-6xl mx-auto gap-10 md:my-20">
+      <div className="grid md:grid-cols-2 max-w-6xl mx-auto gap-10 md:my-20 my-7">
         <div>
           <h2 className="md:text-3xl text-xl text-[#003366] font-bold  px-4">
             Why Choose FalconX Security Services for Research Facility Safety?

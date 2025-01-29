@@ -89,8 +89,8 @@ const AreasWeServe = () => {
 
   return (
     <div className="bg-[#F4F4F4]">
-      <div className="max-w-7xl mx-auto px-4 py-16">
-        <h1 className="md:text-4xl text-xl font-semibold font-noto text-center text-[#003366] mb-8">
+      <div className="max-w-7xl mx-auto px-4 md:py-16 py-7">
+        <h1 className="md:text-4xl text-[24px] font-semibold font-noto text-center text-[#003366] mb-8">
           AREAS WE SERVE
         </h1>
         <p className="text-center mb-16 mx-auto">

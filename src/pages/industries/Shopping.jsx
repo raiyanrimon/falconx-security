@@ -61,7 +61,7 @@ const Shopping = () => {
         <div className="max-w-7xl mx-auto grid md:grid-cols-[33%_67%] py-16">
           <ServicesNav />
           <div className="mt-10 md:pr-10 p-4">
-            <h2 className="font-noto md:pr-20  text-center font-semibold text-xl mb-6 text-[#003366] md:text-3xl">
+            <h2 className="font-noto md:pr-20  text-center font-semibold text-2xl mb-6 text-[#003366] md:text-3xl">
               Elevate Shopping Center Security with FalconX Security Services
             </h2>
             <p className=" text-gray-800 my-3 text-justify leading-[27px]">
@@ -113,7 +113,7 @@ const Shopping = () => {
         <div className="grid lg:grid-cols-2 gap-8 items-center">
           {/* Text Content */}
           <div className="space-y-6">
-            <h1 className="text-xl md:text-4xl font-semibold font-noto text-[#003366]">
+            <h1 className="text-2xl md:text-left text-center md:text-4xl font-semibold font-noto text-[#003366]">
               Trusted, Reliable, and Efficient Shopping Center Security Services
               in California
             </h1>
@@ -156,10 +156,7 @@ const Shopping = () => {
           </div>
         </div>
       </div>
-      <Quote
-        text1="Secure Your Shopping Experience in the shopping malls with"
-        text2="FalconX Security Services."
-      />
+      <Quote text1="Secure Your Shopping Experience in the shopping malls with FalconX Security Services." />
       <Slider
         title="Responsibilities of a Security Guard at a Shopping Center"
         text="FalconX Security Services are exceptionally productive in fulfilling their responsibilities at client’s premises."
@@ -168,9 +165,9 @@ const Shopping = () => {
         title="Advantages of Hiring For Shopping Mall Security Services in California"
         image={image1}
       />
-      <div className="grid md:grid-cols-2 max-w-6xl mx-auto gap-10 md:my-20">
+      <div className="grid md:grid-cols-2 max-w-6xl mx-auto gap-10 md:my-20 my-7">
         <div>
-          <h2 className="text-xl md:text-3xl text-[#003366] font-bold  px-4">
+          <h2 className="text-2xl  py-4 text-center md:text-left md:py-0 md:text-3xl text-[#003366] font-bold  px-4">
             Why Choose FalconX Security Services for Shopping Malls Security?
           </h2>
           <div className="space-y-5 p-3 text-justify leading-[25px]">

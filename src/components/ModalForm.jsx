@@ -35,6 +35,17 @@ const ModalForm = ({ isOpen, closeModal }) => {
 
       if (response.ok) {
         const result = await response.json();
+        setFormData({
+          company_name: "",
+          name: "",
+          email: "",
+          phone: "",
+          service: "",
+          guards_needed: "",
+          facility_type: "",
+          city: "",
+          message: "",
+        });
         console.log("Form submitted successfully:", result);
         closeModal();
       } else {
@@ -50,7 +61,7 @@ const ModalForm = ({ isOpen, closeModal }) => {
       {isOpen && (
         <div className="fixed inset-0 bg-black   bg-opacity-50 flex justify-center items-center z-50">
           <div className="border-l-[#005DBA] border-t-[#005DBA] border-[10px] border-r-black border-b-black ">
-            <div className="bg-white w-full max-w-2xl  shadow-lg p-6 relative  ">
+            <div className="bg-white w-full max-w-xl  shadow-lg p-6 relative  ">
               <button
                 className="absolute top-3 right-3  hover:text-gray-700 font-bold"
                 onClick={closeModal}

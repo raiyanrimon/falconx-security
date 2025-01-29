@@ -99,7 +99,7 @@ const Sacramento = () => {
   return (
     <div>
       <SEO
-        title="SACRAMENTO - Best Security Guard Service California"
+        title="SACRAMENTO - Best Security Guard Service Company"
         description="FalconX Security Services provides top-notch, reliable security guard solutions in Sacramento County. From armed and unarmed security to personalized escort services, we ensure the safety of businesses, schools, hotels, and more. Serving areas like Antelope, Elk Grove, and Citrus Heights, our expert guards are committed to safeguarding your assets and premises."
       />
       <Banner
@@ -111,7 +111,7 @@ const Sacramento = () => {
         <div className="max-w-7xl mx-auto grid md:grid-cols-[33%_67%] py-16">
           <AreasNav />
           <div className="mt-10 md:pr-10 p-4">
-            <h2 className="font-noto md:pr-20  text-center font-semibold text-xl mb-6 text-[#003366] md:text-3xl">
+            <h2 className="font-noto md:pr-20  text-center font-semibold text-2xl mb-6 text-[#003366] md:text-3xl">
               Quality Security Guard Services from FalconX Security Services in
               Sacramento County
             </h2>
@@ -158,7 +158,7 @@ const Sacramento = () => {
           <div className="grid lg:grid-cols-2 gap-8 items-center">
             {/* Text Content */}
             <div className="space-y-6">
-              <h1 className="text-xl md:text-4xl font-semibold font-noto text-[#003366]">
+              <h1 className="text-2xl md:text-left text-center md:text-4xl font-semibold font-noto text-[#003366]">
                 Why Should You Choose FalconX Security Services in Sacramento?
               </h1>
 
@@ -221,9 +221,9 @@ const Sacramento = () => {
         title="Benefits of Hiring Security Guards in Sacramento, California"
         image={image1}
       />
-      <div className="grid md:grid-cols-2 max-w-6xl mx-auto gap-10 md:my-20">
+      <div className="grid md:grid-cols-2 max-w-6xl mx-auto gap-10 md:my-20 my-7">
         <div>
-          <h2 className="text-xl md:text-3xl text-[#003366] font-bold  px-4">
+          <h2 className="text-2xl  py-4 text-center md:text-left md:py-0 md:text-3xl text-[#003366] font-bold  px-4">
             Securing Sacramento: FalconX Security Services, Your Trusted City
             Shield
           </h2>

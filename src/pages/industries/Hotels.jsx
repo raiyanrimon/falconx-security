@@ -48,7 +48,7 @@ const Hotels = () => {
   return (
     <div>
       <SEO
-        title="HOTELS SECURITY SERVICES - Best Security Guard Service California"
+        title="HOTELS SECURITY SERVICES - Best Security Guard Service Company"
         description="Ensure the safety of your hotel or resort with FalconX Security Services. Our expert security team provides tailored solutions, offering both armed and unarmed guards, surveillance systems, and emergency response services to protect guests, staff, and property across California."
       />
       <Banner
@@ -60,7 +60,7 @@ const Hotels = () => {
         <div className="max-w-7xl mx-auto grid md:grid-cols-[33%_67%] py-16">
           <ServicesNav />
           <div className="mt-10 md:pr-10 p-4">
-            <h2 className="font-noto md:pr-20  text-center font-semibold text-xl mb-6 text-[#003366] md:text-3xl">
+            <h2 className="font-noto md:pr-20  text-center font-semibold text-2xl mb-6 text-[#003366] md:text-3xl">
               FalconX Security Services Provides Exceptional Hotels and Resorts
               Security in California
             </h2>
@@ -162,11 +162,7 @@ const Hotels = () => {
           </div>
         </div>
       </div>
-      <Quote
-        text1="We're ready to hear your requirements and work together to"
-        text2="provide the security of your hospitality business with"
-        text3="FalconX."
-      />
+      <Quote text1="We're ready to hear your requirements and work together to provide the security of your hospitality business with FalconX." />
       <Slider
         title="Responsibilities of FalconX Security Guards in Los Angeles"
         text="FalconX Security keeps hotels and resorts safe and sound, handling everything effectively."
@@ -175,7 +171,7 @@ const Hotels = () => {
         title="Benefits Of Hiring Our Services For Hotel Security in Los Angeles"
         image={image1}
       />
-      <div className="grid md:grid-cols-2 max-w-6xl mx-auto gap-10 md:my-20">
+      <div className="grid md:grid-cols-2 max-w-6xl mx-auto gap-10 md:my-20 my-7">
         <div>
           <h2 className="md:text-3xl text-xl text-[#003366] font-bold  px-4">
             Hotel and Resort Security: Enhancing Security Standards in Los

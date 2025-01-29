@@ -14,7 +14,7 @@ const SingleBlog = () => {
       setLoading(true);
       try {
         const response = await fetch(
-          `https://falconxsecurity.com/wp-json/wp/v2/posts?slug=${slug}&_embed`
+          `https://blog.falconxsecurity.com/wp-json/wp/v2/posts?slug=${slug}&_embed`
         );
         const data = await response.json();
 

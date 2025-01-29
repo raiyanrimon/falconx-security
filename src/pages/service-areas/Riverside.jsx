@@ -99,7 +99,7 @@ const Riverside = () => {
   return (
     <div>
       <SEO
-        title="RIVERSIDE COUNTY - Best Security Guard Service California"
+        title="RIVERSIDE COUNTY - Best Security Guard Service Company"
         description="FalconX Security Services is an accredited security guard company in Riverside, CA, providing reliable, highly trained security solutions for residents and businesses. Our guards are experts in addressing local security concerns, ensuring safety across Riverside County with adaptable and professional services."
       />
       <Banner
@@ -111,7 +111,7 @@ const Riverside = () => {
         <div className="max-w-7xl mx-auto grid md:grid-cols-[33%_67%] py-16">
           <AreasNav />
           <div className="mt-10 md:pr-10 p-4">
-            <h2 className="font-noto md:pr-20  text-center font-semibold text-xl mb-6 text-[#003366] md:text-3xl">
+            <h2 className="font-noto md:pr-20  text-center font-semibold text-2xl mb-6 text-[#003366] md:text-3xl">
               FalconX Security Services: Accredited Security Guard Company in
               Riverside, CA
             </h2>
@@ -171,7 +171,7 @@ const Riverside = () => {
           <div className="grid lg:grid-cols-2 gap-8 items-center">
             {/* Text Content */}
             <div className="space-y-6">
-              <h1 className="text-xl md:text-4xl font-semibold font-noto text-[#003366]">
+              <h1 className="text-2xl md:text-left text-center md:text-4xl font-semibold font-noto text-[#003366]">
                 Why Choose FalconX Security Services in Riverside County?
               </h1>
 
@@ -221,9 +221,9 @@ const Riverside = () => {
         title="Benefits of Hiring Security Guards in Riverside County"
         image={image1}
       />
-      <div className="grid md:grid-cols-2 max-w-6xl mx-auto gap-10 md:my-20">
+      <div className="grid md:grid-cols-2 max-w-6xl mx-auto gap-10 md:my-20 my-7">
         <div>
-          <h2 className="text-xl md:text-3xl text-[#003366] font-bold  px-4">
+          <h2 className="text-2xl  py-4 text-center md:text-left md:py-0 md:text-3xl text-[#003366] font-bold  px-4">
             High-Quality Security Guard Services Riverside County
           </h2>
           <div className="space-y-5 p-3 text-justify leading-[25px]">

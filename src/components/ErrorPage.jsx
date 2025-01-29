@@ -5,7 +5,7 @@ import SEO from "./shared/Seo";
 const ErrorPage = () => {
   return (
     <div className="flex flex-col items-center justify-center py-20 md:my-0 mb-10">
-      <SEO title="Link Not Found - Best Security Guard Service California" />
+      <SEO title="Link Not Found - Best Security Guard Service Company" />
       <div className="relative">
         <img className="rounded-xl" src={img} alt="" />
         <Link to="/">

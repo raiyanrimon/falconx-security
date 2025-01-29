@@ -1,16 +1,127 @@
+import { useState } from "react";
 export default function EmploymentForm() {
+  const [formData, setFormData] = useState({
+    name: "",
+    age: "Under 18",
+    gender: "Male",
+    phoneNumber: "",
+    email: "",
+    address: "",
+    city: "",
+    state: "",
+    zipcode: "",
+    qualification: "",
+    experience: "",
+    comfortWithPatrolling: "",
+    position: "Armed Security",
+    workStatus: "Yes",
+    partTime: "Yes",
+    availableDays: [],
+    shiftPreference: [],
+    knowledge: "None",
+    objection: "Yes",
+    medicalCondition: "",
+    timePreference: [],
+    heardAbout: "Google",
+  });
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+
+    // Handle form submission logic here
+    console.log(formData);
+
+    try {
+      const response = await fetch(
+        "https://blog.falconxsecurity.com/wp-json/msp/v1/career",
+        {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify(formData),
+        }
+      );
+
+      if (!response.ok) {
+        const errorData = await response.json();
+        throw new Error(
+          `Failed to send message: ${errorData.message || "Unknown error"}`
+        );
+      }
+
+      // Optionally reset the form after submission
+      setFormData({
+        name: "",
+        age: "Under 18",
+        gender: "Male",
+        phoneNumber: "",
+        email: "",
+        address: "",
+        city: "",
+        state: "",
+        zipcode: "",
+        qualification: "",
+        experience: "",
+        comfortWithPatrolling: "",
+        position: "Armed Security",
+        workStatus: "Yes",
+        partTime: "Yes",
+        availableDays: [],
+        shiftPreference: [],
+        knowledge: "None",
+        objection: "Yes",
+        medicalCondition: "",
+        timePreference: [],
+        heardAbout: "Google",
+      });
+
+      console.log("Your response has been sent successfully!");
+    } catch (error) {
+      console.error("Error details:", error);
+    }
+  };
+  const handleChange = (e) => {
+    const { name, value, checked } = e.target;
+
+    // Check if the name corresponds to an array field
+    if (Array.isArray(formData[name])) {
+      if (checked) {
+        // Add the value if checked
+        setFormData({
+          ...formData,
+          [name]: [...formData[name], value],
+        });
+      } else {
+        // Remove the value if unchecked
+        setFormData({
+          ...formData,
+          [name]: formData[name].filter((item) => item !== value),
+        });
+      }
+    } else {
+      // Handle non-array fields as usual
+      setFormData({
+        ...formData,
+        [name]: value,
+      });
+    }
+  };
+
   return (
     <div className="max-w-7xl mx-auto p-8">
       <h1 className="text-2xl uppercase text-[#003366] font-semibold font-noto text-center mb-16">
         Employment Application Form
       </h1>
-      <form className="space-y-6">
+      <form onSubmit={handleSubmit} className="space-y-6">
         {/* 1. First Name */}
         <div>
           <label className="block font-semibold mb-2">Name</label>
           <input
             type="text"
             id="name"
+            name="name"
+            value={formData.name}
+            onChange={handleChange}
             className="w-full h-10 border border-gray-300 p-2 focus:ring-1 focus:ring-[#90A9BA]"
           />
         </div>
@@ -20,7 +131,9 @@ export default function EmploymentForm() {
           <div>
             <label className="block font-semibold mb-2">Age</label>
             <select
-              id="age"
+              name="age"
+              value={formData.age}
+              onChange={handleChange}
               className="w-full h-10 border border-gray-300 p-2 focus:ring-1 focus:ring-[#90A9BA]"
             >
               <option>Under 18</option>
@@ -35,7 +148,9 @@ export default function EmploymentForm() {
           <div>
             <label className="block font-semibold mb-2">Gender</label>
             <select
-              id="gender"
+              name="gender"
+              value={formData.gender}
+              onChange={handleChange}
               className="w-full h-10 border border-gray-300 p-2 focus:ring-1 focus:ring-[#90A9BA]"
             >
               <option>Male</option>
@@ -52,7 +167,9 @@ export default function EmploymentForm() {
             <label className="block font-semibold mb-2">Phone Number</label>
             <input
               type="tel"
-              id="phoneNumber"
+              name="phoneNumber"
+              value={formData.phoneNumber}
+              onChange={handleChange}
               className="w-full h-10 border border-gray-300 p-2 focus:ring-1 focus:ring-[#90A9BA]"
             />
           </div>
@@ -60,7 +177,9 @@ export default function EmploymentForm() {
             <label className="block font-semibold mb-2">Email Address</label>
             <input
               type="email"
-              id="email"
+              name="email"
+              value={formData.email}
+              onChange={handleChange}
               className="w-full h-10 border border-gray-300 p-2 focus:ring-1 focus:ring-[#90A9BA]"
             />
           </div>
@@ -71,7 +190,9 @@ export default function EmploymentForm() {
           <label className="block font-semibold mb-2">Address</label>
           <input
             type="text"
-            id="address"
+            name="address"
+            value={formData.address}
+            onChange={handleChange}
             className="w-full h-10 border border-gray-300 p-2 focus:ring-1 focus:ring-[#90A9BA]"
           />
         </div>
@@ -82,7 +203,9 @@ export default function EmploymentForm() {
             <label className="block font-semibold mb-2">City</label>
             <input
               type="text"
-              id="city"
+              name="city"
+              value={formData.city}
+              onChange={handleChange}
               className="w-full h-10 border border-gray-300 p-2 focus:ring-1 focus:ring-[#90A9BA]"
             />
           </div>
@@ -90,7 +213,9 @@ export default function EmploymentForm() {
             <label className="block font-semibold mb-2">State</label>
             <input
               type="text"
-              id="state"
+              name="state"
+              value={formData.state}
+              onChange={handleChange}
               className="w-full h-10 border border-gray-300 p-2 focus:ring-1 focus:ring-[#90A9BA]"
             />
           </div>
@@ -98,7 +223,9 @@ export default function EmploymentForm() {
             <label className="block font-semibold mb-2">Zip Code</label>
             <input
               type="text"
-              id="zipcode"
+              name="zipcode"
+              value={formData.zipcode}
+              onChange={handleChange}
               className="w-full h-10 border border-gray-300 p-2 focus:ring-1 focus:ring-[#90A9BA]"
             />
           </div>
@@ -111,7 +238,9 @@ export default function EmploymentForm() {
           </label>
           <input
             type="text"
-            id="qualification"
+            name="qualification"
+            value={formData.qualification}
+            onChange={handleChange}
             className="w-full h-10 border border-gray-300 p-2 focus:ring-1 focus:ring-[#90A9BA]"
           />
         </div>
@@ -128,6 +257,8 @@ export default function EmploymentForm() {
                   type="radio"
                   name="experience"
                   value="yes"
+                  checked={formData.experience === "yes"}
+                  onChange={handleChange}
                   className="mr-1 h-3 w-3 focus:ring-1 focus:ring-[#90A9BA]"
                 />{" "}
                 Yes
@@ -137,6 +268,8 @@ export default function EmploymentForm() {
                   type="radio"
                   name="experience"
                   value="no"
+                  checked={formData.experience === "no"}
+                  onChange={handleChange}
                   className="mr-1 h-3 w-3 focus:ring-1 focus:ring-[#90A9BA]"
                 />{" "}
                 No
@@ -152,8 +285,10 @@ export default function EmploymentForm() {
               <label>
                 <input
                   type="radio"
-                  name="experience"
+                  name="comfortWithPatrolling"
                   value="yes"
+                  checked={formData.comfortWithPatrolling === "yes"}
+                  onChange={handleChange}
                   className="mr-1 h-3 w-3 focus:ring-1 focus:ring-[#90A9BA]"
                 />{" "}
                 Yes
@@ -161,8 +296,10 @@ export default function EmploymentForm() {
               <label>
                 <input
                   type="radio"
-                  name="experience"
+                  name="comfortWithPatrolling"
                   value="no"
+                  checked={formData.comfortWithPatrolling === "no"}
+                  onChange={handleChange}
                   className="mr-1 h-3 w-3 focus:ring-1 focus:ring-[#90A9BA]"
                 />{" "}
                 No
@@ -170,8 +307,10 @@ export default function EmploymentForm() {
               <label>
                 <input
                   type="radio"
-                  name="experience"
-                  value="no"
+                  name="comfortWithPatrolling"
+                  value="maybe"
+                  checked={formData.comfortWithPatrolling === "maybe"}
+                  onChange={handleChange}
                   className="mr-1 h-3 w-3 focus:ring-1 focus:ring-[#90A9BA]"
                 />{" "}
                 Maybe
@@ -186,7 +325,10 @@ export default function EmploymentForm() {
             For which position are you seeking?
           </label>
           <select
-            id="position"
+            type="text"
+            name="position"
+            value={formData.position}
+            onChange={handleChange}
             className="w-full h-10 border border-gray-300 p-2 focus:ring-1 focus:ring-[#90A9BA]"
           >
             <option>Armed Security</option>
@@ -203,7 +345,9 @@ export default function EmploymentForm() {
               Are you currently working?
             </label>
             <select
-              id="workStatus"
+              name="workStatus"
+              value={formData.workStatus}
+              onChange={handleChange}
               className="w-full h-10 border border-gray-300 p-2 focus:ring-1 focus:ring-[#90A9BA]"
             >
               <option>Yes</option>
@@ -215,7 +359,9 @@ export default function EmploymentForm() {
               Are you willing to work part time?
             </label>
             <select
-              id="partTime"
+              name="partTime"
+              value={formData.partTime}
+              onChange={handleChange}
               className="w-full h-10 border border-gray-300 p-2 focus:ring-1 focus:ring-[#90A9BA]"
             >
               <option>Yes</option>
@@ -233,7 +379,14 @@ export default function EmploymentForm() {
             <div className=" flex flex-wrap gap-4">
               {["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"].map((day) => (
                 <label key={day} className="flex items-center">
-                  <input type="checkbox" value={day} className="mr-2 h-4 w-4" />{" "}
+                  <input
+                    type="checkbox"
+                    name="availableDays"
+                    value={day}
+                    checked={formData.availableDays.includes(day)}
+                    onChange={handleChange}
+                    className="mr-2 h-4 w-4"
+                  />{" "}
                   {day}
                 </label>
               ))}
@@ -248,7 +401,10 @@ export default function EmploymentForm() {
                 <label key={shift} className="flex items-center">
                   <input
                     type="checkbox"
+                    name="shiftPreference"
                     value={shift}
+                    checked={formData.shiftPreference.includes(shift)}
+                    onChange={handleChange}
                     className="mr-2 h-4 w-4"
                   />{" "}
                   {shift}
@@ -266,7 +422,9 @@ export default function EmploymentForm() {
               paperwork?
             </label>
             <select
-              id="knowledge"
+              name="knowledge"
+              value={formData.knowledge}
+              onChange={handleChange}
               className="w-full h-10 border border-gray-300 p-2 focus:ring-1 focus:ring-[#90A9BA]"
             >
               <option>None</option>
@@ -282,7 +440,9 @@ export default function EmploymentForm() {
               location?
             </label>
             <select
-              id="objection"
+              name="objection"
+              value={formData.objection}
+              onChange={handleChange}
               className="w-full h-10 border border-gray-300 p-2 focus:ring-1 focus:ring-[#90A9BA]"
             >
               <option>Yes</option>
@@ -298,7 +458,9 @@ export default function EmploymentForm() {
           </label>
           <input
             type="text"
-            id="medicalCondition "
+            name="medicalCondition"
+            value={formData.medicalCondition}
+            onChange={handleChange}
             className="w-full h-10 border border-gray-300 p-2 focus:ring-1 focus:ring-[#90A9BA]"
           />
         </div>
@@ -306,12 +468,19 @@ export default function EmploymentForm() {
         {/* 13. Time to Reach */}
         <div>
           <label className="block font-medium mb-2">
-            Which Shift do you prefer to work ?
+            What is the best time to reach you?
           </label>
           <div className=" flex flex-wrap gap-2">
             {["Morning", "Afternoon", "Evening", "Anytime"].map((time) => (
               <label key={time} className="flex items-center">
-                <input type="checkbox" value={time} className="mr-2 h-4 w-4" />{" "}
+                <input
+                  type="checkbox"
+                  name="timePreference"
+                  value={time}
+                  checked={formData.timePreference.includes(time)}
+                  onChange={handleChange}
+                  className="mr-2 h-4 w-4"
+                />{" "}
                 {time}
               </label>
             ))}
@@ -324,7 +493,9 @@ export default function EmploymentForm() {
             How did you hear about us?
           </label>
           <select
-            id="position"
+            name="heardAbout"
+            value={formData.heardAbout}
+            onChange={handleChange}
             className="w-full h-10 border border-gray-300 p-2 focus:ring-1 focus:ring-[#90A9BA]"
           >
             <option>Google</option>

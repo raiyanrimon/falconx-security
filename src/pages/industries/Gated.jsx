@@ -49,7 +49,7 @@ const Gated = () => {
   return (
     <div>
       <SEO
-        title="GATED COMMUNITY AND HOA SECURITY - Best Security Guard Service California"
+        title="GATED COMMUNITY AND HOA SECURITY - Best Security Guard Service Company"
         description="Protect your gated community and HOA with FalconX Security Services. Our professional guards offer regular patrols, onsite checkpoints, parking lot surveillance, and common area inspections to ensure safety and deter criminal activity in California communities."
       />
       <Banner
@@ -61,7 +61,7 @@ const Gated = () => {
         <div className="max-w-7xl mx-auto grid md:grid-cols-[33%_67%] py-16">
           <ServicesNav />
           <div className="mt-10 md:pr-10 p-4">
-            <h2 className="font-noto md:pr-20  text-center font-semibold text-xl mb-6 text-[#003366] md:text-3xl">
+            <h2 className="font-noto md:pr-20  text-center font-semibold text-2xl mb-6 text-[#003366] md:text-3xl">
               FalconX Security Services Guards Safeguard Gated Community and
               HOAs
             </h2>
@@ -177,10 +177,7 @@ const Gated = () => {
           </div>
         </div>
       </div>
-      <Quote
-        text1="SHARE YOUR NEEDS WITH US. WE'RE HERE TO LISTEN AND"
-        text2="COLLABORATE TO ENSURE YOUR COMPLETE SATISFACTION"
-      />
+      <Quote text1="SHARE YOUR NEEDS WITH US. WE'RE HERE TO LISTEN AND COLLABORATE TO ENSURE YOUR COMPLETE SATISFACTION" />
       <Slider
         title="Responsibilities of Gated Community and HOA Security Guards in California"
         text="FalconX Security Services is committed to providing the utmost safety to the people of California with highly professional gated community and HOA security guards."
@@ -189,7 +186,7 @@ const Gated = () => {
         title="Advantages Of Security Services For Gated Communities"
         image={image1}
       />
-      <div className="grid md:grid-cols-2 max-w-6xl mx-auto gap-10 md:my-20">
+      <div className="grid md:grid-cols-2 max-w-6xl mx-auto gap-10 md:my-20 my-7">
         <div>
           <h2 className="md:text-3xl text-xl text-[#003366] font-bold  px-4">
             Why Choose FalconX Security Services for Gated Community and HOA

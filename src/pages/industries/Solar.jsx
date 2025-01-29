@@ -49,7 +49,7 @@ const Solar = () => {
   return (
     <div>
       <SEO
-        title="SOLAR FARM SECURITY - Best Security Guard Service California"
+        title="SOLAR FARM SECURITY - Best Security Guard Service Company"
         description="Protect your solar farm with FalconX Security Services. We provide comprehensive 24/7 security solutions, including CCTV surveillance, perimeter fencing, and trained security guards to prevent theft, vandalism, and ensure operational continuity in California’s renewable energy sector."
       />
       <Banner
@@ -61,7 +61,7 @@ const Solar = () => {
         <div className="max-w-7xl mx-auto grid md:grid-cols-[33%_67%] py-16">
           <ServicesNav />
           <div className="mt-10 md:pr-10 p-4">
-            <h2 className="font-noto md:pr-20  text-center font-semibold text-xl mb-6 text-[#003366] md:text-3xl">
+            <h2 className="font-noto md:pr-20  text-center font-semibold text-2xl mb-6 text-[#003366] md:text-3xl">
               Safeguarding California's Solar Future: FalconX Security Services
               Lead the Charge
             </h2>
@@ -167,10 +167,7 @@ const Solar = () => {
           </div>
         </div>
       </div>
-      <Quote
-        text1="SHARE YOUR NEEDS WITH US. WE'RE HERE TO LISTEN AND"
-        text2="COLLABORATE TO ENSURE YOUR COMPLETE SATISFACTION"
-      />
+      <Quote text1="SHARE YOUR NEEDS WITH US. WE'RE HERE TO LISTEN AND COLLABORATE TO ENSURE YOUR COMPLETE SATISFACTION" />
       <Slider
         title="Responsibilities of Solar Farm Security Guards in California"
         text="FalconX Security Services is committed to providing the utmost safety to the people of California with highly professional solar farm security guards."
@@ -179,7 +176,7 @@ const Solar = () => {
         title="Advantages of Opting for Solar Farm Security Services"
         image={image1}
       />
-      <div className="grid md:grid-cols-2 max-w-6xl mx-auto gap-10 md:my-20">
+      <div className="grid md:grid-cols-2 max-w-6xl mx-auto gap-10 md:my-20 my-7">
         <div>
           <h2 className="md:text-3xl text-xl text-[#003366] font-bold  px-4">
             Why Choose FalconX Security Services for Solar Farm Security?

@@ -5,6 +5,7 @@ import { Autoplay, Navigation } from "swiper/modules";
 
 import bg from "../assets/images/Group-7140-1.webp";
 import { FaCalendar } from "react-icons/fa6";
+import { Link } from "react-router-dom";
 
 const BlogsList = () => {
   const [articles, setArticles] = useState([]);
@@ -13,7 +14,7 @@ const BlogsList = () => {
     const fetchArticles = async () => {
       try {
         const response = await fetch(
-          "https://falconxsecurity.com/wp-json/wp/v2/posts?per_page=100&_embed"
+          "https://blog.falconxsecurity.com/wp-json/wp/v2/posts?per_page=100&_embed"
         );
         const data = await response.json();
 
@@ -66,7 +67,7 @@ const BlogsList = () => {
       className="py-16"
     >
       <div className="max-w-7xl mx-auto px-4">
-        <h1 className="text-4xl font-bold text-center text-[#003366] mb-16">
+        <h1 className="md:text-4xl text-2xl font-bold text-center text-[#003366] mb-16">
           LATEST ARTICLES
         </h1>
         <div className="relative">
@@ -77,37 +78,36 @@ const BlogsList = () => {
             navigation
             autoplay={{ delay: 3000, disableOnInteraction: false }}
             breakpoints={{
-              640: { slidesPerView: 1 },
-              768: { slidesPerView: 2 },
-              1024: { slidesPerView: 3 },
-              1280: { slidesPerView: 4 },
+              640: { slidesPerView: 2 },
+              768: { slidesPerView: 3 },
+              1024: { slidesPerView: 4 },
             }}
             className="mySwiper"
           >
             {articles.map((article) => (
               <SwiperSlide key={article.id}>
-                <div className="w-full max-w-xs rounded-lg transform transition-transform hover:scale-105 relative">
-                  <img
-                    src={article.featuredImage}
-                    alt={article.title}
-                    className="w-full h-48 object-cover rounded-t-lg"
-                  />
-                  <div className="absolute inset-0 z-10"></div>
-                  <div className="p-4 bg-white mx-1.5 -mt-4 z-20 relative rounded-b-lg shadow-lg">
-                    <h3 className="text-lg font-bold mb-2 text-gray-800 truncate">
-                      <a href={`/${article.slug}`} className="hover:underline">
+                <Link to={`/${article.slug}`}>
+                  <div className="w-full max-w-lg rounded-lg transform transition-transform hover:scale-105 relative">
+                    <img
+                      src={article.featuredImage}
+                      alt={article.title}
+                      className="w-full h-48 object-cover rounded-t-lg"
+                    />
+                    <div className="absolute inset-0 z-10"></div>
+                    <div className="p-4 bg-white mx-1.5 -mt-4 z-20 relative rounded-b-lg shadow-lg">
+                      <h3 className="text-lg font-bold mb-2 text-gray-800 truncate">
                         {article.title}
-                      </a>
-                    </h3>
-                    <div className="flex items-center text-sm gap-1 text-gray-600 mb-2">
-                      <FaCalendar />
-                      <span>{article.date}</span>
+                      </h3>
+                      <div className="flex items-center text-sm gap-1 text-gray-600 mb-2">
+                        <FaCalendar />
+                        <span>{article.date}</span>
+                      </div>
+                      <p className="text-sm text-gray-600 mb-4">
+                        {article.excerpt}
+                      </p>
                     </div>
-                    <p className="text-sm text-gray-600 mb-4">
-                      {article.excerpt}
-                    </p>
-                  </div>
-                </div>
+                  </div>{" "}
+                </Link>
               </SwiperSlide>
             ))}
           </Swiper>

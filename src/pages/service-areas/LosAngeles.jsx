@@ -163,7 +163,7 @@ const LosAngeles = () => {
   return (
     <div>
       <SEO
-        title="LOS ANGELES - Best Security Guard Service California"
+        title="LOS ANGELES - Best Security Guard Service Company"
         description="FalconX Security Services offers reliable, highly trained security guards in Los Angeles, providing top-notch protection against property crime and other threats. Trust us to safeguard your assets and ensure peace of mind with our expert security solutions."
       />
       <Banner
@@ -175,7 +175,7 @@ const LosAngeles = () => {
         <div className="max-w-7xl mx-auto grid md:grid-cols-[33%_67%] py-16">
           <AreasNav />
           <div className="mt-10 md:pr-10 p-4">
-            <h2 className="font-noto md:pr-20  text-center font-semibold text-xl mb-6 text-[#003366] md:text-3xl">
+            <h2 className="font-noto md:pr-20  text-center font-semibold text-2xl mb-6 text-[#003366] md:text-3xl">
               Reliable Security Guards In LA, California
             </h2>
             <p className=" text-gray-800 my-3 text-justify leading-[27px]">
@@ -252,7 +252,7 @@ const LosAngeles = () => {
           <div className="grid lg:grid-cols-2 gap-8 items-center">
             {/* Text Content */}
             <div className="space-y-6">
-              <h1 className="text-xl md:text-4xl font-semibold font-noto text-[#003366]">
+              <h1 className="text-2xl md:text-left text-center md:text-4xl font-semibold font-noto text-[#003366]">
                 Trusted, Trained & Experienced Security Guards in Los Angeles
               </h1>
 
@@ -291,11 +291,7 @@ const LosAngeles = () => {
         description="We provide private security guards services to many cities and neighborhood in Los Angeles."
         cities={cities}
       />
-      <Quote
-        text1="FALCONX SECURITY SERVICES PRIORITIZES YOUR SAFETY AND"
-        text2="PROVIDES TAILORED EXPERT SECURITY SOLUTIONS FOR YOUR"
-        text3="WELL-BEING."
-      />
+      <Quote text1="FALCONX SECURITY SERVICES PRIORITIZES YOUR SAFETY AND PROVIDES TAILORED EXPERT SECURITY SOLUTIONS FOR YOUR WELL-BEING." />
       <Slider
         title="Responsibilities of Our Experienced Security Guards in Los Angeles"
         text="FalconX Security Services provides well-trained Security Guards who fulfill their duty at the client’s premises responsibly."
@@ -304,9 +300,9 @@ const LosAngeles = () => {
         title="Benefits Of Choosing Security Guard Company In Los Angeles"
         image={image1}
       />
-      <div className="grid md:grid-cols-2 max-w-6xl mx-auto gap-10 md:my-20">
+      <div className="grid md:grid-cols-2 max-w-6xl mx-auto gap-10 md:my-20 my-7">
         <div>
-          <h2 className="text-xl md:text-3xl text-[#003366] font-bold  px-4">
+          <h2 className="text-2xl  py-4 text-center md:text-left md:py-0 md:text-3xl text-[#003366] font-bold  px-4">
             Why Choose FalconX Security Services in Los Angeles?
           </h2>
           <div className="space-y-5 p-3 text-justify leading-[25px]">

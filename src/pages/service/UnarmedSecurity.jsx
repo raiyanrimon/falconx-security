@@ -50,7 +50,7 @@ const UnarmedSecurity = () => {
   return (
     <div>
       <SEO
-        title="UNARMED SECURITY GUARDS - Best Security Guard Service California"
+        title="UNARMED SECURITY GUARDS - Best Security Guard Service Company"
         description="FalconX Security Services provides discreet and effective unarmed security guards in Los Angeles. Our highly trained professionals offer customized solutions to protect your assets and ensure safety across various industries."
       />
       <Banner
@@ -62,7 +62,7 @@ const UnarmedSecurity = () => {
         <div className="max-w-7xl mx-auto grid md:grid-cols-[33%_67%] py-16">
           <ServicesNav />
           <div className="mt-10 md:pr-10 p-4">
-            <h2 className="font-noto md:pr-20  text-center font-semibold text-xl mb-6 text-[#003366] md:text-3xl">
+            <h2 className="font-noto md:pr-20  text-center font-semibold text-2xl mb-6 text-[#003366] md:text-3xl">
               Discreet and Effective Unarmed Security Guards Company in Los
               Angeles
             </h2>
@@ -119,7 +119,7 @@ const UnarmedSecurity = () => {
         <div className="grid lg:grid-cols-2 gap-8 items-center">
           {/* Text Content */}
           <div className="space-y-6">
-            <h1 className="text-xl md:text-4xl font-semibold font-noto text-[#003366]">
+            <h1 className="text-2xl md:text-left text-center md:text-4xl font-semibold font-noto text-[#003366]">
               Ensuring Your Safety with Vigilance
             </h1>
 
@@ -165,10 +165,7 @@ const UnarmedSecurity = () => {
           </div>
         </div>
       </div>
-      <Quote
-        text1="Unarmed, Unbeatable! We ensure maximum safety and"
-        text2="peace of mind to safeguard your premises."
-      />
+      <Quote text1="Unarmed, Unbeatable! We ensure maximum safety and peace of mind to safeguard your premises." />
       <Slider
         title="Responsibilities of Unarmed Security Guards"
         text="At FalconX Security Services, our unarmed security guards in Los Angeles ensure safety with continuous vigilance, access control, and expert response with experience and passion."
@@ -177,9 +174,9 @@ const UnarmedSecurity = () => {
         title="Advantages of Hiring Unarmed Security Guards"
         image={image1}
       />
-      <div className="grid md:grid-cols-2 max-w-6xl mx-auto gap-10 md:my-20">
+      <div className="grid md:grid-cols-2 max-w-6xl mx-auto gap-10 md:my-20 my-7">
         <div>
-          <h2 className="text-xl md:text-3xl text-[#003366] font-bold  px-4">
+          <h2 className="text-2xl  py-4 text-center md:text-left md:py-0 md:text-3xl text-[#003366] font-bold  px-4">
             Why Do I Need FalconX Security Services in Los Angeles?
           </h2>
           <div className="space-y-5 p-3 text-justify leading-[25px]">

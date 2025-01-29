@@ -49,7 +49,7 @@ const Construction = () => {
   return (
     <div>
       <SEO
-        title="CONSTRUCTION SITE SECURITY SERVICES - Best Security Guard Service California"
+        title="CONSTRUCTION SITE SECURITY SERVICES - Best Security Guard Service Company"
         description="Ensure the safety of your construction site with FalconX Security Services. Our expert security guards are trained to prevent theft, vandalism, and unauthorized access, providing 24/7 protection for your valuable equipment and assets. Trust us to secure your project and minimize liability risks."
       />
       <Banner
@@ -61,7 +61,7 @@ const Construction = () => {
         <div className="max-w-7xl mx-auto grid md:grid-cols-[33%_67%] py-16">
           <ServicesNav />
           <div className="mt-10 md:pr-10 p-4">
-            <h2 className="font-noto md:pr-20  text-center font-semibold text-xl mb-6 text-[#003366] md:text-3xl">
+            <h2 className="font-noto md:pr-20  text-center font-semibold text-2xl mb-6 text-[#003366] md:text-3xl">
               FalconX Security Services: Leading Construction Sites Security
               Guards Services in California
             </h2>
@@ -162,10 +162,7 @@ const Construction = () => {
           </div>
         </div>
       </div>
-      <Quote
-        text1="SHARE YOUR NEEDS WITH US. WE'RE HERE TO LISTEN AND"
-        text2="COLLABORATE TO ENSURE YOUR COMPLETE SATISFACTION"
-      />
+      <Quote text1="SHARE YOUR NEEDS WITH US. WE'RE HERE TO LISTEN AND COLLABORATE TO ENSURE YOUR COMPLETE SATISFACTION" />
       <Slider
         title="Responsibilities of Construction Site Security Guards"
         text="FalconX Security Services is dedicated to delivering top-notch safety to the community through highly professional security guards."
@@ -174,7 +171,7 @@ const Construction = () => {
         title="Advantages of Hiring Construction Site Security Services"
         image={image1}
       />
-      <div className="grid md:grid-cols-2 max-w-6xl mx-auto gap-10 md:my-20">
+      <div className="grid md:grid-cols-2 max-w-6xl mx-auto gap-10 md:my-20 my-7">
         <div>
           <h2 className="md:text-3xl text-xl text-[#003366] font-bold  px-4">
             Why Choose FalconX Security Services for Construction Site Security?

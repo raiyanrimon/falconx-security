@@ -49,7 +49,7 @@ const Train = () => {
   return (
     <div>
       <SEO
-        title="TRAIN STATIONS AND BUS TERMINAL SECURITY - Best Security Guard Service California"
+        title="TRAIN STATIONS AND BUS TERMINAL SECURITY - Best Security Guard Service Company"
         description="Ensure the safety of California's train stations and bus terminals with FalconX Security Services. Our expert security solutions protect commuters, staff, and property from theft, vandalism, and other threats. Offering 24/7 security at major transportation hubs across the state."
       />
       <Banner
@@ -61,7 +61,7 @@ const Train = () => {
         <div className="max-w-7xl mx-auto grid md:grid-cols-[33%_67%] py-16">
           <ServicesNav />
           <div className="mt-10 md:pr-10 p-4">
-            <h2 className="font-noto md:pr-20  text-center font-semibold text-xl mb-6 text-[#003366] md:text-3xl">
+            <h2 className="font-noto md:pr-20  text-center font-semibold text-2xl mb-6 text-[#003366] md:text-3xl">
               Securing California's Lifelines: Our Security Services for Train
               Stations and Bus Terminals
             </h2>
@@ -163,10 +163,7 @@ const Train = () => {
           </div>
         </div>
       </div>
-      <Quote
-        text1="SHARE YOUR NEEDS WITH US. WE'RE HERE TO LISTEN AND"
-        text2="COLLABORATE TO ENSURE YOUR COMPLETE SATISFACTION"
-      />
+      <Quote text1="SHARE YOUR NEEDS WITH US. WE'RE HERE TO LISTEN AND COLLABORATE TO ENSURE YOUR COMPLETE SATISFACTION" />
       <Slider
         title="Responsibilities of Train Stations and Bus Terminals Security Guards"
         text="FalconX Security Services is committed to providing the utmost safety to the people of the state with highly professional train stations and bus terminal security guards."
@@ -175,7 +172,7 @@ const Train = () => {
         title="Benefits of Hiring Security Services for Train Stations and Bus Terminals"
         image={image1}
       />
-      <div className="grid md:grid-cols-2 max-w-6xl mx-auto gap-10 md:my-20">
+      <div className="grid md:grid-cols-2 max-w-6xl mx-auto gap-10 md:my-20 my-7">
         <div>
           <h2 className="md:text-3xl text-xl text-[#003366] font-bold  px-4">
             Why Choose FalconX Security Services for Train Stations and Bus

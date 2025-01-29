@@ -99,7 +99,7 @@ const PalmSprings = () => {
   return (
     <div>
       <SEO
-        title="PALM SPRINGS - Best Security Guard Service California"
+        title="PALM SPRINGS - Best Security Guard Service Company"
         description="FalconX Security Services offers top-notch security solutions in Palm Springs, ensuring safety for residents and tourists. Our 24/7 security services include armed and unarmed guards, vehicle patrols, foot, bike, and golf cart patrols, as well as fire watch security."
       />
       <Banner
@@ -111,7 +111,7 @@ const PalmSprings = () => {
         <div className="max-w-7xl mx-auto grid md:grid-cols-[33%_67%] py-16">
           <AreasNav />
           <div className="mt-10 md:pr-10 p-4">
-            <h2 className="font-noto md:pr-20  text-center font-semibold text-xl mb-6 text-[#003366] md:text-3xl">
+            <h2 className="font-noto md:pr-20  text-center font-semibold text-2xl mb-6 text-[#003366] md:text-3xl">
               Securing the Allure of Palm Springs by FalconX Security Services
             </h2>
             <p className=" text-gray-800 my-3 text-justify leading-[27px]">
@@ -158,7 +158,7 @@ const PalmSprings = () => {
           <div className="grid lg:grid-cols-2 gap-8 items-center">
             {/* Text Content */}
             <div className="space-y-6">
-              <h1 className="text-xl md:text-4xl font-semibold font-noto text-[#003366]">
+              <h1 className="text-2xl md:text-left text-center md:text-4xl font-semibold font-noto text-[#003366]">
                 Do I Need Security Services in Palm Springs?
               </h1>
 
@@ -211,9 +211,9 @@ const PalmSprings = () => {
         title="Advantages Of Hiring Security Guards In Palm Springs"
         image={image1}
       />
-      <div className="grid md:grid-cols-2 max-w-6xl mx-auto gap-10 md:my-20">
+      <div className="grid md:grid-cols-2 max-w-6xl mx-auto gap-10 md:my-20 my-7">
         <div>
-          <h2 className="text-xl md:text-3xl text-[#003366] font-bold  px-4">
+          <h2 className="text-2xl  py-4 text-center md:text-left md:py-0 md:text-3xl text-[#003366] font-bold  px-4">
             Why Choose FalconX Security Services for Your Security Guard
             Services in Palm Springs?
           </h2>

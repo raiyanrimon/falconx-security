@@ -12,9 +12,11 @@ export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [activeDropdown, setActiveDropdown] = useState(null);
   const [isOpen, setIsOpen] = useState(false);
+  const [activeMobileSubDropdown, setActiveMobileSubDropdown] = useState(null);
   const handleLinkClick = () => {
     setIsMenuOpen(false);
     setActiveDropdown(null);
+    setActiveMobileSubDropdown(null);
   };
   const scrollToTop = () => {
     window.scrollTo({ top: 0, behavior: "smooth" });
@@ -307,15 +309,21 @@ export default function Header() {
                   </svg>
                 </a>
                 <a
-                  href="https://twitter.com/FalconXsecurity"
-                  className="bg-blue-400 p-2 rounded hover:opacity-90"
+                  href="https://x.com/FalconXsecurity"
+                  className="bg-black p-2 rounded hover:opacity-90 flex items-center"
+                  target="_blank"
+                  rel="noopener noreferrer"
                 >
                   <svg
                     className="w-4 h-4 text-white"
-                    fill="currentColor"
-                    viewBox="0 0 24 24"
+                    viewBox="0 0 1200 1227"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
                   >
-                    <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z" />
+                    <path
+                      d="M714.163 519.284L1160.89 0H1055.03L667.137 450.887L357.328 0H0L468.492 681.821L0 1226.37H105.866L515.491 750.218L842.672 1226.37H1200L714.137 519.284H714.163ZM569.165 687.828L521.697 619.934L144.011 79.6944H306.615L611.412 515.685L658.88 583.579L1055.08 1150.3H892.476L569.165 687.854V687.828Z"
+                      fill="white"
+                    />
                   </svg>
                 </a>
                 <a
@@ -393,7 +401,7 @@ export default function Header() {
                   </div>
                 </div>
 
-                <div className="flex items-center ">
+                <div className="flex items-center gap-1 ">
                   <a href="tel:8665002050">
                     <FaPhone className=" md:w-16 md:h-8" />{" "}
                   </a>
@@ -401,15 +409,15 @@ export default function Header() {
                     <p className="text-sm hidden lg:block font-open font-semibold">
                       <a href="tel:8665002050">CALL US</a>
                     </p>
-                    <p className="text-xs md:text-base  font-semibold">
-                      <a href="tel:8665002050" className="text-gray-400">
+                    <p className="text-sm md:text-base  font-semibold">
+                      <a href="tel:8665002050" className="text-gray-200">
                         866-500-2050
                       </a>
                     </p>
                   </div>
                 </div>
 
-                <div className="flex items-center ">
+                <div className="flex items-center gap-1 ">
                   <a href="mailto:info@falconxsecurity.com">
                     <CgMail className=" md:w-16 md:h-8" />{" "}
                   </a>
@@ -417,10 +425,10 @@ export default function Header() {
                     <p className="text-sm hidden lg:block font-open font-semibold">
                       <a href="mailto:info@falconxsecurity.com">MAIL US</a>
                     </p>
-                    <p className="text-xs md:text-base  font-semibold">
+                    <p className="text-sm md:text-base  font-semibold">
                       <a
                         href="mailto:info@falconxsecurity.com"
-                        className="text-gray-400"
+                        className="text-gray-200"
                       >
                         info@falconxsecurity.com
                       </a>
@@ -436,7 +444,7 @@ export default function Header() {
       <div className="max-w-6xl mx-auto">
         <nav className="bg-white relative">
           <div className="container mx-auto px-1.5">
-            <div className="flex flex-row-reverse lg:flex-row  justify-between items-center py-2">
+            <div className="flex flex-row-reverse lg:flex-row justify-between items-center py-2">
               <button
                 className="lg:hidden"
                 onClick={() => setIsMenuOpen(!isMenuOpen)}
@@ -446,104 +454,144 @@ export default function Header() {
 
               <div
                 className={`
-                  ${isMenuOpen ? "flex" : "hidden"}
-                  lg:flex flex-col lg:flex-row absolute lg:relative
-                  top-full left-0 w-full lg:w-auto
-                  bg-white lg:bg-transparent
-                  shadow-lg lg:shadow-none
-                  z-50 lg:z-auto
-                  p-4 lg:p-0
-                  gap-4 lg:gap-8
-                `}
+            ${isMenuOpen ? "flex" : "hidden"}
+            lg:flex flex-col lg:flex-row absolute lg:relative
+            top-full left-0 w-full lg:w-auto
+            bg-white lg:bg-transparent
+            shadow-lg lg:shadow-none
+            z-50 lg:z-auto
+            p-4 lg:p-0
+            gap-4 lg:gap-8
+          `}
               >
-                {Object.entries(navItems)?.map(([key, section]) => (
-                  <div
-                    key={key}
-                    className="relative group border-t-[3px] border-transparent hover:border-black transition-colors"
-                    onMouseEnter={() => setActiveDropdown(key)}
-                    onMouseLeave={() => setActiveDropdown(null)}
-                  >
-                    <div className="flex items-center   gap-1 ">
-                      <Link
-                        to={section.path}
-                        className="hover:text-gray-500  font-sans-pro py-2 font-semibold text-[15px]"
-                        onClick={handleLinkClick}
-                      >
-                        {section.title}
-                      </Link>
-                      {section.items && (
-                        <button className="p-1 hover:bg-gray-100 rounded-full">
-                          <CgChevronDown className="h-4 w-4 text-gray-600" />
-                        </button>
-                      )}
-                    </div>
+                {Object.entries(navItems)?.map(([key, section]) => {
+                  // Check if any subitem is active
+                  const isActive =
+                    location.pathname === section.path ||
+                    section.items?.some(
+                      (item) =>
+                        location.pathname === item.path ||
+                        item.subitems?.some(
+                          (subitem) => location.pathname === subitem.path
+                        )
+                    );
 
-                    {activeDropdown === key && (
-                      <div
-                        className="absolute left-0 mt-0 w-48  bg-white border border-gray-200 shadow-lg rounded-md z-50"
-                        style={{
-                          scrollbarWidth: "none",
-                          msOverflowStyle: "none",
-                          WebkitOverflowScrolling: "touch",
-                          "&::-webkit-scrollbar": {
-                            display: "none",
-                          },
-                        }}
-                      >
-                        <div>
-                          {section.items?.length > 7 ? (
-                            <div className="overflow-y-scroll h-64">
-                              {section.items?.map((item, index) => (
-                                <div
-                                  key={index}
-                                  className="relative group/sub   "
-                                >
+                  return (
+                    <div
+                      key={key}
+                      className="relative group border-t-[3px] border-transparent hover:border-black transition-colors"
+                      onMouseEnter={() => setActiveDropdown(key)}
+                      onMouseLeave={() => setActiveDropdown(null)}
+                    >
+                      <div className="flex items-center gap-1">
+                        <Link
+                          to={section.path}
+                          className={`hover:text-gray-500 font-sans-pro py-2 font-semibold text-[15px] ${
+                            isActive ? "text-gray-400" : ""
+                          }`}
+                          onClick={handleLinkClick}
+                        >
+                          {section.title}
+                        </Link>
+                        {section.items && (
+                          <button className="p-1 hover:bg-gray-100 rounded-full">
+                            <CgChevronDown className="h-4 w-4 text-gray-600" />
+                          </button>
+                        )}
+                      </div>
+
+                      {activeDropdown === key && (
+                        <div
+                          className="absolute left-0 mt-0 md:w-52 w-40 bg-white border border-gray-200 shadow-lg rounded-md z-50"
+                          style={{
+                            scrollbarWidth: "none",
+                            msOverflowStyle: "none",
+                            WebkitOverflowScrolling: "touch",
+                            "&::-webkit-scrollbar": {
+                              display: "none",
+                            },
+                          }}
+                        >
+                          <div>
+                            {section.items?.length > 7 ? (
+                              <div className="overflow-y-scroll h-64">
+                                {section.items?.map((item, index) => (
+                                  <div
+                                    key={index}
+                                    className="relative group/sub"
+                                  >
+                                    <Link
+                                      to={item.path}
+                                      className={`flex justify-between px-4 hover:text-gray-500 border-b border-gray-300 last:border-none font-sans-pro py-2 font-semibold text-[15px] ${
+                                        location.pathname === item.path
+                                          ? "text-gray-400"
+                                          : ""
+                                      }`}
+                                      onClick={handleLinkClick}
+                                    >
+                                      {item.title}
+                                    </Link>
+                                  </div>
+                                ))}
+                              </div>
+                            ) : (
+                              section.items?.map((item, index) => (
+                                <div key={index} className="relative group/sub">
                                   <Link
                                     to={item.path}
-                                    className="flex justify-between px-4   hover:text-gray-500 border-b border-gray-300 last:border-none font-sans-pro  py-2 font-semibold text-[15px]"
+                                    className={`flex justify-between px-4 font-sans-pro hover:text-gray-500 border-b border-gray-300 last:border-none py-2 font-semibold text-[15px] ${
+                                      location.pathname === item.path
+                                        ? "text-gray-400"
+                                        : ""
+                                    }`}
                                     onClick={handleLinkClick}
                                   >
                                     {item.title}
+                                    {item.subitems && (
+                                      <CgChevronRight
+                                        className={`h-5 w-5 transition-transform duration-200 ${
+                                          activeMobileSubDropdown === index
+                                            ? "rotate-90"
+                                            : ""
+                                        }`}
+                                        onClick={(e) => {
+                                          e.preventDefault();
+                                          e.stopPropagation();
+                                          setActiveMobileSubDropdown(
+                                            activeMobileSubDropdown === index
+                                              ? null
+                                              : index
+                                          );
+                                        }}
+                                      />
+                                    )}
                                   </Link>
-                                </div>
-                              ))}
-                            </div>
-                          ) : (
-                            section.items?.map((item, index) => (
-                              <div key={index} className="relative group/sub  ">
-                                <Link
-                                  to={item.path}
-                                  className="flex justify-between px-4 font-sans-pro  hover:text-gray-500 border-b border-gray-300 last:border-none py-2 font-semibold text-[15px]"
-                                  onClick={handleLinkClick}
-                                >
-                                  {item.title}
-                                  {item.subitems && (
-                                    <CgChevronRight className="h-5 w-5 hover:text-gray-500 inline" />
-                                  )}
-                                </Link>
 
-                                {item.subitems && (
-                                  <div className="absolute left-full top-0 w-48 h-64 overflow-y-scroll bg-white border border-gray-300 shadow-lg rounded-md hidden group-hover/sub:block">
-                                    {item.subitems.map((subitem, subIndex) => (
-                                      <Link
-                                        key={subIndex}
-                                        to={subitem.path}
-                                        className="block px-4  capitalize text-sm hover:text-gray-500 border-b border-gray-300 last:border-none font-sans-pro py-2 font-semibold text-[15px]"
-                                        onClick={handleLinkClick}
-                                      >
-                                        {subitem.title}
-                                      </Link>
-                                    ))}
-                                  </div>
-                                )}
-                              </div>
-                            ))
-                          )}
+                                  {item.subitems && (
+                                    <div className="absolute left-full top-0 w-36 md:w-52 h-64 overflow-y-scroll bg-white border border-gray-300 shadow-lg rounded-md hidden group-hover/sub:block">
+                                      {item.subitems.map(
+                                        (subitem, subIndex) => (
+                                          <Link
+                                            key={subIndex}
+                                            to={subitem.path}
+                                            className="block px-4 capitalize text-sm hover:text-gray-500 border-b border-gray-300 last:border-none font-sans-pro py-2 font-semibold text-[15px]"
+                                            onClick={handleLinkClick}
+                                          >
+                                            {subitem.title}
+                                          </Link>
+                                        )
+                                      )}
+                                    </div>
+                                  )}
+                                </div>
+                              ))
+                            )}
+                          </div>
                         </div>
-                      </div>
-                    )}
-                  </div>
-                ))}
+                      )}
+                    </div>
+                  );
+                })}
               </div>
 
               <button
@@ -557,6 +605,7 @@ export default function Header() {
           </div>
         </nav>
       </div>
+
       <div className="fixed bottom-4 left-4 flex flex-col gap-2 z-50">
         <button
           onClick={scrollToTop}

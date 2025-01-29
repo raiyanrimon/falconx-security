@@ -100,7 +100,7 @@ const Stockton = () => {
   return (
     <div>
       <SEO
-        title="STOCKTON - Best Security Guard Service California"
+        title="STOCKTON - Best Security Guard Service Company"
         description="FalconX Security Services offers top-tier protection for Stockton's iconic tourist destinations, including the Haggin Museum, Stockton Marina, and Victory Park. Our highly trained security personnel ensure a safe environment for both residents and visitors, safeguarding the city's cultural treasures from threats like theft, vandalism, and burglary."
       />
       <Banner
@@ -112,7 +112,7 @@ const Stockton = () => {
         <div className="max-w-7xl mx-auto grid md:grid-cols-[33%_67%] py-16">
           <AreasNav />
           <div className="mt-10 md:pr-10 p-4">
-            <h2 className="font-noto md:pr-20  text-center font-semibold text-xl mb-6 text-[#003366] md:text-3xl">
+            <h2 className="font-noto md:pr-20  text-center font-semibold text-2xl mb-6 text-[#003366] md:text-3xl">
               Protecting Stockton's Treasures: Enhancing Security with FalconX
               Security Services
             </h2>
@@ -156,7 +156,7 @@ const Stockton = () => {
           <div className="grid lg:grid-cols-2 gap-8 items-center">
             {/* Text Content */}
             <div className="space-y-6">
-              <h1 className="text-xl md:text-4xl font-semibold font-noto text-[#003366]">
+              <h1 className="text-2xl md:text-left text-center md:text-4xl font-semibold font-noto text-[#003366]">
                 Do I Need Security Guard Services in Stockton?
               </h1>
 
@@ -210,9 +210,9 @@ const Stockton = () => {
         title="Benefits Of Choosing Security Services In Stockton"
         image={image1}
       />
-      <div className="grid md:grid-cols-2 max-w-6xl mx-auto gap-10 md:my-20">
+      <div className="grid md:grid-cols-2 max-w-6xl mx-auto gap-10 md:my-20 my-7">
         <div>
-          <h2 className="text-xl md:text-3xl text-[#003366] font-bold  px-4">
+          <h2 className="text-2xl  py-4 text-center md:text-left md:py-0 md:text-3xl text-[#003366] font-bold  px-4">
             FalconX Security Services – Your Specialists in Stockton Security
             Solutions
           </h2>

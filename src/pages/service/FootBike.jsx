@@ -52,7 +52,7 @@ const FootBike = () => {
   return (
     <div>
       <SEO
-        title="FOOT, BIKE AND GOLF PATROL - Best Security Guard Service California"
+        title="FOOT, BIKE AND GOLF PATROL - Best Security Guard Service Company"
         description="FalconX Security Services offers foot, bike, golf cart, and patrol services in Los Angeles to protect your property. Our trained guards ensure safety by identifying suspicious activity and preventing security breaches."
       />
       <Banner
@@ -63,7 +63,7 @@ const FootBike = () => {
         <div className="max-w-7xl mx-auto grid md:grid-cols-[33%_67%] py-16">
           <ServicesNav />
           <div className="mt-10 md:pr-10 p-4">
-            <h2 className="font-noto md:pr-20  text-center font-semibold text-xl mb-6 text-[#003366] md:text-3xl">
+            <h2 className="font-noto md:pr-20  text-center font-semibold text-2xl mb-6 text-[#003366] md:text-3xl">
               How Foot, Bike, Golf Cart and Patrol Services Protect Your
               Property in Los Angeles
             </h2>
@@ -142,7 +142,7 @@ const FootBike = () => {
         <div className="grid lg:grid-cols-2 gap-8 items-center">
           {/* Text Content */}
           <div className="space-y-6">
-            <h1 className="text-xl md:text-4xl font-semibold font-noto text-[#003366]">
+            <h1 className="text-2xl md:text-left text-center md:text-4xl font-semibold font-noto text-[#003366]">
               Do I Need Foot, Bike, and Golf Cart Patrol Guards in Los Angeles?
             </h1>
 
@@ -180,8 +180,16 @@ const FootBike = () => {
         </div>
       </div>
       <Quote
-        text1="Call Us (866-500-2050) Today – We Provide Free On-site"
-        text2="Consultations for Foot, Bike, and Golf Cart Patrol Services "
+        text1={
+          <>
+            Call Us{" "}
+            <a href="tel:8665002050" className="font-extrabold">
+              (866-500-2050)
+            </a>{" "}
+            Today – We Provide Free On-site Consultations for Foot, Bike, and
+            Golf Cart Patrol Services{" "}
+          </>
+        }
       />
       <Slider
         title="Responsibilities of Foot, Bike, and Golf Cart Patrol Guards"
@@ -191,9 +199,9 @@ const FootBike = () => {
         title="Benefits of Hiring Foot, Bike, and Golf Cart Patrol Guards"
         image={image1}
       />
-      <div className="grid md:grid-cols-2 max-w-6xl mx-auto gap-10 md:my-20">
+      <div className="grid md:grid-cols-2 max-w-6xl mx-auto gap-10 md:my-20 my-7">
         <div>
-          <h2 className="text-xl md:text-3xl text-[#003366] font-bold  px-4">
+          <h2 className="text-2xl  py-4 text-center md:text-left md:py-0 md:text-3xl text-[#003366] font-bold  px-4">
             Why Choose FalconX Security Services for Your Safety in Los Angeles?
           </h2>
           <div className="space-y-5 p-3 text-gray-800 text-justify leading-[25px]">

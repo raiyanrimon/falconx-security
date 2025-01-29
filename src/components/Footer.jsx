@@ -9,23 +9,26 @@ import { FaPhone } from "react-icons/fa6";
 import { FiHome } from "react-icons/fi";
 
 const Footer = () => {
+  const year = new Date().getFullYear();
+
   return (
-    <footer className="bg-black text-white py-8 px-4">
+    <footer className="bg-black text-white md:py-16 py-6 px-4">
       <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-5">
         <div className="space-y-4">
           <img src={logo} alt="FalconX Security Services" className="mb-4" />
           <p className="text-sm">
-            © 2024 All Rights Reserved by FalconX Security Services, Inc.
+            © {year} All Rights Reserved by FalconX Security Services, Inc.
           </p>
           <p className="text-sm">
             Unauthorized reproduction of the FalconX Security Services, Inc.
             website or any of its content is strictly prohibited and will be
             subject to legal action.
           </p>
-          <div className="flex flex-wrap justify-center gap-2 sm:gap-4">
+          <div className="flex flex-wrap  gap-2 sm:gap-4">
             <a
               href="https://www.facebook.com/falconxsecuritiy"
               className="bg-[#3b5998] p-2 rounded hover:opacity-90"
+              target="_blank"
             >
               <svg
                 className="w-4 h-4 text-white"
@@ -36,20 +39,28 @@ const Footer = () => {
               </svg>
             </a>
             <a
-              href="https://twitter.com/FalconXsecurity"
-              className="bg-blue-400 p-2 rounded hover:opacity-90"
+              href="https://x.com/FalconXsecurity"
+              className="bg-gray-400 p-2 rounded hover:opacity-90 flex items-center"
+              target="_blank"
+              rel="noopener noreferrer"
             >
               <svg
                 className="w-4 h-4 text-white"
-                fill="currentColor"
-                viewBox="0 0 24 24"
+                viewBox="0 0 1200 1227"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
               >
-                <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z" />
+                <path
+                  d="M714.163 519.284L1160.89 0H1055.03L667.137 450.887L357.328 0H0L468.492 681.821L0 1226.37H105.866L515.491 750.218L842.672 1226.37H1200L714.137 519.284H714.163ZM569.165 687.828L521.697 619.934L144.011 79.6944H306.615L611.412 515.685L658.88 583.579L1055.08 1150.3H892.476L569.165 687.854V687.828Z"
+                  fill="white"
+                />
               </svg>
             </a>
+
             <a
               href="https://www.linkedin.com/company/falconxsecurity/"
               className="bg-[#0077b5] p-2 rounded hover:opacity-90"
+              target="_blank"
             >
               <svg
                 className="w-4 h-4 text-white"
@@ -63,6 +74,7 @@ const Footer = () => {
             <a
               href="https://www.instagram.com/falconxsecurityservices"
               className="bg-[#E4405F] p-2 rounded hover:opacity-90"
+              target="_blank"
             >
               <svg
                 className="w-4 h-4 text-white"
@@ -79,7 +91,7 @@ const Footer = () => {
           <h3 className="text-xl font-bold mb-12">CONTACT INFO</h3>
           <div className="space-y-2">
             <div className="flex  items-center gap-2">
-              <FiHome className="w-8 h-8" />
+              <FiHome className="w-10 h-8" />
               <div>
                 <p>11150 W Olympic Blvd,</p>
                 <p>Suite 1050</p>
@@ -87,11 +99,11 @@ const Footer = () => {
               </div>
             </div>
             <div className="flex items-center gap-2">
-              <FaPhone className="w-8 h-8" />
+              <FaPhone className="w-10 h-8" />
               <p>866-500-2050</p>
             </div>
             <div className="flex items-center gap-2">
-              <CgMail className="w-8 h-8" />
+              <CgMail className="w-10 h-8" />
               <p>Info@falconxsecurity.com</p>
             </div>
           </div>
@@ -101,10 +113,10 @@ const Footer = () => {
           <h3 className="text-xl font-bold mb-10">PAGE LINKS</h3>
           <ul className="space-y-2">
             <li>
-              <Link to="/about">About</Link>
+              <Link to="/about-us">About</Link>
             </li>
             <li>
-              <Link to="/contact">Contact </Link>
+              <Link to="/contact-us">Contact </Link>
             </li>
             <li>
               <Link to="/service">Services</Link>
@@ -115,13 +127,19 @@ const Footer = () => {
             <li>PPO#121915</li>
           </ul>
         </div>
-        <div className="grid grid-cols-2 ">
-          <img src={bbb} alt="BBB" className=" h-[50px]" />
-          <img src={calsaga} alt="CALSAGA" className=" h-[50px]" />
-          <img src={googleReviews} alt="Google Reviews" className=" h-[50px]" />
-          <a href="https://www.yelp.com/biz/falconx-security-services-los-angeles-2 ">
-            <img src={yelp} alt="Yelp" className=" h-[50px]" />
-          </a>
+        <div>
+          <div className="grid grid-cols-2 gap-5 ">
+            <img src={bbb} alt="BBB" className="w-[200px]" />
+            <img src={calsaga} alt="CALSAGA" className="w-[200px]" />
+            <img
+              src={googleReviews}
+              alt="Google Reviews"
+              className="w-[200px]"
+            />
+            <a href="https://www.yelp.com/biz/falconx-security-services-los-angeles-2 ">
+              <img src={yelp} alt="Yelp" className="w-[200px]" />
+            </a>
+          </div>
         </div>
       </div>
     </footer>

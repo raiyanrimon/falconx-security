@@ -7,7 +7,7 @@ const PremiumServices = () => {
       className="bg-cover bg-center bg-no-repeat"
     >
       <div className="max-w-7xl mx-auto px-4 py-16">
-        <h1 className="md:text-4xl text-xl font-noto font-semibold text-[#003366] text-center mb-8">
+        <h1 className="md:text-4xl text-2xl font-noto font-semibold text-[#003366] text-center mb-8">
           PREMIUM SECURITY GUARDS SERVICES FOR ANY INDUSTRY
         </h1>
 

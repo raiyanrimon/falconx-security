@@ -41,8 +41,8 @@ export default function WhyChooseUs() {
     <section className="my-16">
       {/* Why Choose Us */}
       <div className="bg-[#F4F4F4]">
-        <div className="max-w-7xl mx-auto px-4 sm:py-10 lg:py-20 mb-8">
-          <h2 className="text-[#083264] text-xl sm:text-3xl font-noto font-semibold text-center mb-10">
+        <div className="max-w-7xl mx-auto  sm:py-10 lg:py-20 py-8 mb-8">
+          <h2 className="text-[#083264] text-2xl px-1 md:text-[35px] font-noto font-semibold text-center mb-10">
             WHY SHOULD YOU CHOOSE FALCONX SECURITY SERVICES IN LOS ANGELES?
           </h2>
 
@@ -57,7 +57,7 @@ export default function WhyChooseUs() {
             >
               {testimonials[currentSlide]}
             </div>
-            <div className="flex justify-center gap-2 mt-4">
+            <div className="flex justify-center gap-2 mt-3">
               {testimonials.map((_, index) => (
                 <button
                   key={index}

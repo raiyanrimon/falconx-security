@@ -48,7 +48,7 @@ const Worship = () => {
   return (
     <div>
       <SEO
-        title="HOUSES OF WORSHIP SECURITY - Best Security Guard Service California"
+        title="HOUSES OF WORSHIP SECURITY - Best Security Guard Service Company"
         description="Protect your place of worship with FalconX Security Services. Our trained security professionals provide armed and unarmed guards, tailored security solutions, and 24/7 surveillance to safeguard religious establishments and worshippers from theft, violence, and other threats across California."
       />
       <Banner
@@ -60,7 +60,7 @@ const Worship = () => {
         <div className="max-w-7xl mx-auto grid md:grid-cols-[33%_67%] py-16">
           <ServicesNav />
           <div className="mt-10 md:pr-10 p-4">
-            <h2 className="font-noto md:pr-20  text-center font-semibold text-xl mb-6 text-[#003366] md:text-3xl">
+            <h2 className="font-noto md:pr-20  text-center font-semibold text-2xl mb-6 text-[#003366] md:text-3xl">
               Securing Sacred Places in California: Effective Houses of Worship
               Security with FalconX Security Services
             </h2>
@@ -179,10 +179,7 @@ const Worship = () => {
           </div>
         </div>
       </div>
-      <Quote
-        text1="SHARE YOUR NEEDS WITH US. WE'RE HERE TO LISTEN AND"
-        text2="COLLABORATE TO ENSURE YOUR COMPLETE SATISFACTION"
-      />
+      <Quote text1="SHARE YOUR NEEDS WITH US. WE'RE HERE TO LISTEN AND COLLABORATE TO ENSURE YOUR COMPLETE SATISFACTION" />
       <Slider
         title="Responsibilities of Houses of Worship Security Guards in California"
         text="FalconX Security Services is committed to providing the utmost safety to the people of California with highly professional security guards."
@@ -191,7 +188,7 @@ const Worship = () => {
         title="Advantages of Hiring For Houses of Worship Security Services"
         image={image1}
       />
-      <div className="grid md:grid-cols-2 max-w-6xl mx-auto gap-10 md:my-20">
+      <div className="grid md:grid-cols-2 max-w-6xl mx-auto gap-10 md:my-20 my-7">
         <div>
           <h2 className="md:text-3xl text-xl text-[#003366] font-bold  px-4">
             Why Choose FalconX Security Services for Securing Houses of Worship?

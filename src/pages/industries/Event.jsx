@@ -61,7 +61,7 @@ const Event = () => {
         <div className="max-w-7xl mx-auto grid md:grid-cols-[33%_67%] py-16">
           <ServicesNav />
           <div className="mt-10 md:pr-10 p-4">
-            <h2 className="font-noto md:pr-20  text-center font-semibold text-xl mb-6 text-[#003366] md:text-3xl">
+            <h2 className="font-noto md:pr-20  text-center font-semibold text-2xl mb-6 text-[#003366] md:text-3xl">
               FalconX Event Security: Safeguarding Your Event with Expertise
             </h2>
             <p className=" text-gray-800 my-3 text-justify leading-[27px]">
@@ -173,11 +173,7 @@ const Event = () => {
           </div>
         </div>
       </div>
-      <Quote
-        text1="Make your event secure with FalconX Security Services."
-        text2="Reach out to us today for skilled event security guards-your"
-        text3="reliable allies in safety and protection."
-      />
+      <Quote text1="Make your event secure with FalconX Security Services. Reach out to us today for skilled event security guards-your reliable allies in safety and protection." />
       <Slider
         title="Responsibilities of Event Security Guards in California"
         text="At FalconX Security Services, we excel in fulfilling our duties efficiently at our clients' events."
@@ -186,7 +182,7 @@ const Event = () => {
         title="Advantages of Hiring Event Security Guards in California"
         image={image1}
       />
-      <div className="grid md:grid-cols-2 max-w-6xl mx-auto gap-10 md:my-20">
+      <div className="grid md:grid-cols-2 max-w-6xl mx-auto gap-10 md:my-20 my-7">
         <div>
           <h2 className="md:text-3xl text-xl text-[#003366] font-bold  px-4">
             Ensuring Robust Security for Your Events with Advanced Solutions

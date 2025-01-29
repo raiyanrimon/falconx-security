@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 
 const FAQContact = () => {
   const [activeQuestion, setActiveQuestion] = useState("");
@@ -21,9 +21,8 @@ const FAQContact = () => {
     setError(false);
 
     try {
-      // Send form data to the message API
       const response = await fetch(
-        "https://blog.falconxsecurity.com//wp-json/msp/v1/contact",
+        "https://blog.falconxsecurity.com/wp-json/msp/v1/contact",
         {
           method: "POST",
           headers: {
@@ -34,10 +33,12 @@ const FAQContact = () => {
       );
 
       if (!response.ok) {
-        throw new Error("Failed to send message.");
+        const errorData = await response.json();
+        throw new Error(
+          `Failed to send message: ${errorData.message || "Unknown error"}`
+        );
       }
 
-      // Clear form data on success
       setFormData({
         name: "",
         company: "",
@@ -48,15 +49,14 @@ const FAQContact = () => {
 
       console.log("Your message has been sent successfully!");
     } catch (error) {
-      console.error(error);
+      console.error("Error details:", error);
     }
   };
-
   return (
     <div className="max-w-7xl mx-auto px-4 py-12 grid md:grid-cols-2 gap-8">
       {/* FAQ Section */}
       <div>
-        <h2 className="text-4xl font-bold text-blue-900 mb-8">
+        <h2 className="md:text-[38px] leading-[40px] text-2xl font-bold  text-[#003366] mb-8">
           FREQUENTLY ASKED QUESTIONS
         </h2>
 
@@ -200,7 +200,7 @@ const FAQContact = () => {
 
       {/* Contact Form Section */}
       <div className="bg-[#003366] text-white p-7 rounded">
-        <h2 className=" text-lg md:text-2xl mb-6">
+        <h2 className=" text-lg md:text-2xl mb-6 font-semibold">
           Do you have more questions or would you like to request a call back?
           Feel free to reach out using the form below, and we'll assist you
           promptly.
@@ -268,7 +268,9 @@ const FAQContact = () => {
             </div>
           )}
 
-          <div className="text-center mt-4">or Call Now 866-500-2050</div>
+          <div className="text-center mt-4">
+            or Call Now <span className="font-bold">866-500-2050</span>
+          </div>
         </form>
       </div>
     </div>

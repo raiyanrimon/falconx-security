@@ -50,7 +50,7 @@ const Transportation = () => {
   return (
     <div>
       <SEO
-        title="TRANSPORATION, LOGISTICS SECURITY - Best Security Guard Service California"
+        title="TRANSPORATION, LOGISTICS SECURITY - Best Security Guard Service Company"
         description="Ensure the safety and efficiency of your logistics center with FalconX Security Services. We offer both armed and unarmed security, vehicle patrols, CCTV monitoring, emergency response services, and escorted security for staff, providing comprehensive protection for all logistics operations in California."
       />
       <Banner
@@ -61,7 +61,7 @@ const Transportation = () => {
         <div className="max-w-7xl mx-auto grid md:grid-cols-[33%_67%] py-16">
           <ServicesNav />
           <div className="mt-10 md:pr-10 p-4">
-            <h2 className="font-noto md:pr-20  text-center font-semibold text-xl mb-6 text-[#003366] md:text-3xl">
+            <h2 className="font-noto md:pr-20  text-center font-semibold text-2xl mb-6 text-[#003366] md:text-3xl">
               Protecting Logistic Centers Through Our Effective Security Guard
               Services
             </h2>
@@ -167,10 +167,7 @@ const Transportation = () => {
           </div>
         </div>
       </div>
-      <Quote
-        text1="FalconX Security Services – Ensure your safety with our"
-        text2="exceptional logistics and transportation security services."
-      />
+      <Quote text1="FalconX Security Services – Ensure your safety with our exceptional logistics and transportation security services." />
       <Slider
         title="Responsibilities of Logistics and Transportation Security Guards"
         text="FalconX Security Services is committed to providing the utmost safety in California with highly professional logistics and transportation security guards."
@@ -179,7 +176,7 @@ const Transportation = () => {
         title="Advantages of Hiring Logistics and Transportation Security Services"
         image={image1}
       />
-      <div className="grid md:grid-cols-2 max-w-6xl mx-auto gap-10 md:my-20">
+      <div className="grid md:grid-cols-2 max-w-6xl mx-auto gap-10 md:my-20 my-7">
         <div>
           <h2 className="md:text-3xl text-xl text-[#003366] font-bold  px-4">
             How FalconX Security Services Protect Your Business in California
