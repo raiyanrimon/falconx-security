@@ -61,7 +61,7 @@ const SecurityCompany = () => {
         </div>
 
         {/* Bottom Section */}
-        <div className="mt-6">
+        <div className="my-6">
           <p className="text-gray-700">
             As one of Los Angeles' most trusted security guard companies, we
             prioritize safety and satisfaction for both public and private

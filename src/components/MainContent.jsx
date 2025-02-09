@@ -1,4 +1,4 @@
-import security from "../assets/images/Website-Copy-copy-1024x1024.png.webp";
+// s
 
 export default function MainContent() {
   return (
@@ -38,7 +38,7 @@ export default function MainContent() {
 
         <div className=" lg:absolute -right-[390px] -bottom-[190px] ">
           <img
-            src={security}
+            src="https://res.cloudinary.com/dohsydnc3/image/upload/v1739121865/frlkoqv5kx4uqsppcuqk.webp"
             alt="Security Professional"
             className="w-full lg:w-[60%] animate-fade-left "
           />

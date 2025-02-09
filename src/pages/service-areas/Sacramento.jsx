@@ -247,6 +247,7 @@ const Sacramento = () => {
               and experienced partner in meeting Sacramento’s diverse security
               demands.
             </p>
+            <p>Apart from our major security services, our guards also offer security services in Sacramento County, which are:</p>
           </div>
         </div>
         <div className="flex justify-center items-center">

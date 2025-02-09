@@ -75,19 +75,21 @@ const Slider = ({ title, text }) => {
   ];
 
   return (
-    <div className="w-full max-w-4xl mx-auto my-10 md:px-4 py-8 text-center">
+    <div className="w-full  my-10 md:px-4 py-8 text-center">
       <h1 className="text-2xl md:text-[31px] font-semibold text-[#003366] px-2 font-noto text-center mb-6">
         {title}
       </h1>
       <p className="text-gray-600 font-noto text-lg text-center mb-6">{text}</p>
 
-      <div className="relative">
+      <div className="relative max-w-4xl mx-auto">
         <Swiper
           modules={[Autoplay, Navigation]}
           spaceBetween={30}
           slidesPerView={1}
           navigation
-          autoplay={{ delay: 3000, disableOnInteraction: false }}
+          loop={true}
+          speed={0}
+       autoplay={{ delay: 3000, disableOnInteraction: false }}
           breakpoints={{
             640: { slidesPerView: 2 },
             768: { slidesPerView: 3 },

@@ -1,6 +1,6 @@
 const StaticCounter = () => {
   const stats = [
-    { value: 1, label: "Years", suffix: "" },
+    { value: "2+", label: "Years", suffix: "" },
     { value: 70, label: "Events Served", suffix: "+" },
     { value: 150, label: "Employees", suffix: "+" },
     { value: 100, label: "Clients", suffix: "+" },

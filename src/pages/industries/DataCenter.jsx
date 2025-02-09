@@ -81,15 +81,7 @@ const DataCenter = () => {
               security could result in severe consequences, ranging from
               financial losses to tarnished reputations and legal ramifications.
             </p>
-            <p className=" text-gray-800 my-3 text-justify leading-[27px]">
-              The operations of tech companies and data centers present
-              distinctive security challenges owing to the sensitive nature of
-              the data they manage. With vast repositories of personal and
-              financial information, as well as proprietary technology,
-              safeguarding against unauthorized access is paramount. A breach in
-              security could result in severe consequences, ranging from
-              financial losses to tarnished reputations and legal ramifications.
-            </p>
+          
 
             <p className=" text-gray-800 my-3 text-justify leading-[27px]">
               Ensuring the security of data centers and tech companies is

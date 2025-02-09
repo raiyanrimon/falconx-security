@@ -127,7 +127,15 @@ export const router = createBrowserRouter([
         element: <ArmedSecurity />,
       },
       {
+        path: "service/armed-security-guards",
+        element: <ArmedSecurity />,
+      },
+      {
         path: "fire-watch",
+        element: <FireWatch />,
+      },
+      {
+        path: "service/fire-watch",
         element: <FireWatch />,
       },
       {
@@ -135,8 +143,20 @@ export const router = createBrowserRouter([
         element: <FootBike />,
       },
       {
+        path: "service/foot-bike-and-golf-patrol",
+        element: <FootBike />,
+      },
+      {
         path: "live-video-security",
         element: <VideoSecurity />,
+      },
+      {
+        path: "service/live-video-security",
+        element: <VideoSecurity />,
+      },
+      {
+        path: "service/patrol-division",
+        element: <Patrol />,
       },
       {
         path: "patrol-division",
@@ -147,7 +167,15 @@ export const router = createBrowserRouter([
         element: <Standing />,
       },
       {
+        path: "service/standing-guard",
+        element: <Standing />,
+      },
+      {
         path: "unarmed-security-guards",
+        element: <UnarmedSecurity />,
+      },
+      {
+        path: "service/unarmed-security-guards",
         element: <UnarmedSecurity />,
       },
       //industries path
@@ -156,7 +184,15 @@ export const router = createBrowserRouter([
         element: <AirportSecurityServices />,
       },
       {
-        path: "industries/data-centers-and-tech-companies-security",
+        path: "/industries/airport-security-services",
+        element: <AirportSecurityServices />,
+      },
+      {
+        path: "data-centers-and-tech-companies-security",
+        element: <DataCenter />,
+      },
+      {
+        path: "/industries/data-centers-and-tech-companies-security",
         element: <DataCenter />,
       },
       {
@@ -164,7 +200,15 @@ export const router = createBrowserRouter([
         element: <Dispensary />,
       },
       {
+        path: "/industries/dispensary-security-services",
+        element: <Dispensary />,
+      },
+      {
         path: "financial-bank-security-services",
+        element: <Financial />,
+      },
+      {
+        path: "/industries/financial-bank-security-services",
         element: <Financial />,
       },
       {
@@ -172,7 +216,15 @@ export const router = createBrowserRouter([
         element: <Government />,
       },
       {
+        path: "/industries/government-facility-security",
+        element: <Government />,
+      },
+      {
         path: "healthcare-and-hospital-security",
+        element: <HealthCare />,
+      },
+      {
+        path: "/industries/healthcare-and-hospital-security",
         element: <HealthCare />,
       },
       {
@@ -180,7 +232,15 @@ export const router = createBrowserRouter([
         element: <HighRise />,
       },
       {
+        path: "/industries/high-rise-building-security",
+        element: <HighRise />,
+      },
+      {
         path: "reception-and-lobby-desk-area-security",
+        element: <Reception />,
+      },
+      {
+        path: "/industries/reception-and-lobby-desk-area-security",
         element: <Reception />,
       },
       {
@@ -188,7 +248,15 @@ export const router = createBrowserRouter([
         element: <Shopping />,
       },
       {
+        path: "/industries/shopping-center-security",
+        element: <Shopping />,
+      },
+      {
         path: "auto-dealership-security",
+        element: <AutoDealership />,
+      },
+      {
+        path: "/industries/auto-dealership-security",
         element: <AutoDealership />,
       },
       {
@@ -196,7 +264,15 @@ export const router = createBrowserRouter([
         element: <College />,
       },
       {
+        path: "/industries/colleges-universities-and-schools-security-guard-services",
+        element: <College />,
+      },
+      {
         path: "entertainment-security",
+        element: <Entertainment />,
+      },
+      {
+        path: "/industries/entertainment-security",
         element: <Entertainment />,
       },
       {
@@ -204,7 +280,15 @@ export const router = createBrowserRouter([
         element: <Event />,
       },
       {
+        path: "/industries/events-security-services",
+        element: <Event />,
+      },
+      {
         path: "tournament-and-sport-event-security",
+        element: <Tournament />,
+      },
+      {
+        path: "/industries/tournament-and-sport-event-security",
         element: <Tournament />,
       },
       {
@@ -212,7 +296,15 @@ export const router = createBrowserRouter([
         element: <Apartment />,
       },
       {
+        path: "/industries/apartments-and-condominium-security",
+        element: <Apartment />,
+      },
+      {
         path: "assisted-living-security",
+        element: <Assisted />,
+      },
+      {
+        path: "/industries/assisted-living-security",
         element: <Assisted />,
       },
       {
@@ -220,7 +312,15 @@ export const router = createBrowserRouter([
         element: <Gated />,
       },
       {
+        path: "/industries/gated-community-and-hoa-security",
+        element: <Gated />,
+      },
+      {
         path: "private-home-security-services",
+        element: <Private />,
+      },
+      {
+        path: "/industries/private-home-security-services",
         element: <Private />,
       },
       {
@@ -228,7 +328,15 @@ export const router = createBrowserRouter([
         element: <Vacant />,
       },
       {
+        path: "/industries/vacant-properties-security-services",
+        element: <Vacant />,
+      },
+      {
         path: "construction-site-security-services",
+        element: <Construction />,
+      },
+      {
+        path: "/industries/construction-site-security-services",
         element: <Construction />,
       },
       {
@@ -236,7 +344,15 @@ export const router = createBrowserRouter([
         element: <Docks />,
       },
       {
+        path: "/industries/docks-and-marina-security",
+        element: <Docks />,
+      },
+      {
         path: "manufacturing-security",
+        element: <Manufacturing />,
+      },
+      {
+        path: "/industries/manufacturing-security",
         element: <Manufacturing />,
       },
       {
@@ -244,7 +360,15 @@ export const router = createBrowserRouter([
         element: <Parking />,
       },
       {
+        path: "/industries/parking-lot-security",
+        element: <Parking />,
+      },
+      {
         path: "pharmaceutical-manufacturing-facilities-security",
+        element: <Pharmaceutical />,
+      },
+      {
+        path: "/industries/pharmaceutical-manufacturing-facilities-security",
         element: <Pharmaceutical />,
       },
       {
@@ -252,8 +376,20 @@ export const router = createBrowserRouter([
         element: <Solar />,
       },
       {
+        path: "/industries/solar-farm-security",
+        element: <Solar />,
+      },
+      {
         path: "transporation-logistics-security",
         element: <Transportation />,
+      },
+      {
+        path: "/industries/transporation-logistics-security",
+        element: <Transportation />,
+      },
+      {
+        path: "utility-agency-security-services",
+        element: <Utility />,
       },
       {
         path: "/industries/utility-agency-security-services",
@@ -264,7 +400,15 @@ export const router = createBrowserRouter([
         element: <Warehouse />,
       },
       {
+        path: "/industries/warehouse-security",
+        element: <Warehouse />,
+      },
+      {
         path: "farms-and-agriculture-properties-security",
+        element: <Farms />,
+      },
+      {
+        path: "/industries/farms-and-agriculture-properties-security",
         element: <Farms />,
       },
       {
@@ -272,7 +416,15 @@ export const router = createBrowserRouter([
         element: <Cemetery />,
       },
       {
+        path: "/industries/cemetery-security",
+        element: <Cemetery />,
+      },
+      {
         path: "houses-of-worship-security",
+        element: <Worship />,
+      },
+      {
+        path: "/industries/houses-of-worship-security",
         element: <Worship />,
       },
       {
@@ -280,7 +432,15 @@ export const router = createBrowserRouter([
         element: <Hotels />,
       },
       {
+        path: "/industries/hotels-security-service",
+        element: <Hotels />,
+      },
+      {
         path: "public-spaces-security",
+        element: <Public />,
+      },
+      {
+        path: "/industries/public-spaces-security",
         element: <Public />,
       },
       {
@@ -288,7 +448,15 @@ export const router = createBrowserRouter([
         element: <Restaurant />,
       },
       {
+        path: "/industries/restaurant-security",
+        element: <Restaurant />,
+      },
+      {
         path: "theme-parks-security-guard-services",
+        element: <Theme />,
+      },
+      {
+        path: "/industries/theme-parks-security-guard-services",
         element: <Theme />,
       },
       {
@@ -296,7 +464,15 @@ export const router = createBrowserRouter([
         element: <Train />,
       },
       {
+        path: "/industries/train-stations-and-bus-terminal-security",
+        element: <Train />,
+      },
+      {
         path: "cultural-properties-security",
+        element: <Cultural />,
+      },
+      {
+        path: "/industries/cultural-properties-security",
         element: <Cultural />,
       },
 
@@ -306,12 +482,28 @@ export const router = createBrowserRouter([
         element: <Bakersfield />,
       },
       {
+        path: "service-areas/bakersfield",
+        element: <Bakersfield />,
+      },
+      {
         path: "fresno-county-security-guards",
+        element: <Fresno />,
+      },
+      {
+        path: "service-areas/fresno-county-security-guards",
         element: <Fresno />,
       },
       {
         path: "los-angeles-security-guards",
         element: <LosAngeles />,
+      },
+      {
+        path: "service-areas/los-angeles-security-guards",
+        element: <LosAngeles />,
+      },
+      {
+        path: "security-guard-newportbeach",
+        element: <NewportBeach />,
       },
       {
         path: "service-areas/security-guard-newportbeach",
@@ -322,7 +514,15 @@ export const router = createBrowserRouter([
         element: <OrangeCounty />,
       },
       {
+        path: "service-areas/orange-county",
+        element: <OrangeCounty />,
+      },
+      {
         path: "palm-springs-security-guards",
+        element: <PalmSprings />,
+      },
+      {
+        path: "service-areas/palm-springs-security-guards",
         element: <PalmSprings />,
       },
       {
@@ -330,7 +530,15 @@ export const router = createBrowserRouter([
         element: <Riverside />,
       },
       {
+        path: "service-areas/security-guard-riverside-county",
+        element: <Riverside />,
+      },
+      {
         path: "sacramento-security-guards",
+        element: <Sacramento />,
+      },
+      {
+        path: "service-areas/sacramento-security-guards",
         element: <Sacramento />,
       },
       {
@@ -338,19 +546,39 @@ export const router = createBrowserRouter([
         element: <SanBernardino />,
       },
       {
+        path: "service-areas/san-bernardino",
+        element: <SanBernardino />,
+      },
+      {
         path: "san-diego-security-guards",
         element: <SanDiego />,
       },
       {
-        path: "/service-areas/san-francisco",
+        path: "service-areas/san-diego-security-guards",
+        element: <SanDiego />,
+      },
+      {
+        path: "san-francisco",
         element: <SanFrancisco />,
       },
       {
-        path: "/service-areas/security-guard-santa-barbara",
+        path: "service-areas/san-francisco",
+        element: <SanFrancisco />,
+      },
+      {
+        path: "security-guard-santa-barbara",
         element: <SantaBarbara />,
       },
       {
-        path: "/service-areas/security-guard-santa-clara",
+        path: "service-areas/security-guard-santa-barbara",
+        element: <SantaBarbara />,
+      },
+      {
+        path: "security-guard-santa-clara",
+        element: <SantaClara />,
+      },
+      {
+        path: "service-areas/security-guard-santa-clara",
         element: <SantaClara />,
       },
       {
@@ -358,12 +586,28 @@ export const router = createBrowserRouter([
         element: <SouthernCalifornia />,
       },
       {
+        path: "service-areas/southern-california",
+        element: <SouthernCalifornia />,
+      },
+      {
         path: "stockton",
+        element: <Stockton />,
+      },
+      {
+        path: "service-areas/stockton",
         element: <Stockton />,
       },
       {
         path: "temecula-security-guards",
         element: <Temecula />,
+      },
+      {
+        path: "service-areas/temecula-security-guards",
+        element: <Temecula />,
+      },
+      {
+        path: "ventura-county-security-guards",
+        element: <Ventura />,
       },
       {
         path: "service-areas/ventura-county-security-guards",

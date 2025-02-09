@@ -87,10 +87,10 @@ const Ready = () => {
   return (
     <div className="w-full min-h-screen bg-gray-50">
       <div className="container mx-auto px-4 py-8">
-        <div className="flex flex-col lg:flex-row gap-8 max-w-6xl mx-auto">
+        <div className="flex flex-col lg:flex-row gap-8 max-w-7xl mx-auto">
           {/* Form Section */}
-          <div className="w-full lg:w-1/2 bg-[#003366] rounded-lg shadow-lg p-4 sm:p-6 md:p-8">
-            <h2 className="text-xl sm:text-2xl md:text-3xl text-white font-bold mb-2 sm:mb-3 md:mb-4 text-center lg:text-left">
+          <div className="w-full lg:w-1/2 bg-[#003366] rounded-lg shadow-lg p-4 sm:p-6 md:px-4">
+            <h2 className="text-xl sm:text-2xl md:text-4xl text-white font-bold mb-2 font-noto sm:mb-3 md:mb-4 text-center lg:text-left">
               READY TO START SECURITY SERVICES?
             </h2>
             <p className="text-gray-300 mb-4 sm:mb-6 text-sm sm:text-base text-center lg:text-left">

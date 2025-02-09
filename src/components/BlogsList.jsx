@@ -14,7 +14,7 @@ const BlogsList = () => {
     const fetchArticles = async () => {
       try {
         const response = await fetch(
-          "https://blog.falconxsecurity.com/wp-json/wp/v2/posts?per_page=100&_embed"
+          "https://blog.falconxsecurity.com/wp-json/wp/v2/posts?per_page=16&_embed"
         );
         const data = await response.json();
 

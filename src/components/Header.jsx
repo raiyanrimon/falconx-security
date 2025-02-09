@@ -298,6 +298,7 @@ export default function Header() {
               <div className="hidden md:flex  justify-center gap-2 sm:gap-4">
                 <a
                   href="https://www.facebook.com/falconxsecuritiy"
+                    target="_blank"
                   className="bg-[#3b5998] p-2 rounded hover:opacity-90"
                 >
                   <svg
@@ -329,6 +330,7 @@ export default function Header() {
                 <a
                   href="https://www.linkedin.com/company/falconxsecurity/"
                   className="bg-[#0077b5] p-2 rounded hover:opacity-90"
+                    target="_blank"
                 >
                   <svg
                     className="w-4 h-4 text-white"
@@ -342,6 +344,7 @@ export default function Header() {
                 <a
                   href="https://www.instagram.com/falconxsecurityservices"
                   className="bg-[#E4405F] p-2 rounded hover:opacity-90"
+                    target="_blank"
                 >
                   <svg
                     className="w-4 h-4 text-white"

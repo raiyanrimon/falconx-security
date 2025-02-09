@@ -1,18 +1,17 @@
-import video from "../assets/video/banner-video-final2.mp4";
-import poster from "../assets/images/Banner-Video-01_1.jpeg.webp";
+
 export default function Hero() {
   return (
     <div className="relative lg:h-[530px] h-[320px] md:h-[400px] overflow-hidden">
       {/* Video Background */}
       <video
         className="absolute inset-0 w-full h-full object-cover"
-        src={video}
+        src="https://res.cloudinary.com/dohsydnc3/video/upload/v1738347660/banner-video-final2_eyyjp6.mp4"
         autoPlay
         loop
         muted
         playsInline
         aria-hidden="true"
-        poster={poster}
+        poster="https://res.cloudinary.com/dohsydnc3/image/upload/v1738349121/Banner-Video-01_1.jpeg_snshjb.webp"
         onError={(e) => console.error("Video failed to load:", e)}
       >
         {/* Fallback Message */}

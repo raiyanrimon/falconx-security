@@ -97,6 +97,9 @@ const Docks = () => {
                 hazards and other emergencies, through vigilant monitoring.
               </li>
             </ul>
+            <p className=" text-gray-800 my-3 text-justify leading-[27px]">
+            The presence of costly property, including luxurious yachts and boats, underscores the importance of robust security measures. A breach in security can lead to significant damage to both property and reputation. To mitigate such risks, it is imperative to enlist the services of dock, marina, and shipyard security professionals who can implement comprehensive security protocols tailored to the unique needs of these facilities.
+            </p>
             <p className=" font-bold my-3 text-justify leading-[27px]">
               Security Measures for Asset Protection:
             </p>

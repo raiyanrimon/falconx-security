@@ -178,7 +178,7 @@ const Theme = () => {
         text="FalconX Security Services is committed to providing the utmost safety to the people with highly professional theme park security guards."
       />
       <Advantage
-        title="Advantages of Opting for Armed Security Services"
+        title="Advantages of Opting for Theme Parks Security Services"
         image={image1}
       />
       <div className="grid md:grid-cols-2 max-w-6xl mx-auto gap-10 md:my-20 my-7">

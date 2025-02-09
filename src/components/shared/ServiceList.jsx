@@ -130,7 +130,7 @@ const ServiceList = () => {
                       className="group-hover:filter group-hover:invert w-20 h-20"
                     />
                   </div>
-                  <h3 className="lg:text-xl  font-semibold mb-5  font-noto md:h-16 ">
+                  <h3 className="lg:text-xl  font-semibold mb-5  font-noto md:h-24 ">
                     {item.title}
                   </h3>
                 </div>

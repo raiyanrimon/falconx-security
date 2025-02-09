@@ -129,14 +129,17 @@ const Footer = () => {
         </div>
         <div>
           <div className="grid grid-cols-2 gap-5 ">
-            <img src={bbb} alt="BBB" className="w-[200px]" />
-            <img src={calsaga} alt="CALSAGA" className="w-[200px]" />
-            <img
+            <a href="https://www.bbb.org/us/ca/los-angeles/profile/security-guards/falconx-security-services-1216-1000031028" target="_blank"><img src={bbb} alt="BBB" className="w-[200px]" /></a>
+           <img src={calsaga} alt="CALSAGA" className="w-[200px]" />
+            
+            <a href="https://www.google.com/search?sca_esv=a9e4d0ae6dd1faff&sxsrf=AHTn8zoa5czureXnsJOttTGaurlOO8RO-Q:1739085452492&si=APYL9bs7Hg2KMLB-4tSoTdxuOx8BdRvHbByC_AuVpNyh0x2KzYBLCcofFhwhjf-EK0ioArK6Yqz8ZPe5smZqLYJRFcfSCyj6UOpkoKxjkYlV-T96DWABetqVGTkrInDVry4uec1y2FfqchZAWWSt1rH6vlTdwn3GBA%3D%3D&q=FalconX+Security+Services+Reviews&sa=X&ved=2ahUKEwiM2YSVhraLAxX0zzgGHYlFHg4Q0bkNegQIKBAE&biw=1536&bih=695&dpr=1.25" target="_blank"><img
               src={googleReviews}
               alt="Google Reviews"
               className="w-[200px]"
-            />
-            <a href="https://www.yelp.com/biz/falconx-security-services-los-angeles-2 ">
+            /></a>
+            
+            
+            <a href="https://www.yelp.com/biz/falconx-security-services-los-angeles-2 " target="_blank">
               <img src={yelp} alt="Yelp" className="w-[200px]" />
             </a>
           </div>

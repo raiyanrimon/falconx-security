@@ -200,6 +200,7 @@ const Transportation = () => {
               protected 24/7 by a dedicated team that values your safety and the
               security of your assets.
             </p>
+            <p>Our highly professional and dedicated security guards perform a range of tasks, including:</p>
           </div>
         </div>
         <div className="flex justify-center items-center">

@@ -106,16 +106,6 @@ const HealthCare = () => {
             <h3 className="text-2xl font-semibold text-[#003366]  my-3 text-justify leading-[27px]">
               Our hospital security services include:
             </h3>
-            <p className=" text-gray-800 my-3 text-justify leading-[27px]">
-              <span className="font-bold">Experienced Professionals:</span> Our
-              security guards are trained professionals with extensive
-              experience in dispensary security.
-            </p>
-            <p className=" text-gray-800 my-3 text-justify leading-[27px]">
-              <span className="font-bold">Customized Security Plans:</span> We
-              offer tailored security plans to meet the unique needs of your
-              dispensary, ensuring comprehensive coverage.
-            </p>
             <ul className="list-disc list-inside text-justify  text-gray-700 px-2 space-y-1">
               <li>
                 Regular patrols to deter unauthorized access and maintain a

@@ -72,7 +72,7 @@ const Financial = () => {
               responsibilities aimed at maintaining a secure banking environment
               in California.
             </p>
-            <p>
+            <p className="pb-3"> Our bank security guards perform the following key tasks:</p>
               <ul className="list-decimal  text-gray-700 px-2 space-y-1">
                 <li>
                   <span className="font-bold">Physical Security Checks:</span>
@@ -123,7 +123,7 @@ const Financial = () => {
                   efforts.
                 </li>
               </ul>
-            </p>
+            
 
             <p className=" text-gray-800 my-3 text-justify leading-[27px]">
               In the dynamic world of bank security, FalconX Security Services

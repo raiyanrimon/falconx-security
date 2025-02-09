@@ -4,8 +4,11 @@ import "./index.css";
 import { RouterProvider } from "react-router-dom";
 import { router } from "./routes/routes.jsx";
 
+
 createRoot(document.getElementById("root")).render(
   <StrictMode>
-    <RouterProvider router={router} />
+    <RouterProvider router={router}>
+   
+</RouterProvider>
   </StrictMode>
 );

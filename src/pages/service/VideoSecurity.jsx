@@ -1,5 +1,5 @@
 import Banner from "../../components/shared/Banner";
-import bgImage from "../../assets/video/pexels-treedeo-footage-7255101-720p-1.mp4";
+
 import bg from "../../assets/images/Group-7140-1.webp";
 import ServicesNav from "../../components/ServicesNav";
 import image1 from "../../assets/images/02-5-1.webp";
@@ -54,7 +54,10 @@ const VideoSecurity = () => {
         title="LIVE VIDEO SECURITY - Best Security Guard Service Company"
         description="FalconX Security Services offers advanced 24/7 live video security to ensure continuous surveillance and proactive protection for businesses and properties across California, providing peace of mind and safeguarding assets."
       />
-      <Banner title="LIVE VIDEO SECURITY" video={bgImage} />
+      <Banner
+        title="LIVE VIDEO SECURITY"
+        video="https://res.cloudinary.com/dohsydnc3/video/upload/v1738347845/pexels-treedeo-footage-7255101-720p-1_rnhlvn.mp4"
+      />
       <div style={{ backgroundImage: `url(${bg})` }} className="bg-cover">
         <div className="max-w-7xl mx-auto grid md:grid-cols-[33%_67%] py-16">
           <ServicesNav />

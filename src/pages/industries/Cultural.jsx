@@ -183,11 +183,11 @@ const Cultural = () => {
       </div>
       <Quote text1="SHARE YOUR NEEDS WITH US. WE'RE HERE TO LISTEN AND COLLABORATE TO ENSURE YOUR COMPLETE SATISFACTION" />
       <Slider
-        title="Responsibilities of Solar Farm Security Guards in California"
-        text="FalconX Security Services is committed to providing the utmost safety to the people of California with highly professional solar farm security guards."
+        title="Responsibilities of Cultural Properties Security Guards"
+        text="FalconX Security Services is committed to providing the utmost safety to the people with highly professional cultural property security guards."
       />
       <Advantage
-        title="Advantages of Opting for Solar Farm Security Services"
+        title="Benefits Of Hiring For Cultural Property Security Services"
         image={image1}
       />
       <div className="grid md:grid-cols-2 max-w-6xl mx-auto gap-10 md:my-20 my-7">
