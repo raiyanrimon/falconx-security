@@ -203,7 +203,7 @@ const DataCenter = () => {
         </div>
       </div>
       <FeaturesComponent features={techSecurityFeatures} />
-      <AreasWeServe />
+      <AreasWeServe text="FalconX Security Services takes great pride in delivering professional data centers and tech company security guard services." />
       <Ready />
       <ClientLogoCarousel />
     </div>

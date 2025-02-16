@@ -216,7 +216,7 @@ const Theme = () => {
         </div>
       </div>
       <FeaturesComponent features={themeParkSecurityFeatures} />
-      <AreasWeServe />
+      <AreasWeServe text="FalconX Security Services takes great pride in delivering professional theme park security guard services." />
       <Ready />
       <ClientLogoCarousel />
     </div>

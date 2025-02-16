@@ -210,7 +210,7 @@ const Reception = () => {
         </div>
       </div>
       <FeaturesComponent features={lobbySecurityFeatures} />
-      <AreasWeServe />
+      <AreasWeServe text="FalconX Security Services takes great pride in offering the best reception and lobby desk area security services across all regions of California." />
       <Ready />
       <ClientLogoCarousel />
     </div>

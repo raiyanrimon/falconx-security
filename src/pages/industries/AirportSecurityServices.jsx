@@ -217,7 +217,7 @@ const AirportSecurityServices = () => {
         </div>
       </div>
       <FeaturesComponent features={airportSecurityFeatures} />
-      <AreasWeServe />
+      <AreasWeServe text="FalconX Security takes pride in delivering expert airport security services across various regions in California." />
       <Ready />
       <ClientLogoCarousel />
     </div>

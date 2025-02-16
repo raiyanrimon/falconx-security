@@ -30,7 +30,8 @@ const Home = () => {
       <SecurityCompany />
       <Features />
       <PremiumServices />
-      <AreasWeServe />
+      <AreasWeServe text="FalconX Security Services takes great pride in offering the services
+          of our dedicated Security guards in various regions across California."/>
       <FAQContact />
 
       <TestimonialsSlider />

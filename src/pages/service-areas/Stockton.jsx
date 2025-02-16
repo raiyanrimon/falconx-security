@@ -236,7 +236,7 @@ const Stockton = () => {
         </div>
       </div>
       <FeaturesComponent features={securityFeatures} />
-      <AreasWeServe />
+      <AreasWeServe text="FalconX security services proudly serves various industries, providing exemplary professional security guard services in Stockton." />
       <Ready />
       <ClientLogoCarousel />
     </div>

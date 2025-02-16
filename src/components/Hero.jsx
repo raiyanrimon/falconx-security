@@ -5,13 +5,13 @@ export default function Hero() {
       {/* Video Background */}
       <video
         className="absolute inset-0 w-full h-full object-cover"
-        src="https://res.cloudinary.com/dohsydnc3/video/upload/v1738347660/banner-video-final2_eyyjp6.mp4"
+        src="https://res.cloudinary.com/dohsydnc3/video/upload/v1739697902/banner-video-final2_veavlr.webm"
         autoPlay
         loop
         muted
         playsInline
         aria-hidden="true"
-        poster="https://res.cloudinary.com/dohsydnc3/image/upload/v1738349121/Banner-Video-01_1.jpeg_snshjb.webp"
+        poster="../assets/images/Banner-Video-01_1.jpeg.webp"
         onError={(e) => console.error("Video failed to load:", e)}
       >
         {/* Fallback Message */}

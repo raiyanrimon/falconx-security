@@ -221,7 +221,7 @@ const Public = () => {
         </div>
       </div>
       <FeaturesComponent features={publicSpaceSecurityFeatures} />
-      <AreasWeServe />
+      <AreasWeServe text="FalconX Security Services takes great pride in delivering professional public space security guard services." />
       <Ready />
       <ClientLogoCarousel />
     </div>

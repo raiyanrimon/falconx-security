@@ -230,7 +230,7 @@ const Docks = () => {
         </div>
       </div>
       <FeaturesComponent features={marineSecurityFeatures} />
-      <AreasWeServe />
+      <AreasWeServe text="FalconX Security Services proudly offers professional docks and marinas security guards across all regions of California."/>
       <Ready />
       <ClientLogoCarousel />
     </div>

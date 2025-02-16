@@ -228,7 +228,7 @@ const Ventura = () => {
         </div>
       </div>
       <FeaturesComponent features={venturaSecurityFeatures} />
-      <AreasWeServe />
+      <AreasWeServe text="FalconX security services proudly serves various industries, providing exemplary professional security guard services in Ventura." />
       <Ready />
       <ClientLogoCarousel />
     </div>

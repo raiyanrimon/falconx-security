@@ -261,7 +261,7 @@ const SantaClara = () => {
         </div>
       </div>
       <FeaturesComponent features={santaClaraSecurityFeatures} />
-      <AreasWeServe />
+      <AreasWeServe text="FalconX Security Services proudly offers professional security guard services in Santa Clara to safeguard large enterprises, retail industries, residences, and event areas." />
       <Ready />
       <ClientLogoCarousel />
     </div>

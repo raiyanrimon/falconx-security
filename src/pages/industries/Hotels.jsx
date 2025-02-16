@@ -206,7 +206,7 @@ const Hotels = () => {
         </div>
       </div>
       <FeaturesComponent features={hotelSecurityFeatures} />
-      <AreasWeServe />
+      <AreasWeServe text="FalconX Security Services proudly offers professional hotel security guard services in various regions throughout California." />
       <Ready />
       <ClientLogoCarousel />
     </div>

@@ -230,7 +230,7 @@ const SantaBarbara = () => {
         </div>
       </div>
       <FeaturesComponent features={santaBarbaraSecurityFeatures} />
-      <AreasWeServe />
+      <AreasWeServe text="FalconX Security Services proudly offers professional security guard services in Santa Barbara to safeguard large enterprises, retail industries, residences, and event areas." />
       <Ready />
       <ClientLogoCarousel />
     </div>

@@ -251,7 +251,7 @@ const Tournament = () => {
         </div>
       </div>
       <FeaturesComponent features={sportsEventSecurityFeatures} />
-      <AreasWeServe />
+      <AreasWeServe text="FalconX Security Services takes great pride in delivering professional tournament sports events security guard services in California." />
       <Ready />
       <ClientLogoCarousel />
     </div>

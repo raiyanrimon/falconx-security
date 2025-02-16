@@ -211,7 +211,7 @@ const Train = () => {
         </div>
       </div>
       <FeaturesComponent features={transportationSecurityFeatures} />
-      <AreasWeServe />
+      <AreasWeServe text="FalconX Security Services takes great pride in delivering professional train stations and bus terminal security guard services in California." />
       <Ready />
       <ClientLogoCarousel />
     </div>

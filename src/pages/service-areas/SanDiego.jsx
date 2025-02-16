@@ -240,7 +240,7 @@ const SanDiego = () => {
         </div>
       </div>
       <FeaturesComponent features={sanDiegoSecurityFeatures} />
-      <AreasWeServe />
+      <AreasWeServe text="FalconX security services takes pride in offering expert security solutions to a diverse range of industries in San Diego." />
       <Ready />
       <ClientLogoCarousel />
     </div>

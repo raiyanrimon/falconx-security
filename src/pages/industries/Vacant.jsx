@@ -228,7 +228,7 @@ const Vacant = () => {
         </div>
       </div>
       <FeaturesComponent features={vacantPropertySecurityFeatures} />
-      <AreasWeServe />
+      <AreasWeServe text="FalconX Security Services takes great pride in delivering professional vacant property security guard services in California." />
       <Ready />
       <ClientLogoCarousel />
     </div>

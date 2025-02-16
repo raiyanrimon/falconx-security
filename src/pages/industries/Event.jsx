@@ -208,7 +208,7 @@ const Event = () => {
         </div>
       </div>
       <FeaturesComponent features={eventSecurityFeatures} />
-      <AreasWeServe />
+      <AreasWeServe text="FalconX Security Services Proudly Offers Professional Event Security Guard Services in Various Areas across California." />
       <Ready />
       <ClientLogoCarousel />
     </div>

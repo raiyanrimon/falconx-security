@@ -257,7 +257,7 @@ const Riverside = () => {
         </div>
       </div>
       <FeaturesComponent features={riversideSecurityFeatures} />
-      <AreasWeServe />
+      <AreasWeServe text="FalconX Security Services takes great pride in providing professional security services to safeguard various industries in California." />
       <Ready />
       <ClientLogoCarousel />
     </div>

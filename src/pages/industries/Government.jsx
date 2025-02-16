@@ -207,7 +207,7 @@ const Government = () => {
         </div>
       </div>
       <FeaturesComponent features={governmentSecurityFeatures} />
-      <AreasWeServe />
+      <AreasWeServe text="FalconX Security Services takes great pride in delivering professional government facility security guard services across all regions of California." />
       <Ready />
       <ClientLogoCarousel />
     </div>

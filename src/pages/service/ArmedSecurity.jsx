@@ -210,7 +210,7 @@ const ArmedSecurity = () => {
         </div>
       </div>
       <FeaturesComponent features={features} />
-      <AreasWeServe />
+      <AreasWeServe text="FalconX Security Services takes great pride in offering the services of our dedicated Armed Security guards in various regions across California." />
       <Ready />
       <ClientLogoCarousel />
     </div>

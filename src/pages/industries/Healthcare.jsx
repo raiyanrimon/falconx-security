@@ -208,7 +208,7 @@ const HealthCare = () => {
         </div>
       </div>
       <FeaturesComponent features={hospitalSecurityFeatures} />
-      <AreasWeServe />
+      <AreasWeServe text="FalconX Security Services takes great pride in offering exceptional healthcare and hospital security guard services across all regions of California." />
       <Ready />
       <ClientLogoCarousel />
     </div>

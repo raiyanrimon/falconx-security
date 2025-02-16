@@ -202,7 +202,7 @@ const Restaurant = () => {
         </div>
       </div>
       <FeaturesComponent features={restaurantSecurityFeatures} />
-      <AreasWeServe />
+      <AreasWeServe text="FalconX security services is honored to offer expert restaurant security guard services across various regions in California." />
       <Ready />
       <ClientLogoCarousel />
     </div>

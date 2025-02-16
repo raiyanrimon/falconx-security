@@ -7,82 +7,66 @@ import "swiper/css/navigation";
 
 // import required modules
 import { Autoplay, Navigation } from "swiper/modules";
-import bakersfield from "../../assets/images/bakersfield-300x200.webp";
-import fresno from "../../assets/images/fresno-300x200.webp";
-import losAngeles from "../../assets/images/los-angles-300x200.webp";
-import newportBeach from "../../assets/images/new-port-beach-300x200.webp";
-import orangeCounty from "../../assets/images/orange-county-2-300x200.webp";
-import palmSprings from "../../assets/images/palm-springs-1-300x200.webp";
-import riverside from "../../assets/images/riverside-1-300x200.webp";
-import sacramento from "../../assets/images/sacramento-300x200.webp";
-import sanBernardino from "../../assets/images/san-bernandinho-300x200.webp";
-import sanDiego from "../../assets/images/san-diego-3-300x200.webp";
-import sanFrancisco from "../../assets/images/fresno-300x200.webp";
-import santaBarbara from "../../assets/images/santa-barbara-1-300x200.webp";
-import santaClara from "../../assets/images/santa-clara-1-300x200.webp";
-import southernCalifornia from "../../assets/images/southern-california-300x200.webp";
-import stockton from "../../assets/images/stockton-1-300x200.webp";
-import temecula from "../../assets/images/temecula-1-300x200.webp";
-import ventura from "../../assets/images/ventura-2-300x200.webp";
+
 import { Link } from "react-router-dom";
 
-const AreasWeServe = () => {
+const AreasWeServe = ({text}) => {
   const areas = [
-    { name: "BAKERSFIELD", image: bakersfield, path: "/bakersfield" },
-    { name: "FRESNO", image: fresno, path: "/fresno-county-security-guards" },
+    { name: "BAKERSFIELD", image: "https://res.cloudinary.com/dohsydnc3/image/upload/v1739698849/bakersfield-300x200_tzqlxw.webp", path: "/bakersfield" },
+    { name: "FRESNO", image: "https://res.cloudinary.com/dohsydnc3/image/upload/v1739699242/freshno-300x200_sedmcc.webp", path: "/fresno-county-security-guards" },
     {
       name: "LOS ANGELES",
-      image: losAngeles,
+      image: "https://res.cloudinary.com/dohsydnc3/image/upload/v1739699309/los-angles-300x200_rkmhe4.webp",
       path: "/los-angeles-security-guards",
     },
     {
       name: "NEWPORT BEACH",
-      image: newportBeach,
+      image: "https://res.cloudinary.com/dohsydnc3/image/upload/v1739699335/new-port-beach-300x200_lz9zzp.webp",
       path: "/service-areas/security-guard-newportbeach",
     },
-    { name: "ORANGE COUNTY", image: orangeCounty, path: "/orange-county" },
+    { name: "ORANGE COUNTY", image: "https://res.cloudinary.com/dohsydnc3/image/upload/v1739699360/orange-county-2-300x200_m1fbc8.webp", path: "/orange-county" },
     {
       name: "PALM SPRINGS",
-      image: palmSprings,
+      image: "https://res.cloudinary.com/dohsydnc3/image/upload/v1739699380/palm-springs-1-300x200_ywkm8s.webp",
       path: "/palm-springs-security-guards",
     },
     {
       name: "RIVERSIDE",
-      image: riverside,
+      image: "https://res.cloudinary.com/dohsydnc3/image/upload/v1739699401/riverside-1-300x200_fztkvp.webp",
       path: "/security-guard-riverside-county",
     },
     {
       name: "SACRAMENTO",
-      image: sacramento,
+      image: "https://res.cloudinary.com/dohsydnc3/image/upload/v1739699424/sacramento-300x200_nxtrnf.webp",
       path: "/sacramento-security-guards",
     },
-    { name: "SAN BERNARDINO", image: sanBernardino, path: "/san-bernardino" },
-    { name: "SAN DIEGO", image: sanDiego, path: "/san-diego-security-guards" },
+    { name: "SAN BERNARDINO", image: "https://res.cloudinary.com/dohsydnc3/image/upload/v1739699521/san-bernandinho-300x200_z50jfl.webp", path: "/san-bernardino" },
+    { name: "SAN DIEGO", image: "https://res.cloudinary.com/dohsydnc3/image/upload/v1739699461/san-diego-3-300x200_jfgmiz.webp", path: "/san-diego-security-guards" },
     {
       name: "SAN FRANCISCO",
-      image: sanFrancisco,
+      image: "https://res.cloudinary.com/dohsydnc3/image/upload/v1739699242/fresno-300x200_moyhcx.webp",
       path: "/service-areas/san-francisco",
     },
     {
       name: "SANTA BARBARA",
-      image: santaBarbara,
+      image: "https://res.cloudinary.com/dohsydnc3/image/upload/v1739699461/santa-barbara-1-300x200_kef3ku.webp",
       path: "/service-areas/security-guard-santa-barbara",
     },
     {
       name: "SANTA CLARA",
-      image: santaClara,
+      image: "https://res.cloudinary.com/dohsydnc3/image/upload/v1739699462/santa-clara-1-300x200_ectkz4.webp",
       path: "/service-areas/security-guard-santa-clara",
     },
     {
       name: "SOUTHERN CALIFORNIA",
-      image: southernCalifornia,
+      image: "https://res.cloudinary.com/dohsydnc3/image/upload/v1739699548/southern-california-300x200_skgl9i.webp",
       path: "/southern-california",
     },
-    { name: "STOCKTON", image: stockton, path: "/stockton" },
-    { name: "TEMECULA", image: temecula, path: "/temecula-security-guards" },
+    { name: "STOCKTON", image: "https://res.cloudinary.com/dohsydnc3/image/upload/v1739699571/stockton-1-300x200_zjxzs8.webp", path: "/stockton" },
+    { name: "TEMECULA", image: "https://res.cloudinary.com/dohsydnc3/image/upload/v1739699593/temecula-1-300x200_ae9jxx.webp", path: "/temecula-security-guards" },
     {
       name: "VENTURA",
-      image: ventura,
+      image: "https://res.cloudinary.com/dohsydnc3/image/upload/v1739699613/ventura-2-300x200_klyqzv.webp",
       path: "/service-areas/ventura-county-security-guards",
     },
   ];
@@ -93,9 +77,8 @@ const AreasWeServe = () => {
         <h1 className="md:text-4xl text-[24px] font-semibold font-noto text-center text-[#003366] mb-8">
           AREAS WE SERVE
         </h1>
-        <p className="text-center mb-16 mx-auto">
-          FalconX Security Services takes great pride in offering the services
-          of our dedicated Security guards in various regions across California.
+        <p className="text-center mb-10 mx-auto">
+          {text}
         </p>
         <div className="relative">
           <Swiper

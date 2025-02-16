@@ -236,7 +236,7 @@ const Patrol = () => {
         </div>
       </div>
       <FeaturesComponent features={rolesFeatures} />
-      <AreasWeServe />
+      <AreasWeServe text="FalconX Security Services is honored to offer expert security patrol guards across these regions in California." />
       <Ready />
       <ClientLogoCarousel />
     </div>

@@ -213,7 +213,7 @@ const Farms = () => {
         </div>
       </div>
       <FeaturesComponent features={farmSecurityFeatures} />
-      <AreasWeServe />
+      <AreasWeServe text="FalconX Security Services takes great pride in delivering professional farms and agricultural property security guard services." />
       <Ready />
       <ClientLogoCarousel />
     </div>

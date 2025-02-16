@@ -205,7 +205,7 @@ const AutoDealership = () => {
         </div>
       </div>
       <FeaturesComponent features={dealershipSecurityFeatures} />
-      <AreasWeServe />
+      <AreasWeServe text="FalconX Security Services takes great pride in offering expert auto dealership security services across all regions of California."/>
       <Ready />
       <ClientLogoCarousel />
     </div>

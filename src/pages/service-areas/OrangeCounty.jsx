@@ -256,7 +256,7 @@ const OrangeCounty = () => {
         </div>
       </div>
       <FeaturesComponent features={orangeCountySecurityFeatures} />
-      <AreasWeServe />
+      <AreasWeServe text="FalconX Security Services takes great pride in delivering professional security guard services to various industries in Orange County." />
       <Ready />
       <ClientLogoCarousel />
     </div>

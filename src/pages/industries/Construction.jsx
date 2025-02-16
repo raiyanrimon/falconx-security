@@ -207,7 +207,7 @@ const Construction = () => {
         </div>
       </div>
       <FeaturesComponent features={constructionSecurityFeatures} />
-      <AreasWeServe />
+      <AreasWeServe text="FalconX security services is pleased to offer highly skilled security services for construction sites across all regions of California." />
       <Ready />
       <ClientLogoCarousel />
     </div>

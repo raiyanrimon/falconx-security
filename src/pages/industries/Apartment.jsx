@@ -197,7 +197,7 @@ const Apartment = () => {
         </div>
       </div>
       <FeaturesComponent features={residentialSecurityFeatures} />
-      <AreasWeServe />
+      <AreasWeServe text="FalconX security services is pleased to offer professional apartment security guard services in the following regions of California." />
       <Ready />
       <ClientLogoCarousel />
     </div>

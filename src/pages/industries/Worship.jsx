@@ -242,7 +242,7 @@ const Worship = () => {
         </div>
       </div>
       <FeaturesComponent features={worshipSecurityFeatures} />
-      <AreasWeServe />
+      <AreasWeServe text="FalconX Security Services proudly offers professional houses of worship security guards across all regions of California." />
       <Ready />
       <ClientLogoCarousel />
     </div>

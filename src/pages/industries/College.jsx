@@ -231,7 +231,7 @@ const College = () => {
         </div>
       </div>
       <FeaturesComponent features={universitySecurityFeatures} />
-      <AreasWeServe />
+      <AreasWeServe text="FalconX Security Services proudly offers professional school security guard services in various regions across California" />
       <Ready />
       <ClientLogoCarousel />
     </div>

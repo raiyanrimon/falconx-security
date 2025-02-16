@@ -244,7 +244,7 @@ const Fresno = () => {
         </div>
       </div>
       <FeaturesComponent features={fresnoSecurityFeatures} />
-      <AreasWeServe />
+      <AreasWeServe text="FalconX Security Services takes great pride in delivering professional security guard services to various industries in Fresno." />
       <Ready />
       <ClientLogoCarousel />
     </div>

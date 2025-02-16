@@ -208,7 +208,7 @@ const Financial = () => {
         </div>
       </div>
       <FeaturesComponent features={bankSecurityFeatures} />
-      <AreasWeServe />
+      <AreasWeServe text="FalconX Security Services offers professional security guards tailored to the specific needs of bank and financial institutions in California." />
       <Ready />
       <ClientLogoCarousel />
     </div>

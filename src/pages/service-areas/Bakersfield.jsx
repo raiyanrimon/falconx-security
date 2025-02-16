@@ -239,7 +239,7 @@ const Bakersfield = () => {
         </div>
       </div>
       <FeaturesComponent features={bakersfieldSecurityFeatures} />
-      <AreasWeServe />
+      <AreasWeServe text="FalconX Security Services takes great pride in delivering professional security guard services to various industries in Bakersfield." />
       <Ready />
       <ClientLogoCarousel />
     </div>

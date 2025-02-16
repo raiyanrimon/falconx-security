@@ -206,7 +206,7 @@ const Assisted = () => {
         </div>
       </div>
       <FeaturesComponent features={residentialSecurityFeatures} />
-      <AreasWeServe />
+      <AreasWeServe text="FalconX Security Services takes great pride in delivering professional assisted living security guard services in California." />
       <Ready />
       <ClientLogoCarousel />
     </div>

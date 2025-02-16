@@ -203,7 +203,7 @@ const Cemetery = () => {
         </div>
       </div>
       <FeaturesComponent features={cemeterySecurityFeatures} />
-      <AreasWeServe />
+      <AreasWeServe text="FalconX Security Services takes great pride in delivering professional cemetery security guard services in California." />
       <Ready />
       <ClientLogoCarousel />
     </div>

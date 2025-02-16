@@ -1,4 +1,4 @@
-import image from "../assets/images/04-3.webp";
+
 import bg from "../assets/images/Group-7140-1.webp";
 
 const SecurityCompany = () => {
@@ -27,7 +27,7 @@ const SecurityCompany = () => {
           {/* Left Column - Image */}
           <div>
             <img
-              src={image}
+              src="https://res.cloudinary.com/dohsydnc3/image/upload/v1739698315/04-3_vhjy0z.webp"
               alt="Security team members"
               className="w-full rounded-lg"
             />

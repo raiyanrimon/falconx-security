@@ -56,7 +56,7 @@ const VideoSecurity = () => {
       />
       <Banner
         title="LIVE VIDEO SECURITY"
-        video="https://res.cloudinary.com/dohsydnc3/video/upload/v1738347845/pexels-treedeo-footage-7255101-720p-1_rnhlvn.mp4"
+        video="https://res.cloudinary.com/dohsydnc3/video/upload/v1739698057/pexels-treedeo-footage-7255101-720p-1_zzkxbo.webm"
       />
       <div style={{ backgroundImage: `url(${bg})` }} className="bg-cover">
         <div className="max-w-7xl mx-auto grid md:grid-cols-[33%_67%] py-16">
@@ -256,7 +256,7 @@ const VideoSecurity = () => {
         </div>
       </div>
       <FeaturesComponent features={technologyFeatures} />
-      <AreasWeServe />
+      <AreasWeServe text="FalconX security services proudly offers professional live video security guards to the following areas in california." />
       <Ready />
       <ClientLogoCarousel />
     </div>

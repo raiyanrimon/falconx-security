@@ -228,7 +228,7 @@ const FootBike = () => {
         </div>
       </div>
       <FeaturesComponent features={patrollingFeatures} />
-      <AreasWeServe />
+      <AreasWeServe text="FalconX Security Services is a trusted provider of Foot, Bike, And Golf Cart Patrol Solutions in Los Angeles."/>
       <Ready />
       <ClientLogoCarousel />
     </div>

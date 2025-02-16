@@ -233,7 +233,7 @@ const FireWatch = () => {
         </div>
       </div>
       <FeaturesComponent features={fireSafetyFeatures} />
-      <AreasWeServe />
+      <AreasWeServe text="FalconX Security Services takes great pride in offering the services of our dedicated fire watch guards in various regions across California." />
       <Ready />
       <ClientLogoCarousel />
     </div>

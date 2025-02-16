@@ -206,7 +206,7 @@ const UnarmedSecurity = () => {
         </div>
       </div>
       <FeaturesComponent features={unarmedGuardsFeatures} />
-      <AreasWeServe />
+      <AreasWeServe text="FalconX Security Services takes great pride in offering highly skilled unarmed security personnel to the following areas within California." />
       <Ready />
       <ClientLogoCarousel />
     </div>

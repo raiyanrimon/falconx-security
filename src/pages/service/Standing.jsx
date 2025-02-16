@@ -214,7 +214,7 @@ const Standing = () => {
         </div>
       </div>
       <FeaturesComponent features={standingGuardsFeatures} />
-      <AreasWeServe />
+      <AreasWeServe text="FalconX Security Services takes great pride in providing well-trained standing guards to ensure your maximum safety across all regions of California." />
       <Ready />
       <ClientLogoCarousel />
     </div>

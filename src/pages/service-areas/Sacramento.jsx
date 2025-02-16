@@ -255,7 +255,7 @@ const Sacramento = () => {
         </div>
       </div>
       <FeaturesComponent features={sacramentoSecurityFeatures} />
-      <AreasWeServe />
+      <AreasWeServe text="FalconX Security Services proudly serves various industries in Sacramento County, providing exceptional professional security guard services." />
       <Ready />
       <ClientLogoCarousel />
     </div>

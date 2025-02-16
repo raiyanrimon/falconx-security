@@ -199,7 +199,7 @@ const Dispensary = () => {
         </div>
       </div>
       <FeaturesComponent features={cannabisSecurityFeatures} />
-      <AreasWeServe />
+      <AreasWeServe text="FalconX Security Services is proud to offer professional security guards for dispensaries in many areas of California."/>
       <Ready />
       <ClientLogoCarousel />
     </div>

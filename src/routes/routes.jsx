@@ -32,7 +32,7 @@ import AutoDealership from "../pages/industries/AutoDealership";
 import College from "../pages/industries/College";
 import Entertainment from "../pages/industries/Entertainment";
 import Event from "../pages/industries/Event";
-import Tournament from "../pages/industries/Tournement";
+import Tournament from "../pages/industries/Tournament";
 import Apartment from "../pages/industries/Apartment";
 import Assisted from "../pages/industries/Assisted";
 import Gated from "../pages/industries/Gated";

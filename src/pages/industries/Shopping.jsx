@@ -193,7 +193,7 @@ const Shopping = () => {
         </div>
       </div>
       <FeaturesComponent features={retailSecurityFeatures} />
-      <AreasWeServe />
+      <AreasWeServe text="FalconX security services takes pride in supplying first-rate shopping center security solutions to several california locations." />
       <Ready />
       <ClientLogoCarousel />
     </div>

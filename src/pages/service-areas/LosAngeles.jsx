@@ -332,7 +332,7 @@ const LosAngeles = () => {
         </div>
       </div>
       <FeaturesComponent features={losAngelesSecurityFeatures} />
-      <AreasWeServe />
+      <AreasWeServe text="FalconX Security Services Proudly Offers Professional Security Guard Services Los Angeles." />
       <Ready />
       <ClientLogoCarousel />
     </div>

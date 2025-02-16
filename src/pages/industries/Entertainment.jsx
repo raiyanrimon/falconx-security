@@ -196,7 +196,7 @@ const Entertainment = () => {
         </div>
       </div>
       <FeaturesComponent features={filmSetSecurityFeatures} />
-      <AreasWeServe />
+      <AreasWeServe text="The following areas in California are proudly served by FalconX Security Services’s professional entertainment security guards." />
       <Ready />
       <ClientLogoCarousel />
     </div>

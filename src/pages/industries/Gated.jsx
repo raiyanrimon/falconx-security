@@ -225,7 +225,7 @@ const Gated = () => {
         </div>
       </div>
       <FeaturesComponent features={gatedCommunitySecurityFeatures} />
-      <AreasWeServe />
+      <AreasWeServe text="FalconX Security Services takes great pride in delivering professional gated community and HOA security guard services in California.s" />
       <Ready />
       <ClientLogoCarousel />
     </div>

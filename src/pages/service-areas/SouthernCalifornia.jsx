@@ -239,7 +239,7 @@ const SouthernCalifornia = () => {
         </div>
       </div>
       <FeaturesComponent features={falconXSecurityFeatures} />
-      <AreasWeServe />
+      <AreasWeServe text="FalconX Security Services Takes Pride In Delivering Professional Security Solutions To A Variety Of Industries." />
       <Ready />
       <ClientLogoCarousel />
     </div>

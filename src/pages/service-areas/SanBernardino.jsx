@@ -247,7 +247,7 @@ const SanBernardino = () => {
         </div>
       </div>
       <FeaturesComponent features={sanBernardinoSecurityFeatures} />
-      <AreasWeServe />
+      <AreasWeServe text="FalconX security services proudly serve various industries, providing exemplary professional security guards." />
       <Ready />
       <ClientLogoCarousel />
     </div>

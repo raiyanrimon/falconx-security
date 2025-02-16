@@ -207,7 +207,7 @@ const Private = () => {
         </div>
       </div>
       <FeaturesComponent features={privateResidenceSecurityFeatures} />
-      <AreasWeServe />
+      <AreasWeServe text="FalconX Security Services takes great pride in delivering professional private home security guard services in California." />
       <Ready />
       <ClientLogoCarousel />
     </div>
