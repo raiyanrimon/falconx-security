@@ -1,4 +1,5 @@
 import { useState } from "react";
+import Swal from "sweetalert2";
 
 const FAQContact = () => {
   const [activeQuestion, setActiveQuestion] = useState("");
@@ -47,9 +48,17 @@ const FAQContact = () => {
         message: "",
       });
 
-      console.log("Your message has been sent successfully!");
+         Swal.fire({
+              title: "Response Submitted",
+              text: "Your message has been sent successfully",
+              icon: "success"
+            });
     } catch (error) {
-      console.error("Error details:", error);
+       Swal.fire({
+              title: "Message Submission Failed",
+              text: "Please try again later",
+              icon: "error"
+            });
     }
   };
   return (

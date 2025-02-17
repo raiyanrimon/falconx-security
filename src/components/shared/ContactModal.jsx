@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import Swal from 'sweetalert2'
 
 const ContactModal = ({ isOpen, onClose }) => {
   const [formData, setFormData] = useState({
@@ -41,10 +42,18 @@ const ContactModal = ({ isOpen, onClose }) => {
         phone: "",
         message: "",
       });
-      console.log("Your message has been sent successfully!");
+      Swal.fire({
+        title: "Response Submitted",
+        text: "Your message has been sent successfully",
+        icon: "success"
+      });
       onClose(); // Close modal after successful submission
     } catch (error) {
-      console.error(error);
+      Swal.fire({
+        title: "Message Submission Failed",
+        text: "Please try again later",
+        icon: "error"
+      });
     }
   };
 

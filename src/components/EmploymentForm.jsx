@@ -27,8 +27,7 @@ export default function EmploymentForm() {
   const handleSubmit = async (e) => {
     e.preventDefault();
 
-    // Handle form submission logic here
-    console.log(formData);
+
 
     try {
       const response = await fetch(
@@ -75,9 +74,17 @@ export default function EmploymentForm() {
         heardAbout: "Google",
       });
 
-      console.log("Your response has been sent successfully!");
+      Swal.fire({
+        title: "Application Submitted",
+        text: "Your application has been submitted successfully",
+        icon: "success"
+      });
     } catch (error) {
-      console.error("Error details:", error);
+      Swal.fire({
+        title: "Application Submission Failed",
+        text: "Please try again later",
+        icon: "error"
+      });
     }
   };
   const handleChange = (e) => {

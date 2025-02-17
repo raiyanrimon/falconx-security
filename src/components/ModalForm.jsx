@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import Swal from 'sweetalert2'
 
 const ModalForm = ({ isOpen, closeModal }) => {
   const [formData, setFormData] = useState({
@@ -46,10 +47,18 @@ const ModalForm = ({ isOpen, closeModal }) => {
           city: "",
           message: "",
         });
-        console.log("Form submitted successfully:", result);
+        Swal.fire({
+          title: "Response Submitted",
+          text: "You have successfully submitted service request form",
+          icon: "success"
+        });
         closeModal();
       } else {
-        console.error("Error submitting form:", await response.json());
+        Swal.fire({
+          title: "Response Submission Failed",
+          text: "Please try again later",
+          icon: "error"
+        });
       }
     } catch (error) {
       console.error("Submission error:", error);
