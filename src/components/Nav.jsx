@@ -272,7 +272,7 @@ export default function Nav() {
           ],
         },
       };
-    return <div className="sticky top-0 z-50 bg-white container mx-auto">
+    return <div className="sticky top-0 z-50 bg-white ">
          <div className="max-w-6xl mx-auto">
         <nav className="bg-white relative">
           <div className="container mx-auto px-1.5">

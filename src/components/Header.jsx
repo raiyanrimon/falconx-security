@@ -26,8 +26,9 @@ export default function Header() {
           <div className=" relative bg-[#D6D8DD]">
             <div className="lg:absolute content-[''] w-0 h-0 lg:border-t-[50px] lg:border-l-[54px] lg:border-t-transparent lg:border-l-[#083264] left-0 top-0"></div>
             {/* Responsive wrapper */}
-            <div className="max-w-7xl mx-auto">
-            <div className="flex flex-col  sm:flex-row justify-between items-center px-10 py-2 lg:px-24 lg:pr-36 space-y-2 sm:space-y-0">
+            
+          <div className="max-w-7xl mx-auto">
+          <div className="flex flex-col  sm:flex-row justify-between xxl:justify-evenly items-center px-10 py-2 lg:pl-20 lg:pr-40  space-y-2 sm:space-y-0">
               {/* Social icons - wrap on small screens */}
               <div className="hidden md:flex  justify-center gap-2 sm:gap-4">
                 <a
@@ -92,27 +93,27 @@ export default function Header() {
 
               {/* Navigation links */}
               <div className="flex items-center font-bold space-x-2 sm:space-x-4 text-sm">
-                <a
-                  href="/careers"
+                <Link to="/careers" 
                   className="text-gray-800 hover:text-white whitespace-nowrap"
                 >
                   Join Team
-                </a>
+                </Link>
                 <span className="text-gray-400">|</span>
-                <a href="/blog" className="text-gray-800 hover:text-white">
+                <Link to="/blog" className="text-gray-800 hover:text-white">
                   Blog
-                </a>
+                </Link>
                 <span className="text-gray-400">|</span>
-                <a
-                  href="/contact-us"
+                <Link
+                  to="/contact-us"
                   className="text-gray-800 hover:text-white"
                 >
                   Contact
-                </a>
+                </Link>
               </div>
             </div>
-            </div>
           </div>
+            </div>
+        
         </div>
 
         <div className="max-w-7xl mx-auto ">

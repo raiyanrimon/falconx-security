@@ -3,7 +3,7 @@ import bg from "../assets/images/Group-7140-1.webp";
 
 const SecurityCompany = () => {
   return (
-    <div className="min-h-screen  px-2 bg-[#f4f4f4]">
+    <div className=" px-2 bg-[#f4f4f4]">
       <div className="max-w-6xl mx-auto md:px-4 px-2 py-8">
         <h1 className="sm:text-4xl text-2xl font-bold text-[#003366] text-center mb-6">
           ARE YOU STILL SEARCHING FOR THE BEST SECURITY GUARD COMPANY IN LOS

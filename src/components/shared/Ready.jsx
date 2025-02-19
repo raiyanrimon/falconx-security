@@ -3,6 +3,7 @@ import { Navigation, Autoplay } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/navigation";
 import { useState } from "react";
+import Swal from "sweetalert2";
 
 const Ready = () => {
   const [formData, setFormData] = useState({
@@ -75,9 +76,17 @@ const Ready = () => {
           city: "",
           message: "",
         });
-        console.log("Form submitted successfully!");
+        Swal.fire({
+          title: "Response Submitted",
+          text: "Your message has been sent successfully",
+          icon: "success"
+        });
       } else {
-        console.error("Error submitting form:", await response.json());
+       Swal.fire({
+               title: "Message Submission Failed",
+               text: "Please try again later",
+               icon: "error"
+             });
       }
     } catch (error) {
       console.error("Submission error:", error);
