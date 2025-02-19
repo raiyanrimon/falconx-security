@@ -32,7 +32,7 @@ const ClientLogoCarousel = () => {
   }, [loopedLogos.length]);
 
   return (
-    <div className="bg-[#A8C9E2] py-10  ">
+    <div className="bg-[#A8C9E2] py-5  ">
       <div className="max-w-5xl mx-auto ">
         <div className="md:flex items-center px-5 ">
           {/* Title Box */}
@@ -111,7 +111,7 @@ const ClientLogoCarousel = () => {
                   <img
                     src={logo.src}
                     alt={logo.name}
-                    className="w-full h-auto object-contain"
+                    className="w-full h-12 object-contain"
                   />
                 </div>
               ))}
