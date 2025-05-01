@@ -77,6 +77,8 @@ import Training from "../pages/Training";
 import ErrorPage from "../components/ErrorPage";
 import PrivacyPolicy from "../pages/PrivacyPolicy";
 
+import ThankYou from "../pages/ThankYou";
+
 export const router = createBrowserRouter([
   {
     path: "/",
@@ -120,6 +122,10 @@ export const router = createBrowserRouter([
       {
         path: "careers",
         element: <Career />,
+      },
+      {
+        path: "thank-you",
+        element: <ThankYou />,
       },
       // Services path
       {

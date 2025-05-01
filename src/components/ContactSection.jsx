@@ -2,12 +2,14 @@ import { useState } from "react";
 import { CgMail } from "react-icons/cg";
 
 import { FaAddressCard, FaClock, FaPhone } from "react-icons/fa6";
+import { useNavigate } from "react-router-dom";
 
 const ContactSection = ({
   address = "11150 W Olympic Blvd, Suite 1050 Los Angeles, CA 90064",
   phone = "866-500-2050",
   email = "Info@falconxsecurity.com",
 }) => {
+  const navigate = useNavigate();
   const [formData, setFormData] = useState({
     name: "",
     company: "",
@@ -16,9 +18,51 @@ const ContactSection = ({
     message: "",
   });
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    // Handle form submission logic here
+     if (!formData.name || !formData.email || !formData.message) {
+          setError(true);
+          return;
+        }
+        setError(false);
+    
+        try {
+          const response = await fetch(
+            "https://blog.falconxsecurity.com//wp-json/msp/v1/contact",
+            {
+              method: "POST",
+              headers: {
+                "Content-Type": "application/json",
+              },
+              body: JSON.stringify(formData),
+            }
+          );
+    
+          if (!response.ok) {
+            throw new Error("Failed to send message.");
+          }
+    
+          setFormData({
+            name: "",
+            company: "",
+            email: "",
+            phone: "",
+            message: "",
+          });
+          Swal.fire({
+            title: "Response Submitted",
+            text: "Your message has been sent successfully",
+            icon: "success"
+          });
+         
+          navigate("/thank-you") 
+        } catch (error) {
+          Swal.fire({
+            title: "Message Submission Failed",
+            text: "Please try again later",
+            icon: "error"
+          });
+        }
   };
 
   const handleChange = (e) => {

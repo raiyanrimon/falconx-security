@@ -1,6 +1,8 @@
 import { useState } from "react";
+import { useNavigate } from "react-router-dom";
 import Swal from "sweetalert2";
 export default function EmploymentForm() {
+  const navigate = useNavigate();
   const [formData, setFormData] = useState({
     name: "",
     age: "Under 18",
@@ -80,6 +82,7 @@ export default function EmploymentForm() {
         text: "Your application has been submitted successfully",
         icon: "success"
       });
+      navigate("/thank-you")
     } catch (error) {
       Swal.fire({
         title: "Application Submission Failed",

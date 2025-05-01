@@ -1,7 +1,9 @@
 import React, { useState } from "react";
+import { useNavigate } from "react-router-dom";
 import Swal from 'sweetalert2'
 
 const ModalForm = ({ isOpen, closeModal }) => {
+  const navigate = useNavigate();
   const [formData, setFormData] = useState({
     company_name: "",
     name: "",
@@ -53,6 +55,7 @@ const ModalForm = ({ isOpen, closeModal }) => {
           icon: "success"
         });
         closeModal();
+        navigate("/thank-you") // Close modal after successful submission
       } else {
         Swal.fire({
           title: "Response Submission Failed",
