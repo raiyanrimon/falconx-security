@@ -1,9 +1,9 @@
 import React, { useState } from "react";
-import { useNavigate } from "react-router-dom";
+
 import Swal from 'sweetalert2'
 
 const ModalForm = ({ isOpen, closeModal }) => {
-  const navigate = useNavigate();
+
   const [formData, setFormData] = useState({
     company_name: "",
     name: "",
@@ -49,13 +49,8 @@ const ModalForm = ({ isOpen, closeModal }) => {
           city: "",
           message: "",
         });
-        Swal.fire({
-          title: "Response Submitted",
-          text: "You have successfully submitted service request form",
-          icon: "success"
-        });
-        closeModal();
-        navigate("/thank-you") // Close modal after successful submission
+    
+        window.location.href = "/thank-you";
       } else {
         Swal.fire({
           title: "Response Submission Failed",

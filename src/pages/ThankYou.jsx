@@ -23,11 +23,11 @@ export default function ThankYou() {
         
         <div className="max-w-md text-center mb-10">
           <p className="text-lg text-gray-800 mb-4">
-            Your security service request has been received.
+            Your  request has been received.
           </p>
           
           <p className="text-gray-600">
-            Our security team will contact you within 24 hours to discuss your needs and provide a quote.
+            Our  team will contact you within 24 hours.
           </p>
         </div>
         

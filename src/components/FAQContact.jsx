@@ -1,7 +1,9 @@
 import { useState } from "react";
+
 import Swal from "sweetalert2";
 
 const FAQContact = () => {
+
   const [activeQuestion, setActiveQuestion] = useState("");
   const [formData, setFormData] = useState({
     name: "",
@@ -47,12 +49,8 @@ const FAQContact = () => {
         phone: "",
         message: "",
       });
-
-         Swal.fire({
-              title: "Response Submitted",
-              text: "Your message has been sent successfully",
-              icon: "success"
-            });
+      window.location.href = "/thank-you";
+      
     } catch (error) {
        Swal.fire({
               title: "Message Submission Failed",

@@ -1,9 +1,9 @@
 import React, { useState } from "react";
-import { useNavigate } from "react-router-dom";
+
 import Swal from 'sweetalert2'
 
 const ContactModal = ({ isOpen, onClose }) => {
-  const navigate = useNavigate();
+ 
   const [formData, setFormData] = useState({
     name: "",
     company: "",
@@ -44,13 +44,8 @@ const ContactModal = ({ isOpen, onClose }) => {
         phone: "",
         message: "",
       });
-      Swal.fire({
-        title: "Response Submitted",
-        text: "Your message has been sent successfully",
-        icon: "success"
-      });
-      onClose();
-      navigate("/thank-you") // Close modal after successful submission
+    
+      window.location.href = "/thank-you";
     } catch (error) {
       Swal.fire({
         title: "Message Submission Failed",

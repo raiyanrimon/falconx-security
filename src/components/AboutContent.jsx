@@ -1,4 +1,5 @@
 import bg from "../assets/images/Group-7140-1.webp";
+import { FaCheckCircle, FaEnvelope, FaPhone } from "react-icons/fa";
 
 const AboutContent = () => {
   return (
@@ -58,6 +59,27 @@ const AboutContent = () => {
           </div>
         </div>
       </div>
+       {/* Quick Summary Section */}
+              <div className="bg-blue-50 p-6 rounded-lg mb-12 border-l-4 border-[#003366] shadow-sm max-w-6xl mx-auto my-5">
+              
+                <p className="text-gray-700 mb-4">
+               At FalconX Security Services, we respect your privacy. We do not sell, share, or rent your personal information to anyone.
+
+Any details you provide through our website or via text message are used only to communicate with you and provide the services you request.
+                </p>
+                <p className="text-gray-700">
+                  If you have any questions about your information or how it’s used, contact our office at
+                </p>
+                <div className="flex flex-col md:flex-row gap-4 mt-4">
+                  
+                  <a href="tel:8665002050" className="inline-flex items-center text-[#003366] font-semibold hover:underline">
+                    <FaPhone size={18} className="mr-2" /> (866) 500-2050
+                  </a>
+                  <a href="mailto:info@falconxsecurity.com" className="inline-flex items-center text-[#003366] font-semibold hover:underline">
+                    <FaEnvelope size={18} className="mr-2" /> info@falconxsecurity.com
+                  </a>
+                </div>
+              </div>
       <div className="bg-[#F4F4F4] py-5 ">
         <div className="max-w-6xl mx-auto space-y-4 ">
           <h2 className="text-[#003366] text-center font-semibold text-[2.5rem]">

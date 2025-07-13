@@ -4,6 +4,7 @@ import AboutContent from "../components/AboutContent";
 import CoreValues from "../components/CoreValues";
 import SEO from "../components/shared/Seo";
 
+
 const About = () => {
   return (
     <div>
@@ -13,6 +14,7 @@ const About = () => {
       />
       <Banner title="ABOUT US" backgroundImage={image} bgclass="bg-left" />
       <AboutContent />
+      
       <CoreValues />
     </div>
   );

@@ -2,14 +2,15 @@ import { useState } from "react";
 import { CgMail } from "react-icons/cg";
 
 import { FaAddressCard, FaClock, FaPhone } from "react-icons/fa6";
-import { useNavigate } from "react-router-dom";
+
+import Swal from "sweetalert2";
 
 const ContactSection = ({
   address = "11150 W Olympic Blvd, Suite 1050 Los Angeles, CA 90064",
   phone = "866-500-2050",
   email = "Info@falconxsecurity.com",
 }) => {
-  const navigate = useNavigate();
+
   const [formData, setFormData] = useState({
     name: "",
     company: "",
@@ -49,13 +50,9 @@ const ContactSection = ({
             phone: "",
             message: "",
           });
-          Swal.fire({
-            title: "Response Submitted",
-            text: "Your message has been sent successfully",
-            icon: "success"
-          });
          
-          navigate("/thank-you") 
+         
+          window.location.href = "/thank-you";
         } catch (error) {
           Swal.fire({
             title: "Message Submission Failed",
