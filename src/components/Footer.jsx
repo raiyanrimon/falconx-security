@@ -121,9 +121,9 @@ const Footer = () => {
             <li>
               <Link to="/service">Services</Link>
             </li>
-            <li>
+            {/* <li>
               <Link to="/careers">Career </Link>
-            </li>
+            </li> */}
             <li>PPO#121915</li>
           </ul>
         </div>

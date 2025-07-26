@@ -93,12 +93,12 @@ export default function Header() {
 
               {/* Navigation links */}
               <div className="flex items-center font-bold space-x-2 sm:space-x-4 text-sm">
-                <Link to="/careers" 
+                {/* <Link to="/careers" 
                   className="text-gray-800 hover:text-white whitespace-nowrap"
                 >
                   Join Team
-                </Link>
-                <span className="text-gray-400">|</span>
+                </Link> */}
+                {/* <span className="text-gray-400">|</span> */}
                 <Link to="/blog" className="text-gray-800 hover:text-white">
                   Blog
                 </Link>
